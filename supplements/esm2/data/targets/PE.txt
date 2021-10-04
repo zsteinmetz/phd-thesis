@@ -1,0 +1,31 @@
+11.48 | 11.76 | 1,2,4-Trichlorobenzene | 120-82-1 | | Solvent | | |
+3.49 | 3.63 | 1,13-Tetradecadiene | 21964-49-8 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+3.62 | 3.76 | 1-Tetradecene | 1120-36-1 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+3.75 | 3.89 | Tetradecane | 629-59-4 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+5.1 | 5.24 | 1,14-Pentadecadiene | 21964-50-1 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+5.22 | 5.36 | 1-Pentadecene | 13360-61-7 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+5.33 | 5.47 | Pentadecane | 629-62-9 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+6.61 | 6.75 | 1,15-Hexadecadiene | 21964-51-2 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+6.72 | 6.86 | 1-Hexadecene | 113032-42-1 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+6.82 | 6.96 | Hexadecane | 544-76-3 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+8.04 | 8.18 | 1,16-Heptadecadiene | 21964-52-3 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+8.15 | 8.29 | 1-Heptadecene | 6765-39-5 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+8.25 | 8.39 | Heptadecane | 629-78-7 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+9.42 | 9.56 | 1,17-Octadecadiene | 13560-93-5 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+9.51 | 9.65 | 1-Octadecene | 112-88-9 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+9.60 | 9.74 | Octadecane | 593-45-3 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+10.75 | 10.82 | 1,18-Nonadecadiene | 136561-92-7 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+10.84 | 10.91 | 1-Nonadecene| 18435-45-5 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+10.95 | 11.04 | Nonadecane | 629-92-5 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+11.99 | 12.07 | 1,19-Icosadiene | 14811-95-1 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+12.08 | 12.15 | 1-Icosene | 3452-07-1 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+12.22 | 12.3 | Icosane | 112-95-8 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+13.17 | 13.26 | 1,20-Henicosadiene | 23592-02-1 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+13.26 | 13.33 | 1-Henicosene| 27400-79-9 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+13.38 | 13.47 | Henicosane | 629-94-7 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+14.30 | 14.39 | 1,21-Docosadiene | 53057-53-7 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+14.40 | 14.46 | 1-Docosene | 1599-67-3 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+14.51 | 14.60 | Docosane | 629-97-0 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+15.40 | 15.49 | 1,22-Tricosadiene | 146860-81-3 | quantifiable | Polyethylene | | | 1,2,4-Trichlorobenzene
+15.50 | 15.55 | 1-Tricosene | 18835-32-0 | | Polyethylene | | | 1,2,4-Trichlorobenzene
+15.56 | 15.60 | Tricosane | 638-67-5 | | Polyethylene | | | 1,2,4-Trichlorobenzene

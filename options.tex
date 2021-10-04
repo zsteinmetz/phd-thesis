@@ -1,0 +1,132 @@
+% Hyperref
+\hypersetup{
+	colorlinks=true,
+	breaklinks=true,
+	linktocpage=true,
+	citecolor=InfDk,
+	linkcolor=InfDk,
+	urlcolor=InfRd,
+	filecolor=InfRd
+}
+
+% BibLaTeX
+% Lastname before firstname for all bib items
+\DeclareNameAlias{sortname}{family-given}
+\DeclareNameAlias{default}{family-given}
+% Remove language fields and issn for articles
+\AtEveryBibitem{%
+	\clearlist{language}%
+}
+%\AtEveryBibitem{
+%	\ifentrytype{article}{\clearfield{issn}}{}
+%}
+
+% Ignore own contributions in reference list
+\DeclareBibliographyCategory{ignore}
+
+\addtocategory{ignore}{SteinmetzPlastic2016}
+\addtocategory{ignore}{DavidQuantitative2018}
+\addtocategory{ignore}{SteinmetzSimple2020}
+\addtocategory{ignore}{ThomasSample2020}
+\addtocategory{ignore}{SteinmetzAre2021}
+
+\addtocategory{ignore}{CowgerOpenSpecy2021}
+\addtocategory{ignore}{SteinmetzData2020}
+\addtocategory{ignore}{SteinmetzEnvalysis2021}
+\addtocategory{ignore}{SteinmetzData2021}
+
+% Make \fullcite look like the bibliography
+\DeclareCiteCommand{\fullcite}
+{\usebibmacro{prenote}}
+{\usedriver
+	{\defcounter{maxnames}{10}}
+	{\thefield{entrytype}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+%% Make own name bold
+%\usepackage{xpatch}
+%\makeatletter
+%\newbibmacro*{name:bold}[2]{%
+%	\edef\blx@tmp@name{\expandonce#1, \expandonce#2}%
+%	\def\do##1{\ifdefstring{\blx@tmp@name}{##1}{\bfseries\listbreak}{}}%
+%	\dolistloop{\boldnames}}
+%\newcommand*{\boldnames}{}
+%\makeatother
+%
+%\xpretobibmacro{name:family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+%\xpretobibmacro{name:given-family}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+%\xpretobibmacro{name:family-given}{\begingroup\usebibmacro{name:bold}{#1}{#2}}{}{}
+%\xpretobibmacro{name:delim}{\begingroup\normalfont}{}{}
+%
+%\xapptobibmacro{name:family}{\endgroup}{}{}
+%\xapptobibmacro{name:given-family}{\endgroup}{}{}
+%\xapptobibmacro{name:family-given}{\endgroup}{}{}
+%\xapptobibmacro{name:delim}{\endgroup}{}{}
+%
+%\forcsvlist{\listadd\boldnames}
+%{{Steinmetz, Z.}, {Steinmetz, Zacharias}, {Steinmetz, Z\bibinitperiod}}
+
+% Enumerate options
+\setlist[enumerate]{label={(\arabic*)}}
+
+% Chemfig options
+\setchemfig{atom sep=2.5em}
+\renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
+
+% DOI and CAS links
+\newcommand*{\doi}[1]{\textsc{doi:} \texttt{\href{https://doi.org/#1}{#1}}}
+\newcommand*{\cas}[2][CAS ]{#1\href{https://webbook.nist.gov/cgi/cbook.cgi?ID=#2}{#2}}
+
+% Units options
+\sisetup{
+	detect-all,
+	separate-uncertainty,
+	tight-spacing = true,
+	multi-part-units = single,
+	list-units = single,
+	range-units = single,
+	range-phrase = --,
+	exponent-product = \cdot,
+	list-final-separator = {, and },
+	table-alignment=left}
+\DeclareSIUnit[number-unit-product = ]\percent{\char`\%}
+\DeclareSIUnit\Molar{\text{\textsc{m}}}
+\DeclareSIUnit\mz{\text{\textit{m/z}}}
+
+% Acro options
+\acsetup{
+	single = 2,
+	list/exclude = species
+}
+
+\NewAcroTemplate[list]{thesis}
+{
+	\acroheading
+	\acropreamble
+	\begin{description}[font=\normalfont,labelwidth=7em]
+	\acronymsmapF
+	{
+		\item [ \acrowrite {short} \acroifT {alt} { / } \acrowrite {alt} ]
+		\acrowrite {list}
+		\acroifanyT {foreign,extra} {~(}
+		\acrowrite {foreign}
+		\acroifallT {foreign,extra} {,~}
+		\acrowrite {extra}
+		\acroifanyT {foreign,extra} {)}
+		\acropagefill
+		\acropages
+		{ \acrotranslate {page} \nobreakspace }
+		{ \acrotranslate {pages} \nobreakspace }
+	}
+	{ \item \AcroRerun }
+	\end{description}
+}
+
+% Side- and marginnotes
+\renewcommand{\thefootnote}{[\arabic{footnote}]}
+
+\makeatletter
+% Primitive input in tabular
+\AddToHook{env/tabular/begin}{\let\input\@@input}
+\makeatother

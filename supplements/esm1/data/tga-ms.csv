@@ -1,0 +1,1540 @@
+Sample,PET,IS,Temp,TGA,mz105,mz154
+LUFA soil,0,without,38.481,100.01646,1.8E-10,1.75E-10
+LUFA soil,0,without,43.481,100.02199,1.83E-10,1.76E-10
+LUFA soil,0,without,48.481,100.0217,1.83E-10,1.76E-10
+LUFA soil,0,without,53.481,100.02192,1.83E-10,1.76E-10
+LUFA soil,0,without,58.481,100.01201,1.83E-10,1.76E-10
+LUFA soil,0,without,63.481,100.00348,1.83E-10,1.76E-10
+LUFA soil,0,without,68.481,99.99277,1.82E-10,1.76E-10
+LUFA soil,0,without,73.481,99.98076,1.82E-10,1.77E-10
+LUFA soil,0,without,78.481,99.96384,1.82E-10,1.77E-10
+LUFA soil,0,without,83.481,99.94696,1.81E-10,1.77E-10
+LUFA soil,0,without,88.481,99.9325,1.81E-10,1.77E-10
+LUFA soil,0,without,93.481,99.91321,1.81E-10,1.77E-10
+LUFA soil,0,without,98.481,99.88904,1.82E-10,1.77E-10
+LUFA soil,0,without,103.481,99.8674,1.82E-10,1.77E-10
+LUFA soil,0,without,108.481,99.84812,1.82E-10,1.77E-10
+LUFA soil,0,without,113.481,99.82642,1.83E-10,1.76E-10
+LUFA soil,0,without,118.481,99.80954,1.83E-10,1.76E-10
+LUFA soil,0,without,123.481,99.79508,1.83E-10,1.75E-10
+LUFA soil,0,without,128.481,99.77579,1.83E-10,1.74E-10
+LUFA soil,0,without,133.481,99.75409,1.84E-10,1.74E-10
+LUFA soil,0,without,138.481,99.7372,1.84E-10,1.73E-10
+LUFA soil,0,without,143.481,99.71781,1.83E-10,1.73E-10
+LUFA soil,0,without,148.481,99.7107,1.83E-10,1.72E-10
+LUFA soil,0,without,153.481,99.69623,1.82E-10,1.72E-10
+LUFA soil,0,without,158.481,99.689,1.82E-10,1.71E-10
+LUFA soil,0,without,163.481,99.67695,1.81E-10,1.71E-10
+LUFA soil,0,without,168.481,99.6673,1.82E-10,1.72E-10
+LUFA soil,0,without,173.481,99.65284,1.82E-10,1.72E-10
+LUFA soil,0,without,178.481,99.63837,1.83E-10,1.72E-10
+LUFA soil,0,without,183.481,99.62391,1.84E-10,1.73E-10
+LUFA soil,0,without,188.481,99.60703,1.85E-10,1.73E-10
+LUFA soil,0,without,193.481,99.59256,1.85E-10,1.72E-10
+LUFA soil,0,without,198.481,99.5781,1.86E-10,1.72E-10
+LUFA soil,0,without,203.481,99.56122,1.86E-10,1.71E-10
+LUFA soil,0,without,208.481,99.54676,1.86E-10,1.71E-10
+LUFA soil,0,without,213.481,99.5323,1.85E-10,1.71E-10
+LUFA soil,0,without,218.481,99.49854,1.85E-10,1.72E-10
+LUFA soil,0,without,223.481,99.47878,1.84E-10,1.72E-10
+LUFA soil,0,without,228.481,99.45996,1.83E-10,1.73E-10
+LUFA soil,0,without,233.481,99.42622,1.82E-10,1.73E-10
+LUFA soil,0,without,238.481,99.40211,1.82E-10,1.74E-10
+LUFA soil,0,without,243.481,99.36836,1.82E-10,1.74E-10
+LUFA soil,0,without,248.481,99.3346,1.83E-10,1.74E-10
+LUFA soil,0,without,253.481,99.29844,1.83E-10,1.74E-10
+LUFA soil,0,without,258.481,99.25263,1.84E-10,1.74E-10
+LUFA soil,0,without,263.481,99.20924,1.85E-10,1.74E-10
+LUFA soil,0,without,268.481,99.16339,1.85E-10,1.74E-10
+LUFA soil,0,without,273.481,99.10798,1.86E-10,1.74E-10
+LUFA soil,0,without,278.481,99.05494,1.86E-10,1.74E-10
+LUFA soil,0,without,283.481,98.99949,1.87E-10,1.74E-10
+LUFA soil,0,without,288.481,98.94188,1.87E-10,1.75E-10
+LUFA soil,0,without,293.481,98.88377,1.87E-10,1.75E-10
+LUFA soil,0,without,298.481,98.83073,1.87E-10,1.75E-10
+LUFA soil,0,without,303.481,98.77807,1.86E-10,1.75E-10
+LUFA soil,0,without,308.481,98.72935,1.86E-10,1.75E-10
+LUFA soil,0,without,313.481,98.68367,1.87E-10,1.75E-10
+LUFA soil,0,without,318.481,98.63545,1.87E-10,1.76E-10
+LUFA soil,0,without,323.481,98.58483,1.87E-10,1.76E-10
+LUFA soil,0,without,328.481,98.5342,1.87E-10,1.76E-10
+LUFA soil,0,without,333.481,98.49321,1.87E-10,1.76E-10
+LUFA soil,0,without,338.481,98.45223,1.86E-10,1.77E-10
+LUFA soil,0,without,343.481,98.40642,1.86E-10,1.77E-10
+LUFA soil,0,without,348.481,98.36548,1.85E-10,1.77E-10
+LUFA soil,0,without,353.481,98.32445,1.85E-10,1.76E-10
+LUFA soil,0,without,358.481,98.27864,1.84E-10,1.76E-10
+LUFA soil,0,without,363.481,98.23765,1.84E-10,1.76E-10
+LUFA soil,0,without,368.481,98.21114,1.85E-10,1.76E-10
+LUFA soil,0,without,373.481,98.17243,1.85E-10,1.76E-10
+LUFA soil,0,without,378.481,98.13641,1.86E-10,1.76E-10
+LUFA soil,0,without,383.481,98.10501,1.86E-10,1.76E-10
+LUFA soil,0,without,388.481,98.07372,1.86E-10,1.76E-10
+LUFA soil,0,without,393.481,98.04238,1.86E-10,1.76E-10
+LUFA soil,0,without,398.481,98.00622,1.86E-10,1.77E-10
+LUFA soil,0,without,403.481,97.97488,1.86E-10,1.77E-10
+LUFA soil,0,without,408.481,97.93872,1.86E-10,1.77E-10
+LUFA soil,0,without,413.481,97.91461,1.87E-10,1.77E-10
+LUFA soil,0,without,418.481,97.88568,1.87E-10,1.77E-10
+LUFA soil,0,without,423.481,97.86398,1.88E-10,1.77E-10
+LUFA soil,0,without,428.481,97.83263,1.88E-10,1.77E-10
+LUFA soil,0,without,433.481,97.80612,1.87E-10,1.77E-10
+LUFA soil,0,without,438.481,97.78201,1.87E-10,1.77E-10
+LUFA soil,0,without,443.481,97.75549,1.86E-10,1.77E-10
+LUFA soil,0,without,448.481,97.73379,1.86E-10,1.76E-10
+LUFA soil,0,without,453.481,97.7121,1.85E-10,1.76E-10
+LUFA soil,0,without,458.481,97.68571,1.85E-10,1.75E-10
+LUFA soil,0,without,463.481,97.66147,1.85E-10,1.74E-10
+LUFA soil,0,without,468.481,97.63495,1.85E-10,1.73E-10
+LUFA soil,0,without,473.481,97.61084,1.85E-10,1.73E-10
+LUFA soil,0,without,478.481,97.58673,1.84E-10,1.73E-10
+LUFA soil,0,without,483.481,97.56985,1.83E-10,1.73E-10
+LUFA soil,0,without,488.481,97.54814,1.83E-10,1.73E-10
+LUFA soil,0,without,493.481,97.52646,1.82E-10,1.73E-10
+LUFA soil,0,without,498.481,97.50717,1.81E-10,1.74E-10
+LUFA soil,0,without,503.481,97.48789,1.8E-10,1.74E-10
+LUFA soil,0,without,508.481,97.47342,1.8E-10,1.73E-10
+LUFA soil,0,without,513.481,97.45654,1.79E-10,1.73E-10
+LUFA soil,0,without,518.481,97.43244,1.79E-10,1.73E-10
+LUFA soil,0,without,523.481,97.41072,1.8E-10,1.72E-10
+LUFA soil,0,without,528.481,97.39627,1.8E-10,1.72E-10
+LUFA soil,0,without,533.481,97.37699,1.8E-10,1.72E-10
+LUFA soil,0,without,538.481,97.3577,1.8E-10,1.72E-10
+LUFA soil,0,without,543.481,97.34082,1.8E-10,1.73E-10
+LUFA soil,0,without,548.481,97.32686,1.8E-10,1.73E-10
+LUFA soil,0,without,553.481,97.31189,1.8E-10,1.73E-10
+LUFA soil,0,without,558.481,97.28538,1.8E-10,1.73E-10
+LUFA soil,0,without,563.481,97.27091,1.8E-10,1.73E-10
+LUFA soil,0,without,568.481,97.25885,1.8E-10,1.73E-10
+LUFA soil,0,without,573.481,97.23475,1.8E-10,1.74E-10
+LUFA soil,0,without,578.481,97.22027,1.8E-10,1.74E-10
+LUFA soil,0,without,583.481,97.20462,1.8E-10,1.75E-10
+LUFA soil,0,without,588.481,97.18894,1.8E-10,1.75E-10
+LUFA soil,0,without,593.481,97.17688,1.79E-10,1.75E-10
+LUFA soil,0,without,598.481,97.16723,1.79E-10,1.75E-10
+LUFA soil,0,without,603.481,97.14313,1.8E-10,1.74E-10
+LUFA soil,0,without,608.481,97.12626,1.8E-10,1.73E-10
+LUFA soil,0,without,613.481,97.1142,1.8E-10,1.72E-10
+LUFA soil,0,without,618.481,97.09492,1.81E-10,1.71E-10
+LUFA soil,0,without,623.481,97.07804,1.81E-10,1.7E-10
+LUFA soil,0,without,628.481,97.06356,1.81E-10,1.7E-10
+LUFA soil,0,without,633.481,97.06116,1.81E-10,1.71E-10
+LUFA soil,0,without,638.481,97.04188,1.81E-10,1.71E-10
+LUFA soil,0,without,643.481,97.03223,1.81E-10,1.72E-10
+LUFA soil,0,without,648.481,97.02018,1.81E-10,1.73E-10
+LUFA soil,0,without,653.481,97.00089,1.81E-10,1.73E-10
+LUFA soil,0,without,658.481,96.99607,1.8E-10,1.74E-10
+LUFA soil,0,without,663.481,96.9869,1.8E-10,1.73E-10
+LUFA soil,0,without,668.481,96.97196,1.79E-10,1.73E-10
+LUFA soil,0,without,673.481,96.95267,1.78E-10,1.73E-10
+LUFA soil,0,without,678.481,96.93821,1.78E-10,1.72E-10
+LUFA soil,0,without,683.481,96.92133,1.78E-10,1.72E-10
+LUFA soil,0,without,688.481,96.90928,1.79E-10,1.71E-10
+LUFA soil,0,without,693.481,96.89723,1.8E-10,1.71E-10
+LUFA soil,0,without,698.481,96.88274,1.8E-10,1.7E-10
+LUFA soil,0,without,703.481,96.87071,1.81E-10,1.7E-10
+LUFA soil,0,without,708.481,96.85142,1.81E-10,1.7E-10
+LUFA soil,0,without,713.481,96.84659,1.81E-10,1.71E-10
+LUFA soil,0,without,718.481,96.83213,1.81E-10,1.72E-10
+LUFA soil,0,without,723.481,96.81526,1.81E-10,1.73E-10
+LUFA soil,0,without,728.481,96.80561,1.81E-10,1.74E-10
+LUFA soil,0,without,733.481,96.79356,1.81E-10,1.74E-10
+LUFA soil,0,without,738.481,96.7791,1.81E-10,1.74E-10
+LUFA soil,0,without,743.481,96.76945,1.81E-10,1.74E-10
+LUFA soil,0,without,748.481,96.7574,1.81E-10,1.73E-10
+LUFA soil,0,without,753.481,96.74293,1.81E-10,1.73E-10
+LUFA soil,0,without,758.481,96.72605,1.81E-10,1.72E-10
+LUFA soil,0,without,763.481,96.72122,1.81E-10,1.72E-10
+LUFA soil,0,without,768.481,96.70436,1.81E-10,1.72E-10
+LUFA soil,0,without,773.481,96.69471,1.8E-10,1.71E-10
+LUFA soil,0,without,778.481,96.68266,1.8E-10,1.71E-10
+LUFA soil,0,without,783.481,96.67067,1.81E-10,1.71E-10
+LUFA soil,0,without,788.481,96.65132,1.81E-10,1.71E-10
+LUFA soil,0,without,793.481,96.6465,1.81E-10,1.71E-10
+LUFA soil,0,without,798.481,96.63444,1.81E-10,1.71E-10
+LUFA soil,0,without,803.481,96.62239,1.81E-10,1.71E-10
+LUFA soil,0,without,808.481,96.61274,1.8E-10,1.71E-10
+LUFA soil,0,without,813.481,96.59587,1.79E-10,1.71E-10
+LUFA soil,0,without,818.481,96.58621,1.79E-10,1.72E-10
+LUFA soil,0,without,823.481,96.57417,1.78E-10,1.72E-10
+LUFA soil,0,without,828.481,96.56453,1.78E-10,1.73E-10
+LUFA soil,0,without,833.481,96.55246,1.77E-10,1.74E-10
+LUFA soil,0,without,838.481,96.54042,1.78E-10,1.75E-10
+LUFA soil,0,without,843.481,96.52595,1.78E-10,1.75E-10
+LUFA soil,0,without,848.481,96.5139,1.78E-10,1.74E-10
+LUFA soil,0,without,853.481,96.49461,1.78E-10,1.73E-10
+LUFA soil,0,without,858.481,96.48979,1.78E-10,1.72E-10
+LUFA soil,0,without,863.481,96.48256,1.78E-10,1.71E-10
+LUFA soil,0,without,868.481,96.47291,1.78E-10,1.71E-10
+LUFA soil,0,without,873.481,96.4705,1.78E-10,1.71E-10
+LUFA soil,0,without,878.481,96.46326,1.78E-10,1.71E-10
+LUFA soil,0,without,883.481,96.44881,1.79E-10,1.71E-10
+LUFA soil,0,without,888.481,96.43432,1.79E-10,1.71E-10
+LUFA soil,0,without,893.481,96.42952,1.8E-10,1.71E-10
+LUFA soil,0,without,898.481,96.41498,1.8E-10,1.71E-10
+LUFA soil,0,without,903.481,96.41023,1.8E-10,1.71E-10
+LUFA soil,0,without,908.481,96.39817,1.8E-10,1.72E-10
+LUFA soil,0,without,913.481,96.38122,1.79E-10,1.72E-10
+LUFA soil,0,without,918.481,96.3788,1.78E-10,1.73E-10
+LUFA soil,0,without,923.481,96.36682,1.77E-10,1.73E-10
+LUFA soil,0,without,928.481,96.35719,1.76E-10,1.73E-10
+LUFA soil,0,without,933.481,96.33791,1.76E-10,1.73E-10
+LUFA soil,0,without,938.481,96.34272,1.76E-10,1.73E-10
+LUFA soil,0,without,943.481,96.32826,1.76E-10,1.73E-10
+LUFA soil,0,without,948.481,96.31621,1.76E-10,1.73E-10
+LUFA soil,0,without,953.481,96.2993,1.77E-10,1.72E-10
+LUFA soil,0,without,958.481,96.2921,1.77E-10,1.72E-10
+LUFA soil,0,without,963.481,96.28004,1.77E-10,1.72E-10
+LUFA soil,0,without,968.481,96.26799,1.77E-10,1.71E-10
+LUFA soil,0,without,973.481,96.25353,1.77E-10,1.71E-10
+LUFA soil,0,without,978.481,96.24884,1.76E-10,1.7E-10
+LUFA soil,0,without,983.481,96.23424,1.76E-10,1.7E-10
+LUFA soil,0,without,988.481,96.21977,1.76E-10,1.7E-10
+LUFA soil,0,without,993.481,96.21977,1.77E-10,1.7E-10
+LUFA soil,0,without,998.481,96.21013,1.79E-10,1.7E-10
+0.71 wt% PET in soil,7.1,without,35.365,100,1.71E-10,1.72E-10
+0.71 wt% PET in soil,7.1,without,40.365,99.99677,1.73E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,45.365,99.99409,1.74E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,50.365,99.99667,1.75E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,55.365,99.99805,1.76E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,60.365,99.99412,1.77E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,65.365,99.98806,1.77E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,70.365,99.98223,1.77E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,75.365,99.97236,1.77E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,80.365,99.96226,1.77E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,85.365,99.95457,1.77E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,90.365,99.93878,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,95.365,99.92297,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,100.365,99.90125,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,105.365,99.88939,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,110.365,99.86965,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,115.365,99.8499,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,120.365,99.83015,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,125.365,99.81237,1.75E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,130.365,99.79855,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,135.365,99.7808,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,140.365,99.76695,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,145.365,99.74917,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,150.365,99.74127,1.76E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,155.365,99.73337,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,160.365,99.72547,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,165.365,99.71165,1.74E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,170.365,99.70375,1.74E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,175.365,99.68005,1.74E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,180.365,99.6682,1.74E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,185.365,99.6603,1.74E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,190.365,99.63857,1.74E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,195.365,99.63032,1.74E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,200.365,99.61487,1.74E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,205.365,99.5971,1.74E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,210.365,99.58327,1.73E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,215.365,99.55958,1.74E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,220.365,99.53587,1.74E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,225.365,99.51415,1.74E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,230.365,99.48847,1.74E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,235.365,99.46083,1.75E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,240.365,99.42922,1.75E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,245.365,99.3996,1.75E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,250.365,99.36207,1.75E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,255.365,99.31473,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,260.365,99.27714,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,265.365,99.2258,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,270.365,99.17445,1.74E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,275.365,99.12112,1.74E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,280.365,99.06578,1.73E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,285.365,99.00457,1.73E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,290.365,98.94534,1.73E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,295.365,98.88606,1.73E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,300.365,98.83092,1.73E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,305.365,98.77344,1.73E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,310.365,98.72012,1.74E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,315.365,98.66492,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,320.365,98.61355,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,325.365,98.56614,1.76E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,330.365,98.51677,1.76E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,335.365,98.4674,1.76E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,340.365,98.41802,1.76E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,345.365,98.37457,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,350.365,98.3252,1.75E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,355.365,98.27582,1.75E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,360.365,98.23238,1.75E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,365.365,98.18892,1.75E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,370.365,98.14751,1.76E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,375.365,98.10697,1.76E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,380.365,98.06129,1.77E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,385.365,98.02302,1.78E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,390.365,97.9776,1.8E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,395.365,97.92217,1.82E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,400.365,97.86463,1.84E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,405.365,97.79386,1.86E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,410.365,97.71887,1.88E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,415.365,97.64972,1.89E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,420.365,97.57078,1.9E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,425.365,97.50162,1.9E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,430.365,97.43646,1.9E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,435.365,97.38904,1.89E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,440.365,97.33967,1.87E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,445.365,97.29623,1.85E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,450.365,97.25263,1.83E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,455.365,97.20932,1.82E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,460.365,97.18012,1.81E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,465.365,97.14217,1.8E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,470.365,97.11057,1.79E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,475.365,97.07305,1.78E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,480.365,97.0454,1.77E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,485.365,97.0217,1.76E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,490.365,96.9901,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,495.365,96.96245,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,500.365,96.9427,1.74E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,505.365,96.92887,1.73E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,510.365,96.90517,1.73E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,515.365,96.88542,1.73E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,520.365,96.86172,1.73E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,525.365,96.84,1.73E-10,1.69E-10
+0.71 wt% PET in soil,7.1,without,530.365,96.81816,1.73E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,535.365,96.80642,1.73E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,540.365,96.78865,1.73E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,545.365,96.7689,1.73E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,550.365,96.75386,1.73E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,555.365,96.7373,1.74E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,560.365,96.72337,1.74E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,565.365,96.69977,1.74E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,570.365,96.68595,1.74E-10,1.68E-10
+0.71 wt% PET in soil,7.1,without,575.365,96.66994,1.73E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,580.365,96.65632,1.72E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,585.365,96.6366,1.72E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,590.365,96.61683,1.71E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,595.365,96.6109,1.72E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,600.365,96.5951,1.72E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,605.365,96.57752,1.74E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,610.365,96.56943,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,615.365,96.5477,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,620.365,96.53782,1.76E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,625.365,96.52005,1.76E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,630.365,96.51215,1.76E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,635.365,96.49635,1.75E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,640.365,96.48629,1.75E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,645.365,96.47462,1.74E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,650.365,96.46277,1.74E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,655.365,96.44697,1.74E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,660.365,96.43907,1.74E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,665.365,96.42936,1.73E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,670.365,96.4134,1.73E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,675.365,96.3976,1.73E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,680.365,96.38772,1.72E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,685.365,96.3739,1.71E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,690.365,96.36205,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,695.365,96.34822,1.69E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,700.365,96.33637,1.69E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,705.365,96.32255,1.68E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,710.365,96.24749,1.68E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,715.365,96.23762,1.69E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,720.365,96.20755,1.69E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,725.365,96.1843,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,730.365,96.17245,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,735.365,96.15467,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,740.365,96.1448,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,745.365,96.13492,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,750.365,96.12702,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,755.365,96.10925,1.7E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,760.365,96.10135,1.7E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,765.365,96.08572,1.7E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,770.365,96.0737,1.7E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,775.365,96.0658,1.7E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,780.365,96.05396,1.7E-10,1.67E-10
+0.71 wt% PET in soil,7.1,without,785.365,96.04012,1.71E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,790.365,96.0263,1.71E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,795.365,96.01832,1.71E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,800.365,96.00852,1.71E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,805.365,95.9947,1.71E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,810.365,95.98087,1.71E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,815.365,95.97692,1.71E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,820.365,95.95915,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,825.365,95.9473,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,830.365,95.93347,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,835.365,95.92557,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,840.365,95.91767,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,845.365,95.90582,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,850.365,95.892,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,855.365,95.88015,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,860.365,95.87027,1.71E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,865.365,95.86237,1.7E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,870.365,95.8525,1.69E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,875.365,95.8446,1.68E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,880.365,95.83867,1.67E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,885.365,95.82165,1.67E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,890.365,95.81102,1.66E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,895.365,95.7972,1.67E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,900.365,95.7814,1.67E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,905.365,95.77745,1.68E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,910.365,95.76165,1.69E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,915.365,95.74782,1.69E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,920.365,95.73597,1.7E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,925.365,95.72412,1.7E-10,1.66E-10
+0.71 wt% PET in soil,7.1,without,930.365,95.71227,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,935.365,95.70473,1.7E-10,1.65E-10
+0.71 wt% PET in soil,7.1,without,940.365,95.68857,1.7E-10,1.64E-10
+0.71 wt% PET in soil,7.1,without,945.365,95.67475,1.7E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,950.365,95.65895,1.7E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,955.365,95.64512,1.7E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,960.365,95.62393,1.7E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,965.365,95.60562,1.7E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,970.365,95.5918,1.71E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,975.365,95.58297,1.71E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,980.365,95.56612,1.72E-10,1.63E-10
+0.71 wt% PET in soil,7.1,without,985.365,95.5523,1.73E-10,1.62E-10
+0.71 wt% PET in soil,7.1,without,990.365,95.54045,1.73E-10,1.61E-10
+0.71 wt% PET in soil,7.1,without,995.365,95.53057,1.72E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,35.184,100,1.69E-10,1.58E-10
+2.21 wt% PET in soil,22.1,without,40.184,99.98997,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,45.184,99.99025,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,50.184,99.99229,1.68E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,55.184,99.99036,1.68E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,60.184,99.99029,1.68E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,65.184,99.98079,1.68E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,70.184,99.97285,1.68E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,75.184,99.95944,1.68E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,80.184,99.95149,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,85.184,99.9361,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,90.184,99.92255,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,95.184,99.90705,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,100.184,99.88963,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,105.184,99.88188,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,110.184,99.86639,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,115.184,99.8509,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,120.184,99.83353,1.7E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,125.184,99.81988,1.7E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,130.184,99.80636,1.7E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,135.184,99.79668,1.7E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,140.184,99.78313,1.69E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,145.184,99.7657,1.69E-10,1.68E-10
+2.21 wt% PET in soil,22.1,without,150.184,99.76183,1.69E-10,1.68E-10
+2.21 wt% PET in soil,22.1,without,155.184,99.75408,1.69E-10,1.68E-10
+2.21 wt% PET in soil,22.1,without,160.184,99.7444,1.69E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,165.184,99.73473,1.69E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,170.184,99.72891,1.69E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,175.184,99.71536,1.69E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,180.184,99.70374,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,185.184,99.69212,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,190.184,99.67856,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,195.184,99.66888,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,200.184,99.65727,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,205.184,99.64371,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,210.184,99.63016,1.7E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,215.184,99.61466,1.7E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,220.184,99.59143,1.7E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,225.184,99.57394,1.7E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,230.184,99.5527,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,235.184,99.52946,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,240.184,99.50236,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,245.184,99.47909,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,250.184,99.44814,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,255.184,99.40942,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,260.184,99.37069,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,265.184,99.32808,1.69E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,270.184,99.28161,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,275.184,99.2332,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,280.184,99.18485,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,285.184,99.13638,1.67E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,290.184,99.08194,1.67E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,295.184,99.02995,1.67E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,300.184,98.98554,1.67E-10,1.61E-10
+2.21 wt% PET in soil,22.1,without,305.184,98.94081,1.67E-10,1.61E-10
+2.21 wt% PET in soil,22.1,without,310.184,98.89434,1.68E-10,1.6E-10
+2.21 wt% PET in soil,22.1,without,315.184,98.84786,1.68E-10,1.6E-10
+2.21 wt% PET in soil,22.1,without,320.184,98.80333,1.68E-10,1.6E-10
+2.21 wt% PET in soil,22.1,without,325.184,98.75686,1.69E-10,1.6E-10
+2.21 wt% PET in soil,22.1,without,330.184,98.71425,1.69E-10,1.6E-10
+2.21 wt% PET in soil,22.1,without,335.184,98.67553,1.7E-10,1.6E-10
+2.21 wt% PET in soil,22.1,without,340.184,98.63099,1.71E-10,1.61E-10
+2.21 wt% PET in soil,22.1,without,345.184,98.5884,1.72E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,350.184,98.54566,1.73E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,355.184,98.4994,1.74E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,360.184,98.45672,1.75E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,365.184,98.41025,1.76E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,370.184,98.36571,1.77E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,375.184,98.31632,1.79E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,380.184,98.26115,1.81E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,385.184,98.19317,1.83E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,390.184,98.12182,1.86E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,395.184,98.0211,1.9E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,400.184,97.90094,1.95E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,405.184,97.7552,2.01E-10,1.68E-10
+2.21 wt% PET in soil,22.1,without,410.184,97.5892,2.08E-10,1.69E-10
+2.21 wt% PET in soil,22.1,without,415.184,97.40917,2.16E-10,1.72E-10
+2.21 wt% PET in soil,22.1,without,420.184,97.21622,2.23E-10,1.75E-10
+2.21 wt% PET in soil,22.1,without,425.184,97.0412,2.29E-10,1.79E-10
+2.21 wt% PET in soil,22.1,without,430.184,96.89437,2.33E-10,1.84E-10
+2.21 wt% PET in soil,22.1,without,435.184,96.77749,2.33E-10,1.9E-10
+2.21 wt% PET in soil,22.1,without,440.184,96.69076,2.3E-10,1.94E-10
+2.21 wt% PET in soil,22.1,without,445.184,96.62491,2.25E-10,1.97E-10
+2.21 wt% PET in soil,22.1,without,450.184,96.56492,2.18E-10,1.98E-10
+2.21 wt% PET in soil,22.1,without,455.184,96.50874,2.1E-10,1.97E-10
+2.21 wt% PET in soil,22.1,without,460.184,96.46224,2.03E-10,1.93E-10
+2.21 wt% PET in soil,22.1,without,465.184,96.42355,1.96E-10,1.89E-10
+2.21 wt% PET in soil,22.1,without,470.184,96.38482,1.9E-10,1.84E-10
+2.21 wt% PET in soil,22.1,without,475.184,96.34996,1.85E-10,1.79E-10
+2.21 wt% PET in soil,22.1,without,480.184,96.31898,1.81E-10,1.76E-10
+2.21 wt% PET in soil,22.1,without,485.184,96.29013,1.78E-10,1.73E-10
+2.21 wt% PET in soil,22.1,without,490.184,96.26288,1.76E-10,1.71E-10
+2.21 wt% PET in soil,22.1,without,495.184,96.22991,1.75E-10,1.7E-10
+2.21 wt% PET in soil,22.1,without,500.184,96.20685,1.74E-10,1.69E-10
+2.21 wt% PET in soil,22.1,without,505.184,96.19312,1.73E-10,1.68E-10
+2.21 wt% PET in soil,22.1,without,510.184,96.16863,1.73E-10,1.68E-10
+2.21 wt% PET in soil,22.1,without,515.184,96.15052,1.73E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,520.184,96.13115,1.72E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,525.184,96.10404,1.72E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,530.184,96.08468,1.72E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,535.184,96.06919,1.72E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,540.184,96.04983,1.71E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,545.184,96.03434,1.71E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,550.184,96.01884,1.7E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,555.184,96.00143,1.7E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,560.184,95.9879,1.69E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,565.184,95.9685,1.69E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,570.184,95.94914,1.68E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,575.184,95.92982,1.68E-10,1.67E-10
+2.21 wt% PET in soil,22.1,without,580.184,95.91234,1.68E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,585.184,95.89879,1.69E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,590.184,95.88524,1.7E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,595.184,95.87555,1.71E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,600.184,95.85813,1.72E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,605.184,95.8407,1.72E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,610.184,95.82333,1.72E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,615.184,95.81165,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,620.184,95.79616,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,625.184,95.78067,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,630.184,95.77874,1.68E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,635.184,95.75937,1.67E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,640.184,95.74958,1.67E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,645.184,95.73807,1.67E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,650.184,95.7285,1.67E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,655.184,95.72258,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,660.184,95.70709,1.69E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,665.184,95.69547,1.69E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,670.184,95.68385,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,675.184,95.66836,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,680.184,95.66063,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,685.184,95.649,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,690.184,95.63545,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,695.184,95.61995,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,700.184,95.60834,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,705.184,95.59672,1.72E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,710.184,95.58704,1.72E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,715.184,95.58123,1.72E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,720.184,95.57929,1.72E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,725.184,95.56186,1.72E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,730.184,95.54637,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,735.184,95.53863,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,740.184,95.52314,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,745.184,95.51926,1.68E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,750.184,95.51172,1.67E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,755.184,95.49215,1.66E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,760.184,95.48054,1.66E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,765.184,95.47279,1.65E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,770.184,95.46505,1.65E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,775.184,95.45343,1.66E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,780.184,95.44181,1.67E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,785.184,95.42438,1.68E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,790.184,95.41857,1.7E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,795.184,95.40502,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,800.184,95.39534,1.71E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,805.184,95.38953,1.72E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,810.184,95.37791,1.72E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,815.184,95.37015,1.72E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,820.184,95.35661,1.71E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,825.184,95.34499,1.71E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,830.184,95.33337,1.71E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,835.184,95.32369,1.71E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,840.184,95.31207,1.71E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,845.184,95.29853,1.71E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,850.184,95.28303,1.72E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,855.184,95.27335,1.72E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,860.184,95.2656,1.72E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,865.184,95.25979,1.72E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,870.184,95.25205,1.72E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,875.184,95.2443,1.72E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,880.184,95.23656,1.72E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,885.184,95.22687,1.72E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,890.184,95.20751,1.72E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,895.184,95.19589,1.72E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,900.184,95.1804,1.72E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,905.184,95.17072,1.71E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,910.184,95.16574,1.7E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,915.184,95.15523,1.7E-10,1.66E-10
+2.21 wt% PET in soil,22.1,without,920.184,95.1378,1.69E-10,1.65E-10
+2.21 wt% PET in soil,22.1,without,925.184,95.12618,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,930.184,95.11449,1.69E-10,1.64E-10
+2.21 wt% PET in soil,22.1,without,935.184,95.10682,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,940.184,95.09334,1.69E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,945.184,95.07971,1.7E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,950.184,95.06809,1.71E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,955.184,95.04873,1.71E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,960.184,95.03324,1.71E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,965.184,95.01775,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,970.184,95.00419,1.7E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,975.184,94.99645,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,980.184,94.97321,1.69E-10,1.63E-10
+2.21 wt% PET in soil,22.1,without,985.184,94.97127,1.68E-10,1.62E-10
+2.21 wt% PET in soil,22.1,without,990.184,94.95385,1.68E-10,1.61E-10
+2.21 wt% PET in soil,22.1,without,995.184,94.94223,1.71E-10,1.59E-10
+4.18 wt% PET in soil,41.8,without,34.548,100,1.7E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,39.548,100.00487,1.75E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,44.548,100.01,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,49.548,100.01001,1.78E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,54.548,100.01,1.78E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,59.548,100.00802,1.78E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,64.548,100.00026,1.78E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,69.548,99.98399,1.78E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,74.548,99.97197,1.78E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,79.548,99.95816,1.77E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,84.548,99.94595,1.77E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,89.548,99.93194,1.76E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,94.548,99.91392,1.76E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,99.548,99.8919,1.76E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,104.548,99.87789,1.75E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,109.548,99.85987,1.75E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,114.548,99.84386,1.75E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,119.548,99.82784,1.75E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,124.548,99.81183,1.74E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,129.548,99.79782,1.74E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,134.548,99.7818,1.74E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,139.548,99.76579,1.73E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,144.548,99.74977,1.73E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,149.548,99.73776,1.73E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,154.548,99.73175,1.73E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,159.548,99.72175,1.73E-10,1.74E-10
+4.18 wt% PET in soil,41.8,without,164.548,99.70974,1.73E-10,1.74E-10
+4.18 wt% PET in soil,41.8,without,169.548,99.70173,1.74E-10,1.74E-10
+4.18 wt% PET in soil,41.8,without,174.548,99.68772,1.74E-10,1.74E-10
+4.18 wt% PET in soil,41.8,without,179.548,99.6757,1.75E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,184.548,99.6677,1.76E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,189.548,99.65168,1.76E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,194.548,99.63767,1.76E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,199.548,99.62966,1.77E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,204.548,99.60764,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,209.548,99.59363,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,214.548,99.57762,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,219.548,99.55359,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,224.548,99.53558,1.76E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,229.548,99.51756,1.76E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,234.548,99.48353,1.76E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,239.548,99.45751,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,244.548,99.42948,1.75E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,249.548,99.38944,1.75E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,254.548,99.34741,1.75E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,259.548,99.30534,1.75E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,264.548,99.25734,1.75E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,269.548,99.20327,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,274.548,99.14723,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,279.548,99.09718,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,284.548,99.04001,1.76E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,289.548,98.98708,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,294.548,98.92702,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,299.548,98.87498,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,304.548,98.81891,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,309.548,98.76687,1.78E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,314.548,98.72086,1.78E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,319.548,98.66679,1.78E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,324.548,98.61675,1.78E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,329.548,98.56869,1.78E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,334.548,98.52466,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,339.548,98.47261,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,344.548,98.42457,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,349.548,98.36651,1.78E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,354.548,98.30846,1.79E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,359.548,98.25242,1.8E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,364.548,98.19237,1.81E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,369.548,98.13028,1.82E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,374.548,98.05226,1.84E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,379.548,97.96008,1.86E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,384.548,97.85604,1.9E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,389.548,97.71585,1.94E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,394.548,97.5538,1.99E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,399.548,97.3427,2.06E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,404.548,97.08716,2.15E-10,1.74E-10
+4.18 wt% PET in soil,41.8,without,409.548,96.8048,2.24E-10,1.75E-10
+4.18 wt% PET in soil,41.8,without,414.548,96.48244,2.34E-10,1.77E-10
+4.18 wt% PET in soil,41.8,without,419.548,96.15472,2.44E-10,1.81E-10
+4.18 wt% PET in soil,41.8,without,424.548,95.84879,2.53E-10,1.87E-10
+4.18 wt% PET in soil,41.8,without,429.548,95.59578,2.59E-10,1.95E-10
+4.18 wt% PET in soil,41.8,without,434.548,95.40585,2.62E-10,2.04E-10
+4.18 wt% PET in soil,41.8,without,439.548,95.2616,2.61E-10,2.13E-10
+4.18 wt% PET in soil,41.8,without,444.548,95.14958,2.57E-10,2.21E-10
+4.18 wt% PET in soil,41.8,without,449.548,95.05146,2.5E-10,2.25E-10
+4.18 wt% PET in soil,41.8,without,454.548,94.98143,2.41E-10,2.25E-10
+4.18 wt% PET in soil,41.8,without,459.548,94.91537,2.31E-10,2.22E-10
+4.18 wt% PET in soil,41.8,without,464.548,94.8597,2.21E-10,2.17E-10
+4.18 wt% PET in soil,41.8,without,469.548,94.81328,2.12E-10,2.1E-10
+4.18 wt% PET in soil,41.8,without,474.548,94.76942,2.05E-10,2.03E-10
+4.18 wt% PET in soil,41.8,without,479.548,94.7312,1.99E-10,1.97E-10
+4.18 wt% PET in soil,41.8,without,484.548,94.69517,1.95E-10,1.91E-10
+4.18 wt% PET in soil,41.8,without,489.548,94.66515,1.91E-10,1.87E-10
+4.18 wt% PET in soil,41.8,without,494.548,94.62911,1.89E-10,1.83E-10
+4.18 wt% PET in soil,41.8,without,499.548,94.60109,1.87E-10,1.81E-10
+4.18 wt% PET in soil,41.8,without,504.548,94.57907,1.86E-10,1.8E-10
+4.18 wt% PET in soil,41.8,without,509.548,94.55104,1.85E-10,1.79E-10
+4.18 wt% PET in soil,41.8,without,514.548,94.53102,1.84E-10,1.79E-10
+4.18 wt% PET in soil,41.8,without,519.548,94.509,1.83E-10,1.79E-10
+4.18 wt% PET in soil,41.8,without,524.548,94.47898,1.83E-10,1.78E-10
+4.18 wt% PET in soil,41.8,without,529.548,94.45896,1.82E-10,1.77E-10
+4.18 wt% PET in soil,41.8,without,534.548,94.44098,1.82E-10,1.76E-10
+4.18 wt% PET in soil,41.8,without,539.548,94.42492,1.82E-10,1.75E-10
+4.18 wt% PET in soil,41.8,without,544.548,94.40291,1.82E-10,1.74E-10
+4.18 wt% PET in soil,41.8,without,549.548,94.37888,1.82E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,554.548,94.35686,1.81E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,559.548,94.34085,1.81E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,564.548,94.31683,1.8E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,569.548,94.29682,1.8E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,574.548,94.27079,1.79E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,579.548,94.25277,1.78E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,584.548,94.23676,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,589.548,94.21674,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,594.548,94.20112,1.76E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,599.548,94.18481,1.76E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,604.548,94.16069,1.76E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,609.548,94.14667,1.76E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,614.548,94.13066,1.76E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,619.548,94.11464,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,624.548,94.09464,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,629.548,94.08653,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,634.548,94.07181,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,639.548,94.05259,1.77E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,644.548,94.04658,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,649.548,94.03457,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,654.548,94.01856,1.77E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,659.548,94.00254,1.76E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,664.548,93.99854,1.76E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,669.548,93.98853,1.75E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,674.548,93.97251,1.75E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,679.548,93.9585,1.75E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,684.548,93.94449,1.75E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,689.548,93.93247,1.76E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,694.548,93.91447,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,699.548,93.91046,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,704.548,93.89645,1.77E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,709.548,93.87843,1.78E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,714.548,93.86842,1.8E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,719.548,93.86842,1.81E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,724.548,93.8464,1.81E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,729.548,93.8345,1.82E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,734.548,93.81237,1.82E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,739.548,93.81037,1.81E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,744.548,93.80036,1.81E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,749.548,93.78835,1.81E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,754.548,93.77598,1.81E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,759.548,93.76433,1.81E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,764.548,93.74431,1.81E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,769.548,93.7363,1.81E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,774.548,93.72629,1.8E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,779.548,93.71428,1.8E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,784.548,93.70027,1.8E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,789.548,93.69426,1.79E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,794.548,93.68225,1.78E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,799.548,93.66796,1.78E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,804.548,93.64622,1.77E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,809.548,93.65044,1.77E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,814.548,93.63821,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,819.548,93.6281,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,824.548,93.61419,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,829.548,93.59817,1.76E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,834.548,93.58817,1.75E-10,1.67E-10
+4.18 wt% PET in soil,41.8,without,839.548,93.57415,1.75E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,844.548,93.56615,1.76E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,849.548,93.55012,1.76E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,854.548,93.54012,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,859.548,93.52811,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,864.548,93.5221,1.76E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,869.548,93.50809,1.75E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,874.548,93.49607,1.75E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,879.548,93.48807,1.74E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,884.548,93.47606,1.74E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,889.548,93.46605,1.74E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,894.548,93.45004,1.73E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,899.548,93.43603,1.73E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,904.548,93.42802,1.73E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,909.548,93.41201,1.74E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,914.548,93.402,1.74E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,919.548,93.39199,1.75E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,924.548,93.37797,1.75E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,929.548,93.36196,1.76E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,934.548,93.34594,1.76E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,939.548,93.33794,1.76E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,944.548,93.32192,1.76E-10,1.73E-10
+4.18 wt% PET in soil,41.8,without,949.548,93.31191,1.75E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,954.548,93.2939,1.75E-10,1.72E-10
+4.18 wt% PET in soil,41.8,without,959.548,93.26187,1.74E-10,1.71E-10
+4.18 wt% PET in soil,41.8,without,964.548,93.2659,1.74E-10,1.7E-10
+4.18 wt% PET in soil,41.8,without,969.548,93.24385,1.73E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,974.548,93.22579,1.73E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,979.548,93.21521,1.72E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,984.548,93.20581,1.72E-10,1.68E-10
+4.18 wt% PET in soil,41.8,without,989.548,93.1818,1.72E-10,1.69E-10
+4.18 wt% PET in soil,41.8,without,994.548,93.17979,1.7E-10,1.72E-10
+LUFA soil,0,with,34.42,100,1.71E-10,1.7E-10
+LUFA soil,0,with,39.42,100.02418,1.73E-10,1.69E-10
+LUFA soil,0,with,44.42,100.03075,1.73E-10,1.68E-10
+LUFA soil,0,with,49.42,100.03289,1.74E-10,1.68E-10
+LUFA soil,0,with,54.42,100.03498,1.74E-10,1.68E-10
+LUFA soil,0,with,59.42,100.03704,1.74E-10,1.68E-10
+LUFA soil,0,with,64.42,100.03716,1.74E-10,1.68E-10
+LUFA soil,0,with,69.42,100.03469,1.74E-10,1.68E-10
+LUFA soil,0,with,74.42,100.02516,1.75E-10,1.68E-10
+LUFA soil,0,with,79.42,100.01745,1.75E-10,1.68E-10
+LUFA soil,0,with,84.42,100.00872,1.75E-10,1.68E-10
+LUFA soil,0,with,89.42,99.99346,1.75E-10,1.68E-10
+LUFA soil,0,with,94.42,99.98037,1.75E-10,1.68E-10
+LUFA soil,0,with,99.42,99.96728,1.75E-10,1.68E-10
+LUFA soil,0,with,104.42,99.95638,1.75E-10,1.68E-10
+LUFA soil,0,with,109.42,99.93893,1.76E-10,1.68E-10
+LUFA soil,0,with,114.42,99.92366,1.76E-10,1.68E-10
+LUFA soil,0,with,119.42,99.91275,1.76E-10,1.68E-10
+LUFA soil,0,with,124.42,99.89967,1.76E-10,1.68E-10
+LUFA soil,0,with,129.42,99.88003,1.76E-10,1.68E-10
+LUFA soil,0,with,134.42,99.86913,1.76E-10,1.68E-10
+LUFA soil,0,with,139.42,99.85386,1.77E-10,1.69E-10
+LUFA soil,0,with,144.42,99.83859,1.77E-10,1.69E-10
+LUFA soil,0,with,149.42,99.8255,1.78E-10,1.69E-10
+LUFA soil,0,with,154.42,99.81896,1.79E-10,1.69E-10
+LUFA soil,0,with,159.42,99.81242,1.8E-10,1.69E-10
+LUFA soil,0,with,164.42,99.80807,1.81E-10,1.7E-10
+LUFA soil,0,with,169.42,99.79855,1.83E-10,1.7E-10
+LUFA soil,0,with,174.42,99.78188,1.86E-10,1.7E-10
+LUFA soil,0,with,179.42,99.76873,1.89E-10,1.7E-10
+LUFA soil,0,with,184.42,99.76225,1.92E-10,1.71E-10
+LUFA soil,0,with,189.42,99.7448,1.96E-10,1.71E-10
+LUFA soil,0,with,194.42,99.72953,2E-10,1.71E-10
+LUFA soil,0,with,199.42,99.71645,2.04E-10,1.71E-10
+LUFA soil,0,with,204.42,99.68809,2.07E-10,1.72E-10
+LUFA soil,0,with,209.42,99.6532,2.11E-10,1.72E-10
+LUFA soil,0,with,214.42,99.49174,2.13E-10,1.72E-10
+LUFA soil,0,with,219.42,99.15364,2.15E-10,1.72E-10
+LUFA soil,0,with,224.42,98.95303,2.16E-10,1.73E-10
+LUFA soil,0,with,229.42,98.88105,2.16E-10,1.73E-10
+LUFA soil,0,with,234.42,98.84179,2.16E-10,1.73E-10
+LUFA soil,0,with,239.42,98.80476,2.14E-10,1.73E-10
+LUFA soil,0,with,244.42,98.77201,2.13E-10,1.73E-10
+LUFA soil,0,with,249.42,98.73709,2.11E-10,1.73E-10
+LUFA soil,0,with,254.42,98.69783,2.09E-10,1.73E-10
+LUFA soil,0,with,259.42,98.65202,2.07E-10,1.73E-10
+LUFA soil,0,with,264.42,98.60625,2.05E-10,1.73E-10
+LUFA soil,0,with,269.42,98.5452,2.04E-10,1.73E-10
+LUFA soil,0,with,274.42,98.49279,2.03E-10,1.73E-10
+LUFA soil,0,with,279.42,98.43208,2.02E-10,1.73E-10
+LUFA soil,0,with,284.42,98.37501,2.02E-10,1.73E-10
+LUFA soil,0,with,289.42,98.31393,2.02E-10,1.72E-10
+LUFA soil,0,with,294.42,98.25287,2.02E-10,1.72E-10
+LUFA soil,0,with,299.42,98.19616,2.03E-10,1.72E-10
+LUFA soil,0,with,304.42,98.13513,2.03E-10,1.72E-10
+LUFA soil,0,with,309.42,98.08273,2.04E-10,1.71E-10
+LUFA soil,0,with,314.42,98.0282,2.04E-10,1.71E-10
+LUFA soil,0,with,319.42,97.97802,2.05E-10,1.71E-10
+LUFA soil,0,with,324.42,97.92569,2.05E-10,1.71E-10
+LUFA soil,0,with,329.42,97.87769,2.05E-10,1.71E-10
+LUFA soil,0,with,334.42,97.82972,2.06E-10,1.71E-10
+LUFA soil,0,with,339.42,97.78174,2.06E-10,1.71E-10
+LUFA soil,0,with,344.42,97.73374,2.06E-10,1.71E-10
+LUFA soil,0,with,349.42,97.68794,2.06E-10,1.71E-10
+LUFA soil,0,with,354.42,97.64159,2.06E-10,1.71E-10
+LUFA soil,0,with,359.42,97.59633,2.06E-10,1.71E-10
+LUFA soil,0,with,364.42,97.55052,2.06E-10,1.71E-10
+LUFA soil,0,with,369.42,97.5178,2.06E-10,1.71E-10
+LUFA soil,0,with,374.42,97.4807,2.06E-10,1.71E-10
+LUFA soil,0,with,379.42,97.45237,2.06E-10,1.71E-10
+LUFA soil,0,with,384.42,97.41747,2.06E-10,1.71E-10
+LUFA soil,0,with,389.42,97.38052,2.06E-10,1.71E-10
+LUFA soil,0,with,394.42,97.35203,2.05E-10,1.71E-10
+LUFA soil,0,with,399.42,97.32151,2.05E-10,1.71E-10
+LUFA soil,0,with,404.42,97.2866,2.05E-10,1.71E-10
+LUFA soil,0,with,409.42,97.2494,2.04E-10,1.71E-10
+LUFA soil,0,with,414.42,97.22334,2.03E-10,1.71E-10
+LUFA soil,0,with,419.42,97.19281,2.03E-10,1.71E-10
+LUFA soil,0,with,424.42,97.16445,2.01E-10,1.71E-10
+LUFA soil,0,with,429.42,97.13612,2E-10,1.71E-10
+LUFA soil,0,with,434.42,97.10774,1.99E-10,1.71E-10
+LUFA soil,0,with,439.42,97.08593,1.97E-10,1.71E-10
+LUFA soil,0,with,444.42,97.06192,1.95E-10,1.7E-10
+LUFA soil,0,with,449.42,97.03576,1.93E-10,1.7E-10
+LUFA soil,0,with,454.42,97.01613,1.91E-10,1.7E-10
+LUFA soil,0,with,459.42,96.99214,1.9E-10,1.7E-10
+LUFA soil,0,with,464.42,96.96596,1.88E-10,1.7E-10
+LUFA soil,0,with,469.42,96.95069,1.86E-10,1.69E-10
+LUFA soil,0,with,474.42,96.92452,1.85E-10,1.69E-10
+LUFA soil,0,with,479.42,96.90489,1.83E-10,1.69E-10
+LUFA soil,0,with,484.42,96.88526,1.82E-10,1.69E-10
+LUFA soil,0,with,489.42,96.86563,1.81E-10,1.69E-10
+LUFA soil,0,with,494.42,96.84163,1.8E-10,1.68E-10
+LUFA soil,0,with,499.42,96.82637,1.8E-10,1.68E-10
+LUFA soil,0,with,504.42,96.81764,1.79E-10,1.68E-10
+LUFA soil,0,with,509.42,96.80019,1.79E-10,1.68E-10
+LUFA soil,0,with,514.42,96.78492,1.79E-10,1.67E-10
+LUFA soil,0,with,519.42,96.76747,1.79E-10,1.67E-10
+LUFA soil,0,with,524.42,96.74791,1.79E-10,1.67E-10
+LUFA soil,0,with,529.42,96.72603,1.79E-10,1.67E-10
+LUFA soil,0,with,534.42,96.71294,1.79E-10,1.66E-10
+LUFA soil,0,with,539.42,96.70422,1.79E-10,1.66E-10
+LUFA soil,0,with,544.42,96.68895,1.79E-10,1.66E-10
+LUFA soil,0,with,549.42,96.6715,1.79E-10,1.66E-10
+LUFA soil,0,with,554.42,96.65623,1.79E-10,1.66E-10
+LUFA soil,0,with,559.42,96.6366,1.78E-10,1.66E-10
+LUFA soil,0,with,564.42,96.61915,1.78E-10,1.66E-10
+LUFA soil,0,with,569.42,96.61479,1.78E-10,1.66E-10
+LUFA soil,0,with,574.42,96.59516,1.78E-10,1.66E-10
+LUFA soil,0,with,579.42,96.58426,1.77E-10,1.66E-10
+LUFA soil,0,with,584.42,96.5691,1.77E-10,1.67E-10
+LUFA soil,0,with,589.42,96.55372,1.77E-10,1.67E-10
+LUFA soil,0,with,594.42,96.54499,1.77E-10,1.67E-10
+LUFA soil,0,with,599.42,96.53191,1.76E-10,1.68E-10
+LUFA soil,0,with,604.42,96.50791,1.76E-10,1.68E-10
+LUFA soil,0,with,609.42,96.49701,1.76E-10,1.69E-10
+LUFA soil,0,with,614.42,96.48392,1.75E-10,1.69E-10
+LUFA soil,0,with,619.42,96.47301,1.75E-10,1.69E-10
+LUFA soil,0,with,624.42,96.45775,1.75E-10,1.7E-10
+LUFA soil,0,with,629.42,96.4512,1.75E-10,1.7E-10
+LUFA soil,0,with,634.42,96.43157,1.74E-10,1.7E-10
+LUFA soil,0,with,639.42,96.41848,1.74E-10,1.7E-10
+LUFA soil,0,with,644.42,96.41412,1.74E-10,1.7E-10
+LUFA soil,0,with,649.42,96.40103,1.74E-10,1.7E-10
+LUFA soil,0,with,654.42,96.39231,1.74E-10,1.7E-10
+LUFA soil,0,with,659.42,96.37922,1.73E-10,1.7E-10
+LUFA soil,0,with,664.42,96.37704,1.73E-10,1.69E-10
+LUFA soil,0,with,669.42,96.35959,1.73E-10,1.69E-10
+LUFA soil,0,with,674.42,96.3465,1.73E-10,1.69E-10
+LUFA soil,0,with,679.42,96.3356,1.73E-10,1.68E-10
+LUFA soil,0,with,684.42,96.31597,1.73E-10,1.68E-10
+LUFA soil,0,with,689.42,96.30724,1.73E-10,1.68E-10
+LUFA soil,0,with,694.42,96.29416,1.73E-10,1.67E-10
+LUFA soil,0,with,699.42,96.28543,1.72E-10,1.67E-10
+LUFA soil,0,with,704.42,96.27392,1.72E-10,1.67E-10
+LUFA soil,0,with,709.42,96.26144,1.72E-10,1.67E-10
+LUFA soil,0,with,714.42,96.24835,1.72E-10,1.66E-10
+LUFA soil,0,with,719.42,96.24401,1.72E-10,1.66E-10
+LUFA soil,0,with,724.42,96.22872,1.72E-10,1.66E-10
+LUFA soil,0,with,729.42,96.21554,1.72E-10,1.66E-10
+LUFA soil,0,with,734.42,96.19818,1.72E-10,1.66E-10
+LUFA soil,0,with,739.42,96.18946,1.72E-10,1.66E-10
+LUFA soil,0,with,744.42,96.17637,1.72E-10,1.65E-10
+LUFA soil,0,with,749.42,96.16765,1.72E-10,1.65E-10
+LUFA soil,0,with,754.42,96.15456,1.72E-10,1.65E-10
+LUFA soil,0,with,759.42,96.14365,1.72E-10,1.64E-10
+LUFA soil,0,with,764.42,96.13493,1.72E-10,1.64E-10
+LUFA soil,0,with,769.42,96.11748,1.72E-10,1.63E-10
+LUFA soil,0,with,774.42,96.10439,1.72E-10,1.63E-10
+LUFA soil,0,with,779.42,96.09567,1.72E-10,1.63E-10
+LUFA soil,0,with,784.42,96.08694,1.72E-10,1.63E-10
+LUFA soil,0,with,789.42,96.07604,1.72E-10,1.63E-10
+LUFA soil,0,with,794.42,96.06731,1.72E-10,1.63E-10
+LUFA soil,0,with,799.42,96.05422,1.72E-10,1.63E-10
+LUFA soil,0,with,804.42,96.03677,1.72E-10,1.63E-10
+LUFA soil,0,with,809.42,96.03023,1.72E-10,1.63E-10
+LUFA soil,0,with,814.42,96.01933,1.72E-10,1.63E-10
+LUFA soil,0,with,819.42,96.0106,1.72E-10,1.63E-10
+LUFA soil,0,with,824.42,96.00188,1.72E-10,1.63E-10
+LUFA soil,0,with,829.42,95.98224,1.72E-10,1.64E-10
+LUFA soil,0,with,834.42,95.96261,1.72E-10,1.64E-10
+LUFA soil,0,with,839.42,95.95389,1.72E-10,1.64E-10
+LUFA soil,0,with,844.42,95.83174,1.72E-10,1.64E-10
+LUFA soil,0,with,849.42,95.81647,1.72E-10,1.65E-10
+LUFA soil,0,with,854.42,95.80121,1.72E-10,1.65E-10
+LUFA soil,0,with,859.42,95.79248,1.71E-10,1.65E-10
+LUFA soil,0,with,864.42,95.7903,1.71E-10,1.66E-10
+LUFA soil,0,with,869.42,95.78376,1.71E-10,1.66E-10
+LUFA soil,0,with,874.42,95.71377,1.71E-10,1.66E-10
+LUFA soil,0,with,879.42,95.69433,1.7E-10,1.66E-10
+LUFA soil,0,with,884.42,95.68278,1.7E-10,1.67E-10
+LUFA soil,0,with,889.42,95.66815,1.7E-10,1.67E-10
+LUFA soil,0,with,894.42,95.65943,1.7E-10,1.67E-10
+LUFA soil,0,with,899.42,95.64217,1.7E-10,1.67E-10
+LUFA soil,0,with,904.42,95.62889,1.7E-10,1.67E-10
+LUFA soil,0,with,909.42,95.62017,1.7E-10,1.68E-10
+LUFA soil,0,with,914.42,95.60708,1.7E-10,1.68E-10
+LUFA soil,0,with,919.42,95.59399,1.7E-10,1.68E-10
+LUFA soil,0,with,924.42,95.58309,1.7E-10,1.68E-10
+LUFA soil,0,with,929.42,95.57436,1.71E-10,1.68E-10
+LUFA soil,0,with,934.42,95.55912,1.71E-10,1.68E-10
+LUFA soil,0,with,939.42,95.54819,1.71E-10,1.68E-10
+LUFA soil,0,with,944.42,95.54164,1.71E-10,1.68E-10
+LUFA soil,0,with,949.42,95.52638,1.72E-10,1.68E-10
+LUFA soil,0,with,954.42,95.50675,1.72E-10,1.68E-10
+LUFA soil,0,with,959.42,95.49802,1.72E-10,1.68E-10
+LUFA soil,0,with,964.42,95.48057,1.72E-10,1.68E-10
+LUFA soil,0,with,969.42,95.4653,1.72E-10,1.68E-10
+LUFA soil,0,with,974.42,95.4544,1.72E-10,1.68E-10
+LUFA soil,0,with,979.42,95.43715,1.72E-10,1.68E-10
+LUFA soil,0,with,984.42,95.42426,1.71E-10,1.69E-10
+LUFA soil,0,with,989.42,95.41295,1.71E-10,1.7E-10
+LUFA soil,0,with,994.42,95.40645,1.7E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,37.025,100,1.74E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,42.025,99.98644,1.73E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,47.025,99.98217,1.72E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,52.025,99.98001,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,57.025,99.97996,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,62.025,99.98222,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,67.025,99.9706,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,72.025,99.96662,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,77.025,99.95772,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,82.025,99.95134,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,87.025,99.94659,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,92.025,99.93547,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,97.025,99.92211,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,102.025,99.90876,1.72E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,107.025,99.89986,1.73E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,112.025,99.88651,1.73E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,117.025,99.87093,1.73E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,122.025,99.85758,1.74E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,127.025,99.842,1.74E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,132.025,99.82865,1.75E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,137.025,99.81975,1.75E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,142.025,99.80417,1.76E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,147.025,99.79527,1.77E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,152.025,99.78637,1.78E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,157.025,99.77313,1.79E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,162.025,99.76189,1.8E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,167.025,99.75745,1.82E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,172.025,99.74631,1.84E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,177.025,99.73296,1.86E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,182.025,99.72851,1.89E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,187.025,99.71505,1.91E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,192.025,99.69736,1.94E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,197.025,99.68178,1.97E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,202.025,99.66395,1.99E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,207.025,99.63726,2.02E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,212.025,99.55489,2.03E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,217.025,99.31414,2.05E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,222.025,99.0476,2.06E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,227.025,98.93852,2.06E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,232.025,98.89179,2.06E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,237.025,98.85841,2.05E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,242.025,98.8263,2.04E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,247.025,98.7872,2.03E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,252.025,98.74937,2.02E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,257.025,98.70264,2E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,262.025,98.66035,1.99E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,267.025,98.60918,1.98E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,272.025,98.55577,1.98E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,277.025,98.50013,1.97E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,282.025,98.44895,1.97E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,287.025,98.38888,1.97E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,292.025,98.32547,1.97E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,297.025,98.26203,1.98E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,302.025,98.20639,1.98E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,307.025,98.15076,1.99E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,312.025,98.10225,2E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,317.025,98.04617,2.01E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,322.025,97.99276,2.03E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,327.025,97.94158,2.05E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,332.025,97.89474,2.07E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,337.025,97.84808,2.1E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,342.025,97.80104,2.13E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,347.025,97.75465,2.17E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,352.025,97.70632,2.22E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,357.025,97.65652,2.28E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,362.025,97.61446,2.36E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,367.025,97.57661,2.45E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,372.025,97.53435,2.55E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,377.025,97.4923,2.66E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,382.025,97.44754,2.78E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,387.025,97.40728,2.91E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,392.025,97.36529,3.05E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,397.025,97.32072,3.18E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,402.025,97.26731,3.3E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,407.025,97.20055,3.41E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,412.025,97.136,3.51E-10,1.77E-10
+0.52 wt% PET in soil,5.2,with,417.025,97.08038,3.57E-10,1.77E-10
+0.52 wt% PET in soil,5.2,with,422.025,97.02473,3.6E-10,1.77E-10
+0.52 wt% PET in soil,5.2,with,427.025,96.97357,3.61E-10,1.78E-10
+0.52 wt% PET in soil,5.2,with,432.025,96.92461,3.58E-10,1.78E-10
+0.52 wt% PET in soil,5.2,with,437.025,96.88678,3.52E-10,1.78E-10
+0.52 wt% PET in soil,5.2,with,442.025,96.85341,3.43E-10,1.77E-10
+0.52 wt% PET in soil,5.2,with,447.025,96.81557,3.32E-10,1.77E-10
+0.52 wt% PET in soil,5.2,with,452.025,96.78664,3.19E-10,1.77E-10
+0.52 wt% PET in soil,5.2,with,457.025,96.75762,3.05E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,462.025,96.72211,2.91E-10,1.76E-10
+0.52 wt% PET in soil,5.2,with,467.025,96.68873,2.77E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,472.025,96.66425,2.63E-10,1.75E-10
+0.52 wt% PET in soil,5.2,with,477.025,96.63532,2.51E-10,1.74E-10
+0.52 wt% PET in soil,5.2,with,482.025,96.61529,2.39E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,487.025,96.58859,2.29E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,492.025,96.5641,2.2E-10,1.73E-10
+0.52 wt% PET in soil,5.2,with,497.025,96.54631,2.12E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,502.025,96.52628,2.06E-10,1.72E-10
+0.52 wt% PET in soil,5.2,with,507.025,96.50403,2E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,512.025,96.484,1.96E-10,1.71E-10
+0.52 wt% PET in soil,5.2,with,517.025,96.47064,1.92E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,522.025,96.44818,1.89E-10,1.7E-10
+0.52 wt% PET in soil,5.2,with,527.025,96.42836,1.87E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,532.025,96.40611,1.85E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,537.025,96.38831,1.84E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,542.025,96.37718,1.83E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,547.025,96.36161,1.82E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,552.025,96.3438,1.81E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,557.025,96.326,1.81E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,562.025,96.30375,1.8E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,567.025,96.28817,1.8E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,572.025,96.26592,1.79E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,577.025,96.25256,1.79E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,582.025,96.23921,1.79E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,587.025,96.22391,1.79E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,592.025,96.21251,1.79E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,597.025,96.19916,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,602.025,96.18135,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,607.025,96.16133,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,612.025,96.1502,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,617.025,96.13462,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,622.025,96.12795,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,627.025,96.11014,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,632.025,96.11023,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,637.025,96.08567,1.78E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,642.025,96.07009,1.79E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,647.025,96.06564,1.79E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,652.025,96.04561,1.79E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,657.025,96.03448,1.79E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,662.025,96.03003,1.79E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,667.025,96.01446,1.79E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,672.025,95.99888,1.79E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,677.025,95.98108,1.78E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,682.025,95.96995,1.78E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,687.025,95.95437,1.78E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,692.025,95.94325,1.77E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,697.025,95.92766,1.77E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,702.025,95.91891,1.76E-10,1.69E-10
+0.52 wt% PET in soil,5.2,with,707.025,95.91209,1.76E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,712.025,95.89651,1.76E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,717.025,95.89429,1.75E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,722.025,95.86536,1.75E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,727.025,95.8609,1.75E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,732.025,95.85201,1.75E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,737.025,95.83866,1.75E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,742.025,95.8253,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,747.025,95.80973,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,752.025,95.80083,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,757.025,95.78525,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,762.025,95.7719,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,767.025,95.76077,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,772.025,95.74519,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,777.025,95.73184,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,782.025,95.71626,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,787.025,95.70959,1.72E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,792.025,95.70298,1.72E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,797.025,95.69178,1.72E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,802.025,95.67843,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,807.025,95.65902,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,812.025,95.65173,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,817.025,95.64728,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,822.025,95.63605,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,827.025,95.6228,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,832.025,95.60724,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,837.025,95.60277,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,842.025,95.58942,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,847.025,95.57162,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,852.025,95.56272,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,857.025,95.55604,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,862.025,95.54936,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,867.025,95.5383,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,872.025,95.52711,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,877.025,95.52266,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,882.025,95.51821,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,887.025,95.50708,1.74E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,892.025,95.48706,1.73E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,897.025,95.47593,1.73E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,902.025,95.46258,1.73E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,907.025,95.45368,1.73E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,912.025,95.4381,1.73E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,917.025,95.42697,1.73E-10,1.68E-10
+0.52 wt% PET in soil,5.2,with,922.025,95.41362,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,927.025,95.40452,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,932.025,95.39137,1.73E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,937.025,95.38024,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,942.025,95.37356,1.74E-10,1.67E-10
+0.52 wt% PET in soil,5.2,with,947.025,95.36252,1.74E-10,1.66E-10
+0.52 wt% PET in soil,5.2,with,952.025,95.34909,1.74E-10,1.66E-10
+0.52 wt% PET in soil,5.2,with,957.025,95.32906,1.74E-10,1.66E-10
+0.52 wt% PET in soil,5.2,with,962.025,95.31571,1.74E-10,1.66E-10
+0.52 wt% PET in soil,5.2,with,967.025,95.30458,1.74E-10,1.65E-10
+0.52 wt% PET in soil,5.2,with,972.025,95.28902,1.74E-10,1.65E-10
+0.52 wt% PET in soil,5.2,with,977.025,95.27342,1.74E-10,1.64E-10
+0.52 wt% PET in soil,5.2,with,982.025,95.25785,1.74E-10,1.64E-10
+0.52 wt% PET in soil,5.2,with,987.025,95.24888,1.74E-10,1.64E-10
+0.52 wt% PET in soil,5.2,with,992.025,95.23337,1.73E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,36.301,100,1.77E-10,1.61E-10
+2.04 wt% PET in soil,20.4,with,41.301,99.9979,1.75E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,46.301,99.99561,1.73E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,51.301,99.99341,1.73E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,56.301,99.99563,1.73E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,61.301,99.99781,1.73E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,66.301,99.99561,1.73E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,71.301,99.98683,1.73E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,76.301,99.97805,1.73E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,81.301,99.97147,1.74E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,86.301,99.96481,1.74E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,91.301,99.95391,1.74E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,96.301,99.94075,1.74E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,101.301,99.92319,1.74E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,106.301,99.91002,1.75E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,111.301,99.89685,1.75E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,116.301,99.8793,1.75E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,121.301,99.86613,1.75E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,126.301,99.85735,1.76E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,131.301,99.84199,1.76E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,136.301,99.83321,1.76E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,141.301,99.82004,1.77E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,146.301,99.80907,1.78E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,151.301,99.80029,1.79E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,156.301,99.79151,1.8E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,161.301,99.78273,1.82E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,166.301,99.77615,1.84E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,171.301,99.76737,1.86E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,176.301,99.75201,1.89E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,181.301,99.74542,1.92E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,186.301,99.73006,1.96E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,191.301,99.70592,1.99E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,196.301,99.69274,2.03E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,201.301,99.67082,2.06E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,206.301,99.64667,2.09E-10,1.69E-10
+2.04 wt% PET in soil,20.4,with,211.301,99.57641,2.12E-10,1.69E-10
+2.04 wt% PET in soil,20.4,with,216.301,99.33937,2.14E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,221.301,99.01669,2.15E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,226.301,98.9005,2.15E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,231.301,98.85441,2.14E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,236.301,98.81491,2.13E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,241.301,98.7776,2.11E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,246.301,98.75158,2.09E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,251.301,98.71176,2.07E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,256.301,98.67006,2.05E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,261.301,98.62178,2.03E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,266.301,98.57548,2.01E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,271.301,98.52569,2E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,276.301,98.46813,1.98E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,281.301,98.41109,1.98E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,286.301,98.35843,1.97E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,291.301,98.29684,1.98E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,296.301,98.23992,1.98E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,301.301,98.18305,1.99E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,306.301,98.12799,2.01E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,311.301,98.07554,2.04E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,316.301,98.02442,2.08E-10,1.72E-10
+2.04 wt% PET in soil,20.4,with,321.301,97.96779,2.13E-10,1.72E-10
+2.04 wt% PET in soil,20.4,with,326.301,97.91731,2.2E-10,1.73E-10
+2.04 wt% PET in soil,20.4,with,331.301,97.86902,2.3E-10,1.73E-10
+2.04 wt% PET in soil,20.4,with,336.301,97.823,2.43E-10,1.74E-10
+2.04 wt% PET in soil,20.4,with,341.301,97.77905,2.6E-10,1.74E-10
+2.04 wt% PET in soil,20.4,with,346.301,97.72857,2.81E-10,1.75E-10
+2.04 wt% PET in soil,20.4,with,351.301,97.67807,3.08E-10,1.75E-10
+2.04 wt% PET in soil,20.4,with,356.301,97.62764,3.42E-10,1.75E-10
+2.04 wt% PET in soil,20.4,with,361.301,97.57713,3.82E-10,1.75E-10
+2.04 wt% PET in soil,20.4,with,366.301,97.53106,4.3E-10,1.76E-10
+2.04 wt% PET in soil,20.4,with,371.301,97.48278,4.85E-10,1.76E-10
+2.04 wt% PET in soil,20.4,with,376.301,97.42572,5.48E-10,1.77E-10
+2.04 wt% PET in soil,20.4,with,381.301,97.36204,6.18E-10,1.78E-10
+2.04 wt% PET in soil,20.4,with,386.301,97.29187,6.93E-10,1.79E-10
+2.04 wt% PET in soil,20.4,with,391.301,97.20407,7.72E-10,1.81E-10
+2.04 wt% PET in soil,20.4,with,396.301,97.10319,8.51E-10,1.83E-10
+2.04 wt% PET in soil,20.4,with,401.301,96.97363,9.27E-10,1.85E-10
+2.04 wt% PET in soil,20.4,with,406.301,96.82445,9.98E-10,1.88E-10
+2.04 wt% PET in soil,20.4,with,411.301,96.66204,1.06E-09,1.92E-10
+2.04 wt% PET in soil,20.4,with,416.301,96.49082,1.1E-09,1.95E-10
+2.04 wt% PET in soil,20.4,with,421.301,96.31086,1.13E-09,1.98E-10
+2.04 wt% PET in soil,20.4,with,426.301,96.14167,1.15E-09,2.02E-10
+2.04 wt% PET in soil,20.4,with,431.301,96.01449,1.14E-09,2.04E-10
+2.04 wt% PET in soil,20.4,with,436.301,95.9189,1.11E-09,2.07E-10
+2.04 wt% PET in soil,20.4,with,441.301,95.84121,1.07E-09,2.08E-10
+2.04 wt% PET in soil,20.4,with,446.301,95.77537,1.02E-09,2.09E-10
+2.04 wt% PET in soil,20.4,with,451.301,95.7205,9.54E-10,2.08E-10
+2.04 wt% PET in soil,20.4,with,456.301,95.67222,8.81E-10,2.07E-10
+2.04 wt% PET in soil,20.4,with,461.301,95.62393,8.04E-10,2.05E-10
+2.04 wt% PET in soil,20.4,with,466.301,95.58663,7.25E-10,2.03E-10
+2.04 wt% PET in soil,20.4,with,471.301,95.54932,6.49E-10,2E-10
+2.04 wt% PET in soil,20.4,with,476.301,95.51421,5.77E-10,1.96E-10
+2.04 wt% PET in soil,20.4,with,481.301,95.49226,5.11E-10,1.93E-10
+2.04 wt% PET in soil,20.4,with,486.301,95.45934,4.52E-10,1.89E-10
+2.04 wt% PET in soil,20.4,with,491.301,95.43081,4.01E-10,1.86E-10
+2.04 wt% PET in soil,20.4,with,496.301,95.40448,3.58E-10,1.82E-10
+2.04 wt% PET in soil,20.4,with,501.301,95.38692,3.22E-10,1.8E-10
+2.04 wt% PET in soil,20.4,with,506.301,95.36717,2.93E-10,1.77E-10
+2.04 wt% PET in soil,20.4,with,511.301,95.34238,2.7E-10,1.75E-10
+2.04 wt% PET in soil,20.4,with,516.301,95.32547,2.51E-10,1.74E-10
+2.04 wt% PET in soil,20.4,with,521.301,95.30133,2.36E-10,1.73E-10
+2.04 wt% PET in soil,20.4,with,526.301,95.28421,2.25E-10,1.72E-10
+2.04 wt% PET in soil,20.4,with,531.301,95.25744,2.16E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,536.301,95.23769,2.1E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,541.301,95.22232,2.05E-10,1.71E-10
+2.04 wt% PET in soil,20.4,with,546.301,95.20475,2.01E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,551.301,95.18928,1.98E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,556.301,95.16746,1.95E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,561.301,95.14332,1.94E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,566.301,95.12576,1.92E-10,1.7E-10
+2.04 wt% PET in soil,20.4,with,571.301,95.1104,1.91E-10,1.69E-10
+2.04 wt% PET in soil,20.4,with,576.301,95.09065,1.89E-10,1.69E-10
+2.04 wt% PET in soil,20.4,with,581.301,95.07748,1.88E-10,1.69E-10
+2.04 wt% PET in soil,20.4,with,586.301,95.05993,1.87E-10,1.69E-10
+2.04 wt% PET in soil,20.4,with,591.301,95.04456,1.87E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,596.301,95.027,1.86E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,601.301,95.01384,1.85E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,606.301,94.99847,1.84E-10,1.68E-10
+2.04 wt% PET in soil,20.4,with,611.301,94.98311,1.84E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,616.301,94.96557,1.83E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,621.301,94.95239,1.83E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,626.301,94.93483,1.83E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,631.301,94.92825,1.82E-10,1.67E-10
+2.04 wt% PET in soil,20.4,with,636.301,94.91069,1.82E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,641.301,94.90411,1.83E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,646.301,94.89533,1.83E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,651.301,94.88217,1.83E-10,1.66E-10
+2.04 wt% PET in soil,20.4,with,656.301,94.87222,1.84E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,661.301,94.8646,1.85E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,666.301,94.84924,1.86E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,671.301,94.83607,1.87E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,676.301,94.8251,1.88E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,681.301,94.81413,1.9E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,686.301,94.79876,1.91E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,691.301,94.79431,1.93E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,696.301,94.78117,1.95E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,701.301,94.77462,1.97E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,706.301,94.76365,1.99E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,711.301,94.74829,2.01E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,716.301,94.7417,2.04E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,721.301,94.71976,2.06E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,726.301,94.71098,2.08E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,731.301,94.69562,2.1E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,736.301,94.68903,2.11E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,741.301,94.67806,2.12E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,746.301,94.66709,2.13E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,751.301,94.65612,2.14E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,756.301,94.63856,2.14E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,761.301,94.62978,2.14E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,766.301,94.61881,2.13E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,771.301,94.60783,2.12E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,776.301,94.59247,2.11E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,781.301,94.58808,2.09E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,786.301,94.5815,2.07E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,791.301,94.57272,2.05E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,796.301,94.56614,2.03E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,801.301,94.55955,2E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,806.301,94.54638,1.98E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,811.301,94.53737,1.96E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,816.301,94.52663,1.94E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,821.301,94.52224,1.92E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,826.301,94.4564,1.9E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,831.301,94.41932,1.88E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,836.301,94.40373,1.86E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,841.301,94.38398,1.85E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,846.301,94.37313,1.83E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,851.301,94.25231,1.82E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,856.301,94.23445,1.81E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,861.301,94.22597,1.8E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,866.301,94.21939,1.79E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,871.301,94.2128,1.79E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,876.301,94.20841,1.78E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,881.301,94.20841,1.78E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,886.301,94.19744,1.78E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,891.301,94.18208,1.77E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,896.301,94.16233,1.77E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,901.301,94.14696,1.77E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,906.301,94.14038,1.77E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,911.301,94.12502,1.77E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,916.301,94.11843,1.76E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,921.301,94.10307,1.76E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,926.301,94.09459,1.76E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,931.301,94.07674,1.75E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,936.301,94.06357,1.75E-10,1.63E-10
+2.04 wt% PET in soil,20.4,with,941.301,94.04821,1.74E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,946.301,94.03065,1.74E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,951.301,94.01309,1.73E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,956.301,93.99993,1.72E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,961.301,93.97666,1.72E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,966.301,93.96256,1.71E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,971.301,93.95384,1.7E-10,1.65E-10
+2.04 wt% PET in soil,20.4,with,976.301,93.94067,1.69E-10,1.64E-10
+2.04 wt% PET in soil,20.4,with,981.301,93.92976,1.69E-10,1.62E-10
+2.04 wt% PET in soil,20.4,with,986.301,93.91434,1.7E-10,1.6E-10
+4.44 wt% PET in soil,44.4,with,34.47,100,1.71E-10,1.57E-10
+4.44 wt% PET in soil,44.4,with,39.47,100.02272,1.81E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,44.47,100.02685,1.79E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,49.47,100.03288,1.78E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,54.47,100.04133,1.78E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,59.47,100.04135,1.78E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,64.47,100.03513,1.77E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,69.47,100.03509,1.77E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,74.47,100.02384,1.77E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,79.47,100.01858,1.77E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,84.47,100.00586,1.77E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,89.47,99.99587,1.77E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,94.47,99.98761,1.76E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,99.47,99.97109,1.76E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,104.47,99.95664,1.76E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,109.47,99.94012,1.76E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,114.47,99.92567,1.77E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,119.47,99.91328,1.77E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,124.47,99.90296,1.77E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,129.47,99.88851,1.77E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,134.47,99.87819,1.78E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,139.47,99.86373,1.79E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,144.47,99.84928,1.79E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,149.47,99.84309,1.81E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,154.47,99.83896,1.82E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,159.47,99.82863,1.84E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,164.47,99.81615,1.86E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,169.47,99.81623,1.88E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,174.47,99.80179,1.91E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,179.47,99.79137,1.94E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,184.47,99.78321,1.98E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,189.47,99.76876,2.02E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,194.47,99.75431,2.06E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,199.47,99.74192,2.1E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,204.47,99.71508,2.13E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,209.47,99.68617,2.16E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,214.47,99.5498,2.19E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,219.47,99.2629,2.2E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,224.47,99.06677,2.21E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,229.47,99.01722,2.21E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,234.47,98.98006,2.21E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,239.47,98.94496,2.19E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,244.47,98.91812,2.18E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,249.47,98.88302,2.16E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,254.47,98.83966,2.14E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,259.47,98.79424,2.12E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,264.47,98.74851,2.1E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,269.47,98.69514,2.08E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,274.47,98.64352,2.07E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,279.47,98.58988,2.06E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,284.47,98.52921,2.06E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,289.47,98.46794,2.06E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,294.47,98.40608,2.07E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,299.47,98.35034,2.09E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,304.47,98.29253,2.13E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,309.47,98.24091,2.18E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,314.47,98.19136,2.26E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,319.47,98.13561,2.37E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,324.47,98.08196,2.52E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,329.47,98.03032,2.73E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,334.47,97.97878,3.02E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,339.47,97.92709,3.4E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,344.47,97.87754,3.89E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,349.47,97.81972,4.51E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,354.47,97.76645,5.29E-10,1.74E-10
+4.44 wt% PET in soil,44.4,with,359.47,97.70638,6.23E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,364.47,97.64423,7.37E-10,1.77E-10
+4.44 wt% PET in soil,44.4,with,369.47,97.57401,8.69E-10,1.79E-10
+4.44 wt% PET in soil,44.4,with,374.47,97.49351,1.02E-09,1.83E-10
+4.44 wt% PET in soil,44.4,with,379.47,97.40473,1.19E-09,1.87E-10
+4.44 wt% PET in soil,44.4,with,384.47,97.29146,1.37E-09,1.92E-10
+4.44 wt% PET in soil,44.4,with,389.47,97.15097,1.57E-09,1.99E-10
+4.44 wt% PET in soil,44.4,with,394.47,96.96911,1.77E-09,2.07E-10
+4.44 wt% PET in soil,44.4,with,399.47,96.74476,1.96E-09,2.16E-10
+4.44 wt% PET in soil,44.4,with,404.47,96.47151,2.15E-09,2.27E-10
+4.44 wt% PET in soil,44.4,with,409.47,96.14235,2.31E-09,2.38E-10
+4.44 wt% PET in soil,44.4,with,414.47,95.78813,2.44E-09,2.51E-10
+4.44 wt% PET in soil,44.4,with,419.47,95.41667,2.54E-09,2.63E-10
+4.44 wt% PET in soil,44.4,with,424.47,95.05702,2.58E-09,2.75E-10
+4.44 wt% PET in soil,44.4,with,429.47,94.76364,2.59E-09,2.86E-10
+4.44 wt% PET in soil,44.4,with,434.47,94.55022,2.54E-09,2.96E-10
+4.44 wt% PET in soil,44.4,with,439.47,94.39072,2.45E-09,3.03E-10
+4.44 wt% PET in soil,44.4,with,444.47,94.27286,2.33E-09,3.07E-10
+4.44 wt% PET in soil,44.4,with,449.47,94.17354,2.17E-09,3.09E-10
+4.44 wt% PET in soil,44.4,with,454.47,94.09508,1.99E-09,3.07E-10
+4.44 wt% PET in soil,44.4,with,459.47,94.02904,1.8E-09,3.03E-10
+4.44 wt% PET in soil,44.4,with,464.47,93.96914,1.61E-09,2.96E-10
+4.44 wt% PET in soil,44.4,with,469.47,93.92404,1.42E-09,2.87E-10
+4.44 wt% PET in soil,44.4,with,474.47,93.88452,1.23E-09,2.77E-10
+4.44 wt% PET in soil,44.4,with,479.47,93.84526,1.06E-09,2.66E-10
+4.44 wt% PET in soil,44.4,with,484.47,93.81016,9.09E-10,2.54E-10
+4.44 wt% PET in soil,44.4,with,489.47,93.77712,7.74E-10,2.42E-10
+4.44 wt% PET in soil,44.4,with,494.47,93.74615,6.58E-10,2.31E-10
+4.44 wt% PET in soil,44.4,with,499.47,93.71518,5.62E-10,2.2E-10
+4.44 wt% PET in soil,44.4,with,504.47,93.69648,4.83E-10,2.11E-10
+4.44 wt% PET in soil,44.4,with,509.47,93.67183,4.2E-10,2.03E-10
+4.44 wt% PET in soil,44.4,with,514.47,93.65529,3.7E-10,1.96E-10
+4.44 wt% PET in soil,44.4,with,519.47,93.62847,3.31E-10,1.9E-10
+4.44 wt% PET in soil,44.4,with,524.47,93.60989,3.02E-10,1.85E-10
+4.44 wt% PET in soil,44.4,with,529.47,93.58718,2.8E-10,1.82E-10
+4.44 wt% PET in soil,44.4,with,534.47,93.56653,2.63E-10,1.79E-10
+4.44 wt% PET in soil,44.4,with,539.47,93.54795,2.51E-10,1.76E-10
+4.44 wt% PET in soil,44.4,with,544.47,93.52524,2.42E-10,1.75E-10
+4.44 wt% PET in soil,44.4,with,549.47,93.50253,2.35E-10,1.73E-10
+4.44 wt% PET in soil,44.4,with,554.47,93.49014,2.3E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,559.47,93.47362,2.26E-10,1.72E-10
+4.44 wt% PET in soil,44.4,with,564.47,93.44059,2.23E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,569.47,93.42613,2.21E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,574.47,93.40136,2.19E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,579.47,93.38484,2.17E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,584.47,93.36006,2.15E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,589.47,93.33915,2.14E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,594.47,93.33116,2.12E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,599.47,93.30638,2.11E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,604.47,93.28987,2.1E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,609.47,93.27541,2.09E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,614.47,93.25488,2.08E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,619.47,93.24031,2.08E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,624.47,93.2238,2.07E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,629.47,93.21285,2.07E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,634.47,93.20315,2.07E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,639.47,93.18455,2.08E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,644.47,93.17635,2.08E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,649.47,93.16599,2.09E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,654.47,93.1536,2.1E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,659.47,93.14327,2.11E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,664.47,93.13708,2.12E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,669.47,93.12469,2.13E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,674.47,93.10611,2.14E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,679.47,93.09579,2.15E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,684.47,93.0834,2.16E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,689.47,93.07969,2.17E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,694.47,93.06069,2.19E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,699.47,93.04624,2.2E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,704.47,93.03592,2.22E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,709.47,93.02347,2.23E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,714.47,93.01114,2.25E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,719.47,93.00701,2.26E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,724.47,92.98843,2.28E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,729.47,92.97604,2.29E-10,1.71E-10
+4.44 wt% PET in soil,44.4,with,734.47,92.96365,2.3E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,739.47,92.95333,2.31E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,744.47,92.943,2.31E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,749.47,92.92649,2.31E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,754.47,92.90997,2.31E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,759.47,92.90377,2.31E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,764.47,92.89345,2.3E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,769.47,92.88106,2.28E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,774.47,92.86248,2.27E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,779.47,92.85629,2.25E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,784.47,92.84183,2.22E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,789.47,92.83151,2.2E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,794.47,92.82532,2.18E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,799.47,92.8088,2.16E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,804.47,92.79597,2.14E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,809.47,92.78815,2.12E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,814.47,92.7737,2.1E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,819.47,92.76957,2.09E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,824.47,92.75072,2.08E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,829.47,92.7386,2.08E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,834.47,92.72415,2.08E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,839.47,92.71383,2.09E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,844.47,92.69937,2.09E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,849.47,92.68492,2.11E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,854.47,92.6684,2.12E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,859.47,92.66427,2.13E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,864.47,92.66014,2.15E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,869.47,92.65189,2.16E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,874.47,92.64156,2.17E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,879.47,92.62918,2.18E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,884.47,92.61679,2.19E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,889.47,92.60233,2.19E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,894.47,92.58582,2.19E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,899.47,92.57136,2.19E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,904.47,92.56322,2.18E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,909.47,92.54865,2.17E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,914.47,92.53833,2.15E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,919.47,92.52181,2.14E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,924.47,92.50323,2.11E-10,1.7E-10
+4.44 wt% PET in soil,44.4,with,929.47,92.49704,2.09E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,934.47,92.48052,2.07E-10,1.69E-10
+4.44 wt% PET in soil,44.4,with,939.47,92.47226,2.04E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,944.47,92.4557,2.01E-10,1.68E-10
+4.44 wt% PET in soil,44.4,with,949.47,92.44336,1.98E-10,1.67E-10
+4.44 wt% PET in soil,44.4,with,954.47,92.42064,1.95E-10,1.66E-10
+4.44 wt% PET in soil,44.4,with,959.47,92.40814,1.92E-10,1.65E-10
+4.44 wt% PET in soil,44.4,with,964.47,92.38809,1.9E-10,1.64E-10
+4.44 wt% PET in soil,44.4,with,969.47,92.37109,1.87E-10,1.63E-10
+4.44 wt% PET in soil,44.4,with,974.47,92.35871,1.86E-10,1.62E-10
+4.44 wt% PET in soil,44.4,with,979.47,92.34425,1.86E-10,1.6E-10
+4.44 wt% PET in soil,44.4,with,984.47,92.32773,1.87E-10,1.58E-10

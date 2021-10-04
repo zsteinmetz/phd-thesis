@@ -1,0 +1,19 @@
+dsc-summary.csv
+===============
+
+TGA/MS summary data of the agricultural plastic covers
+
+Format
+------
+
+The table contains 8 columns with information on
+
+ID                      unique identifier
+File                    file number
+Sample                  sample name
+TG                      glass transition temperature [°C]; cycle 3
+TCC                     cold crystallization by heating [°C]; cycle 1 (erasing
+                        thermal history)
+TCH                     crystallization by cooling [°C]; cycle 2 (cooling after
+                        cycle 1)
+TM                      melting point [°C]; cycle 3 (heating after cycle 2)

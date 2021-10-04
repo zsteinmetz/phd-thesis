@@ -1,0 +1,30 @@
+9.23 | 9.327 | 1,13-Tetradecadiene | 021964-49-8 |  | Polyethylene |  |  | Styrene-d5
+9.317 | 9.457 | 1-Tetradecene | 001120-36-1 |  | Polyethylene |  |  | Styrene-d5
+9.447 | 9.53 | Tetradecane | 000629-59-4 |  | Polyethylene |  |  | Styrene-d5
+10.82 | 10.937 | 1,14-Pentadecadiene | 021964-50-1 |  | Polyethylene |  |  | Styrene-d5
+10.917 | 11.057 | 1-Pentadecene | 013360-61-7 |  | Polyethylene |  |  | Styrene-d5
+11.027 | 11.15 | Pentadecane | 000629-62-9 |  | Polyethylene |  |  | Styrene-d5
+12.307 | 12.447 | 1,15-Hexadecadiene | 021964-51-2 | quantifiable | Polyethylene |  |  | Styrene-d5
+12.417 | 12.557 | 1-Hexadecene | 113032-42-1 |  | Polyethylene |  |  | Styrene-d5
+12.517 | 12.657 | Hexadecane | 000544-76-3 |  | Polyethylene |  |  | Styrene-d5
+13.76 | 13.877 | 1,16-Heptadecadiene | 021964-52-3 | quantifiable | Polyethylene |  |  | Styrene-d5
+13.847 | 13.987 | 1-Heptadecene | 006765-39-5 |  | Polyethylene |  |  | Styrene-d5
+13.947 | 14.087 | Heptadecane | 000629-78-7 |  | Polyethylene |  |  | Styrene-d5
+15.17 | 15.257 | 1,17-Octadecadiene | 013560-93-5 | quantifiable | Polyethylene |  |  | Styrene-d5
+15.207 | 15.347 | 1-Octadecene | 000112-88-9 |  | Polyethylene |  |  | Styrene-d5
+15.297 | 15.40 | Octadecane | 000593-45-3 |  | Polyethylene |  |  | Styrene-d5
+16.447 | 16.517 | 1,18-Nonadecadiene | 136561-92-7 | quantifiable | Polyethylene |  |  | Styrene-d5
+16.537 | 16.607 | 1-Nonadecene | 18435-45-5 |  | Polyethylene |  |  | Styrene-d5
+16.647 | 16.737 | Nonadecane | 629-92-5 |  | Polyethylene |  |  | Styrene-d5
+17.687 | 17.767 | 1,19-Icosadiene | 14811-95-1 | quantifiable | Polyethylene |  |  | Styrene-d5
+17.777 | 17.847 | 1-Icosene | 3452-07-01 |  | Polyethylene |  |  | Styrene-d5
+17.917 | 17.997 | Icosane | 112-95-8 |  | Polyethylene |  |  | Styrene-d5
+18.855 | 18.957 | 1,20-Henicosadiene | 23592-02-01 | quantifiable | Polyethylene |  |  | Styrene-d5
+18.957 | 19.027 | 1-Henicosene | 27400-79-9 |  | Polyethylene |  |  | Styrene-d5
+19.077 | 19.167 | Henicosane | 629-94-7 |  | Polyethylene |  |  | Styrene-d5
+19.997 | 20.087 | 1,21-Docosadiene | 53057-53-7 | quantifiable | Polyethylene |  |  | Styrene-d5
+20.097 | 20.157 | 1-Docosene | 1599-67-3 |  | Polyethylene |  |  | Styrene-d5
+20.207 | 20.297 | Docosane | 629-97-0 |  | Polyethylene |  |  | Styrene-d5
+21.097 | 21.187 | 1,22-Tricosadiene | 146860-81-3 | quantifiable | Polyethylene |  |  | Styrene-d5
+21.197 | 21.247 | 1-Tricosene | 18835-32-0 |  | Polyethylene |  |  | Styrene-d5
+21.257 | 21.297 | Tricosane | 638-67-5 |  | Polyethylene |  |  | Styrene-d5

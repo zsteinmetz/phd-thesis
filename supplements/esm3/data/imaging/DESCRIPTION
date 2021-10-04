@@ -1,0 +1,49 @@
+ftir
+====
+
+FTIR–ATR measurements of suspect items found on the field and agricultural
+plastic covers
+
+See samples.csv for details on sample names and results
+
+General format
+--------------
+
+The .csv files contain information on
+
+wavenumber              wavenumber [/cm]
+intensity               signal intensity
+
+.asp files are accessible via OpenSpecy (www.openspecy.org)
+
+
+photographs
+===========
+
+.tif images taken of the suspect items
+
+See samples.csv for details on sample names and results
+
+
+samples.csv
+===========
+
+List of FTIR samples
+
+Format
+--------------
+
+The table contains 11 columns with information on
+
+Site                    site number
+Cover                   agricultural cover on site
+Transect                predefined field transect
+Field replicate         no. of field replicate
+Row                     plant or track row
+Image file              file name corresponding to the FTIR and image files
+FTIR match 1            First FTIR match from the OpenSpecy library
+r1                      Pearson's r of the first match
+FTIR match 2            Second FTIR match from the OpenSpecy library
+r2                      Pearson's r of the second match
+FTIR match 3            Third FTIR match from the OpenSpecy library
+r3                      Pearson's r of the third match

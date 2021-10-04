@@ -1,0 +1,253 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ASCII Report
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Name: Pyro_Plast-109
+Data Name: 
+Operator: Xcalibur_System
+Date: 2019/06/22
+Info: 
+Misc: 
+Misc (separated): 
+Details: 
+Scans: 7615
+Start RT (min): 4.00128
+Stop RT (min): 33.99922
+Barcode: 
+
+>>>
+
+Operator: Xcalibur_System
+Misc Info: 
+Sample Weight: 0.0
+Data Name: 
+Barcode: 
+Detailed Info: 
+Sample Group: 
+Sample Weight Unit: 
+Misc Info Separated: 
+Date: 2019/06/22 20:59:02
+Short Info: 
+Barcode Type: 
+------------------------------
+
+NAME: Pyro_Plast-109
+TYPE: MSD
+------------------------------
+Integrated Chromatogram Area: 0.0
+Integrated Background Area: 0.0
+Integrated Peak Area: 693869503.92819
+
+
+PEAK LIST OVERVIEW
+------------------------------
+[#]	RT (Min)	RI	Start RT (Min)	Stop RT (Min)	Tailing	Width (at 50% peak height by inflection points)	Integrated Area	S/N	Leading	Tailing	Scan #	Purity	Integrator	Detector	Model	m/z ...
+[1]	4.90258	837.88324	4.85547	4.93802	1.77154	0.04112	8690851.9787	498.1738	0.56448	1.77154	230	1.0	Integrator Trapezoid	Peak Detector First Derivative		70.0 126.0 ...
+[2]	5.00102	843.11627	4.94192	5.30417	1.09865	0.09102	26314494.92806	572.40454	0.9102	1.09865	255	1.0	Integrator Trapezoid	Peak Detector First Derivative		70.0 126.0 ...
+[3]	5.89868	890.83911	5.84765	6.40258	1.56061	0.02973	559482945.52882	34184.16016	0.64078	1.56061	482	1.0	Integrator Trapezoid	Peak Detector First Derivative		104.0 78.0 ...
+[4]	6.54425	923.3819	6.52057	6.5875	1.29035	0.0255	419070.45277	34.42923	0.77498	1.29035	646	1.0	Integrator Trapezoid	Peak Detector First Derivative		78.0 104.0 ...
+[5]	7.72135	981.53906	7.68593	7.8039	1.62014	0.02868	8184803.96281	496.21384	0.61723	1.62014	944	1.0	Integrator Trapezoid	Peak Detector First Derivative		118.0 103.0 ...
+[6]	8.00467	995.53687	7.97317	8.08333	1.34963	0.04138	1004323.04	47.99077	0.74094	1.34963	1016	1.0	Integrator Trapezoid	Peak Detector First Derivative		118.0 103.0 ...
+[7]	9.22108	1056.72961	9.18932	9.3625	1.30682	0.02443	2188815.66771	157.02309	0.76522	1.30682	1325	1.0	Integrator Trapezoid	Peak Detector First Derivative		103.0 118.0 ...
+[8]	10.85805	1141.38562	10.83852	10.96458	1.28716	0.02508	570521.24329	40.41539	0.7769	1.28716	1741	1.0	Integrator Trapezoid	Peak Detector First Derivative		118.0 103.0 ...
+[9]	11.54297	1177.81738	11.49973	11.70442	3.11684	0.05025	9125831.95553	305.79077	0.32084	3.11684	1915	1.0	Integrator Trapezoid	Peak Detector First Derivative		118.0 103.0 ...
+[10]	13.5112	1287.3916	13.48775	13.53098	4.90758	0.0592	353822.84772	30.14308	0.20377	4.90758	2414	1.0	Integrator Trapezoid	Peak Detector First Derivative		69.0 111.0 ...
+[11]	13.5664	1290.50146	13.5388	13.60963	1.1254	0.02448	1771374.86229	146.84154	0.88857	1.1254	2428	1.0	Integrator Trapezoid	Peak Detector First Derivative		69.0 111.0 ...
+[12]	13.64505	1294.93237	13.61353	13.66483	2.20837	0.03765	932662.73914	77.95538	0.45282	2.20837	2448	1.0	Integrator Trapezoid	Peak Detector First Derivative		111.0 69.0 ...
+[13]	13.70417	1298.26294	13.66875	13.8065	1.23506	0.02633	19668175.52925	1480.78162	0.80968	1.23506	2463	1.0	Integrator Trapezoid	Peak Detector First Derivative		69.0 111.0 ...
+[14]	13.85363	1307.09949	13.81042	13.93255	1.39454	0.02923	10899213.37312	761.13232	0.71708	1.39454	2501	1.0	Integrator Trapezoid	Peak Detector First Derivative		69.0 111.0 ...
+[15]	13.9914	1315.34412	13.95208	14.0703	1.20182	0.02687	15770499.12901	1190.14465	0.83207	1.20182	2536	1.0	Integrator Trapezoid	Peak Detector First Derivative		69.0 111.0 ...
+[16]	14.444	1342.42969	14.4125	14.48723	1.08147	0.02413	2903498.03023	248.37692	0.92467	1.08147	2651	1.0	Integrator Trapezoid	Peak Detector First Derivative		69.0 111.0 ...
+[17]	14.87733	1368.3623	14.84972	14.93227	0.95191	0.02368	1038043.62343	89.52769	1.05052	0.95191	2760	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[18]	15.11353	1382.49756	15.09375	15.14113	1.09728	0.01997	323972.68757	34.83692	0.91135	1.09728	2820	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[19]	15.24322	1390.2583	15.21978	15.29062	1.17122	0.02208	596841.96971	55.17231	0.85381	1.17122	2853	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[20]	15.53853	1408.37231	15.51483	15.58958	1.20606	0.0236	429941.80084	37.05692	0.82915	1.20606	2928	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[21]	16.56562	1473.25439	16.53827	16.61302	1.07011	0.02598	624476.96567	48.07539	0.93448	1.07011	3189	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[22]	16.71537	1482.71423	16.69167	16.75858	0.85389	0.02937	670145.52983	50.33538	1.17112	0.85389	3227	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[23]	16.82942	1489.91895	16.80987	16.86093	1.11719	0.02008	495761.65229	52.10769	0.8951	1.11719	3256	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[24]	17.82135	1555.71289	17.79375	17.88828	1.06343	0.0232	850594.33086	72.1123	0.94036	1.06343	3508	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[25]	18.23463	1583.37573	18.19922	18.27787	0.92478	0.02583	1187432.46057	92.45077	1.08134	0.92478	3613	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[26]	18.33695	1590.22424	18.31328	18.36042	0.75377	0.02158	350001.32441	34.30769	1.32667	0.75377	3639	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[27]	18.63982	1611.02795	18.60857	18.71093	0.94783	0.0287	969915.04131	67.68	1.05504	0.94783	3716	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[28]	19.66328	1683.00159	19.64375	19.72238	1.02282	0.023	505266.737	43.89846	0.97769	1.02282	3976	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[29]	19.76562	1690.19812	19.74192	19.80885	1.46251	0.02707	470627.10026	38.74308	0.68376	1.46251	4002	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[30]	20.16745	1719.4408	20.13593	20.26978	1.09723	0.02597	1764107.3996	129.8123	0.91138	1.09723	4103	1.0	Integrator Trapezoid	Peak Detector First Derivative		91.0 208.0 ...
+[31]	20.63203	1753.85437	20.5927	20.69113	0.85176	0.03367	1090321.81491	66.15076	1.17404	0.85176	4220	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[32]	21.04922	1784.75684	21.00988	21.0888	1.01184	0.03618	936309.14	47.81692	0.9883	1.01184	4326	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[33]	21.12005	1790.00366	21.0927	21.15937	1.1637	0.02363	1177298.84563	98.55693	0.85933	1.1637	4344	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[34]	21.19895	1795.84814	21.17917	21.23437	0.87131	0.02587	589053.01	50.32615	1.14769	0.87131	4364	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[35]	21.44297	1814.61633	21.41537	21.4862	1.09543	0.0242	816804.8182	72.04768	0.91288	1.09543	4426	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[36]	22.33255	1883.79077	22.31275	22.36797	1.01388	0.02152	340861.71718	33.08461	0.98631	1.01388	4652	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[37]	22.74583	1916.66663	22.71822	22.79297	0.7475	0.0291	705570.31514	52.23077	1.3378	0.7475	4757	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[38]	23.86745	2008.25146	23.84375	23.91067	1.19429	0.02635	580457.38457	46.31077	0.83731	1.19429	5042	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[39]	23.98567	2018.26135	23.95807	24.04062	0.96059	0.0258	1245115.92882	94.63383	1.04103	0.96059	5072	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[40]	24.72552	2080.90747	24.69398	24.75312	1.63485	0.02787	1163136.7638	90.42001	0.61168	1.63485	5260	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[41]	26.29218	2219.32983	26.26458	26.34738	1.63551	0.03368	805200.77487	50.06461	0.61143	1.63551	5658	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[42]	26.99662	2284.73682	26.97317	27.02812	1.20297	0.02202	400216.32171	37.23692	0.83128	1.20297	5837	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[43]	27.0677	2291.33716	27.03203	27.16588	0.95461	0.02553	2181003.40484	153.07077	1.04755	0.95461	5855	1.0	Integrator Trapezoid	Peak Detector First Derivative		82.0 95.0 ...
+[44]	28.57917	2437.5293	28.54375	28.63047	1.19059	0.0246	3280119.79672	278.65692	0.83992	1.19059	6238	1.0	Integrator Trapezoid	Peak Detector First Derivative		91.0 207.0 ...
+
+
+PEAK INTEGRATION RESULTS
+------------------------------
+[#]	m/z (0 = TIC or SUM XIC))	Integrated Area
+[1]	TIC	8690851.9787
+[2]	TIC	26314494.92806
+[3]	TIC	559482945.52882
+[4]	TIC	419070.45277
+[5]	TIC	8184803.96281
+[6]	TIC	1004323.04
+[7]	TIC	2188815.66771
+[8]	TIC	570521.24329
+[9]	TIC	9125831.95553
+[10]	TIC	353822.84772
+[11]	TIC	1771374.86229
+[12]	TIC	932662.73914
+[13]	TIC	19668175.52925
+[14]	TIC	10899213.37312
+[15]	TIC	15770499.12901
+[16]	TIC	2903498.03023
+[17]	TIC	1038043.62343
+[18]	TIC	323972.68757
+[19]	TIC	596841.96971
+[20]	TIC	429941.80084
+[21]	TIC	624476.96567
+[22]	TIC	670145.52983
+[23]	TIC	495761.65229
+[24]	TIC	850594.33086
+[25]	TIC	1187432.46057
+[26]	TIC	350001.32441
+[27]	TIC	969915.04131
+[28]	TIC	505266.737
+[29]	TIC	470627.10026
+[30]	TIC	1764107.3996
+[31]	TIC	1090321.81491
+[32]	TIC	936309.14
+[33]	TIC	1177298.84563
+[34]	TIC	589053.01
+[35]	TIC	816804.8182
+[36]	TIC	340861.71718
+[37]	TIC	705570.31514
+[38]	TIC	580457.38457
+[39]	TIC	1245115.92882
+[40]	TIC	1163136.7638
+[41]	TIC	805200.77487
+[42]	TIC	400216.32171
+[43]	TIC	2181003.40484
+[44]	TIC	3280119.79672
+
+
+SCAN IDENTIFICATION RESULTS
+------------------------------
+Scan identification results are not available.
+
+
+PEAK IDENTIFICATION RESULTS
+------------------------------
+[#]	Name	CAS	MatchFactor	ReverseMatchFactor	Formula	Mol Weight	Probability	Advise	Identifier	Miscellaneous	Comments
+---
+[1]	2,4-Dimethyl-1-heptene	19549-87-2	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[3]	Styrene	100-42-5	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[5]	α-Methylstyrene	98-83-9	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[9]	1,2,4-Trichlorobenzene	120-82-1	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[14]	2,4,6-Trimethyl-1-nonene (isotactic)	55771-40-9	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[15]	2,4,6-Trimethyl-1-nonene (heterotactic)	55771-40-9	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[18]	1,13-Tetradecadiene	021964-49-8	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[19]	1-Tetradecene	001120-36-1	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[22]	1,14-Pentadecadiene	021964-50-1	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[23]	1-Pentadecene	013360-61-7	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[25]	1,15-Hexadecadiene	021964-51-2	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[26]	1-Hexadecene	113032-42-1	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[28]	1,16-Heptadecadiene	021964-52-3	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[29]	1-Heptadecene	006765-39-5	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[32]	1,17-Octadecadiene	013560-93-5	100.0	100.0		0.0	0.0		Template Peak Identifier		quantifiable
+---
+[33]	1-Octadecene	000112-88-9	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[34]	Octadecane	000593-45-3	100.0	100.0		0.0	0.0		Template Peak Identifier		
+---
+[44]	2,4,6-Triphenyl-1-hexene	18964-53-9	100.0	100.0		0.0	0.0		Template Peak Identifier		
+
+
+BACKGROUND INTEGRATION RESULTS
+------------------------------
+Background integration results are not available.
+
+
+CHROMATOGRAM INTEGRATION RESULTS
+------------------------------
+Chromatogram integration results are not available.
+
+
+CHROMATOGRAM IDENTIFICATION RESULTS
+------------------------------
+Chromatogram identification results are not available.
+
+
+PEAK QUANTITATION RESULTS
+------------------------------
+[#]	Name	ChemicalClass	Concentration	ConcentrationUnit	Area	Description	Ion
+
+
+PEAK QUANTITATION SUMMARY
+------------------------------
+RT (Minutes)	Area
+4.90258	8690851.9787
+5.00102	26314494.92806
+5.89868	559482945.52882
+6.54425	419070.45277
+7.72135	8184803.96281
+8.00467	1004323.04
+9.22108	2188815.66771
+10.85805	570521.24329
+11.54297	9125831.95553
+13.5112	353822.84772
+13.5664	1771374.86229
+13.64505	932662.73914
+13.70417	19668175.52925
+13.85363	10899213.37312
+13.9914	15770499.12901
+14.444	2903498.03023
+14.87733	1038043.62343
+15.11353	323972.68757
+15.24322	596841.96971
+15.53853	429941.80084
+16.56562	624476.96567
+16.71537	670145.52983
+16.82942	495761.65229
+17.82135	850594.33086
+18.23463	1187432.46057
+18.33695	350001.32441
+18.63982	969915.04131
+19.66328	505266.737
+19.76562	470627.10026
+20.16745	1764107.3996
+20.63203	1090321.81491
+21.04922	936309.14
+21.12005	1177298.84563
+21.19895	589053.01
+21.44297	816804.8182
+22.33255	340861.71718
+22.74583	705570.31514
+23.86745	580457.38457
+23.98567	1245115.92882
+24.72552	1163136.7638
+26.29218	805200.77487
+26.99662	400216.32171
+27.0677	2181003.40484
+28.57917	3280119.79672
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

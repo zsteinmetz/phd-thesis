@@ -1,0 +1,19 @@
+tga-summary.csv
+===============
+
+TGA/MS summary data of the agricultural plastic covers
+
+Format
+------
+
+The table contains 9 columns with information on
+
+ID                      unique identifier
+File                    file number
+Sample                  sample name
+Mass                    sample mass [mg]
+Deg                     degradation onset [°C]
+mz55                    m/z 55 peak area
+mz55norm                m/z 55 normalized to the sample mass [/mg]
+mz104                   m/z 104 peak area
+mz104norm               m/z 104 normalized to the sample mass [/mg]

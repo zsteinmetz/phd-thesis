@@ -1,0 +1,64 @@
+Sample Name,Soil,Polymer,Extraction agent,Rep,Extract,Soil mass,Target content,Target weight,Actual weight,Actual content,Dilution
+ZS-1400,Blank,Polyethylene,TCB/xylene,1,7.76,0,0,0,0,#DIV/0!,1.02
+ZS-1401,Reference,Polyethylene,TCB/xylene,1,7.76,0,0,100,112,#DIV/0!,1.02
+ZS-1402,Reference,Polyethylene,TCB/xylene,1,7.76,0,0,1000,1063.4,#DIV/0!,1.02
+ZS-1403,LUFA 2.2,Polyethylene,TCB/xylene,1,7.76,50.009,0,0,0,0,1.02
+ZS-1404,LUFA 2.2,Polyethylene,TCB/xylene,2,7.76,50.004,0,0,0,0,1.02
+ZS-1405,LUFA 2.2,Polyethylene,TCB/xylene,3,7.76,50.101,0,0,0,0,1.02
+ZS-1406,LUFA 2.2,Polyethylene,TCB/xylene,1,7.76,50.219,2,100,96.1,1.9136183516199,1.02
+ZS-1407,LUFA 2.2,Polyethylene,TCB/xylene,2,7.76,50.17,2,100,120.3,2.39784731911501,1.02
+ZS-1408,LUFA 2.2,Polyethylene,TCB/xylene,3,7.76,50.058,2,100,99.2,1.98170122657717,1.02
+ZS-1409,LUFA 2.2,Polyethylene,TCB/xylene,1,7.76,50.081,20,1000,1028.5,20.5367304965955,1.02
+ZS-1410,LUFA 2.2,Polyethylene,TCB/xylene,2,7.76,50.01,20,1000,1063.3,21.2617476504699,1.02
+ZS-1411,LUFA 2.2,Polyethylene,TCB/xylene,3,7.76,50.346,20,1000,1125.9,22.3632463353593,1.02
+ZS-1412,RefeSol 06-A,Polyethylene,TCB/xylene,1,7.76,50.008,0,0,0,0,1.02
+ZS-1413,RefeSol 06-A,Polyethylene,TCB/xylene,2,7.76,50,0,0,0,0,1.02
+ZS-1414,RefeSol 06-A,Polyethylene,TCB/xylene,3,7.76,50.11,0,0,0,0,1.02
+ZS-1415,RefeSol 06-A,Polyethylene,TCB/xylene,1,7.76,50,2,100,131,2.62,1.02
+ZS-1416,RefeSol 06-A,Polyethylene,TCB/xylene,2,7.76,50,2,100,90,1.8,1.02
+ZS-1417,RefeSol 06-A,Polyethylene,TCB/xylene,3,7.76,50,2,100,127,2.54,1.02
+ZS-1418,RefeSol 06-A,Polyethylene,TCB/xylene,1,7.76,50,20,1000,1008,20.16,1.02
+ZS-1419,RefeSol 06-A,Polyethylene,TCB/xylene,2,7.76,50,20,1000,1041,20.82,1.02
+ZS-1420,RefeSol 06-A,Polyethylene,TCB/xylene,3,7.76,50,20,1000,1097.5,21.95,1.02
+ZS-1400,Blank,Polypropylene,TCB/xylene,1,7.76,0,0,0,0,#DIV/0!,1.02
+ZS-1401,Reference,Polypropylene,TCB/xylene,1,7.76,0,0,100,116,#DIV/0!,1.02
+ZS-1402,Reference,Polypropylene,TCB/xylene,1,7.76,0,0,1000,1147,#DIV/0!,1.02
+ZS-1403,LUFA 2.2,Polypropylene,TCB/xylene,1,7.76,50.009,0,0,0,0,1.02
+ZS-1404,LUFA 2.2,Polypropylene,TCB/xylene,2,7.76,50.004,0,0,0,0,1.02
+ZS-1405,LUFA 2.2,Polypropylene,TCB/xylene,3,7.76,50.101,0,0,0,0,1.02
+ZS-1406,LUFA 2.2,Polypropylene,TCB/xylene,1,7.76,50.219,2,100,136.3,2.71411218861387,1.02
+ZS-1407,LUFA 2.2,Polypropylene,TCB/xylene,2,7.76,50.17,2,100,111.1,2.21447079928244,1.02
+ZS-1408,LUFA 2.2,Polypropylene,TCB/xylene,3,7.76,50.058,2,100,101.2,2.02165488033881,1.02
+ZS-1409,LUFA 2.2,Polypropylene,TCB/xylene,1,7.76,50.081,20,1000,996.3,19.8937720892155,1.02
+ZS-1410,LUFA 2.2,Polypropylene,TCB/xylene,2,7.76,50.01,20,1000,1081.6,21.627674465107,1.02
+ZS-1411,LUFA 2.2,Polypropylene,TCB/xylene,3,7.76,50.346,20,1000,968.3,19.2329082747388,1.02
+ZS-1412,RefeSol 06-A,Polypropylene,TCB/xylene,1,7.76,50.008,0,0,0,0,1.02
+ZS-1413,RefeSol 06-A,Polypropylene,TCB/xylene,2,7.76,50,0,0,0,0,1.02
+ZS-1414,RefeSol 06-A,Polypropylene,TCB/xylene,3,7.76,50.11,0,0,0,0,1.02
+ZS-1415,RefeSol 06-A,Polypropylene,TCB/xylene,1,7.76,50,2,100,94,1.88,1.02
+ZS-1416,RefeSol 06-A,Polypropylene,TCB/xylene,2,7.76,50,2,100,122,2.44,1.02
+ZS-1417,RefeSol 06-A,Polypropylene,TCB/xylene,3,7.76,50,2,100,109,2.18,1.02
+ZS-1418,RefeSol 06-A,Polypropylene,TCB/xylene,1,7.76,50,20,1000,972.1,19.442,1.02
+ZS-1419,RefeSol 06-A,Polypropylene,TCB/xylene,2,7.76,50,20,1000,1084.2,21.684,1.02
+ZS-1420,RefeSol 06-A,Polypropylene,TCB/xylene,3,7.76,50,20,1000,996,19.92,1.02
+ZS-1400,Blank,Polystyrene,TCB/xylene,1,7.76,0,0,0,0,#DIV/0!,1.02
+ZS-1401,Reference,Polystyrene,TCB/xylene,1,7.76,0,0,100,114,#DIV/0!,1.02
+ZS-1402,Reference,Polystyrene,TCB/xylene,1,7.76,0,0,1000,1025,#DIV/0!,1.02
+ZS-1403,LUFA 2.2,Polystyrene,TCB/xylene,1,7.76,50.009,0,0,0,0,1.02
+ZS-1404,LUFA 2.2,Polystyrene,TCB/xylene,2,7.76,50.004,0,0,0,0,1.02
+ZS-1405,LUFA 2.2,Polystyrene,TCB/xylene,3,7.76,50.101,0,0,0,0,1.02
+ZS-1406,LUFA 2.2,Polystyrene,TCB/xylene,1,7.76,50.219,2,100,115,2.28996993169916,1.02
+ZS-1407,LUFA 2.2,Polystyrene,TCB/xylene,2,7.76,50.17,2,100,114.4,2.28024715965717,1.02
+ZS-1408,LUFA 2.2,Polystyrene,TCB/xylene,3,7.76,50.058,2,100,124.6,2.48911262934995,1.02
+ZS-1409,LUFA 2.2,Polystyrene,TCB/xylene,1,7.76,50.081,20,1000,1066.8,21.3014915836345,1.02
+ZS-1410,LUFA 2.2,Polystyrene,TCB/xylene,2,7.76,50.01,20,1000,1036.7,20.7298540291942,1.02
+ZS-1411,LUFA 2.2,Polystyrene,TCB/xylene,3,7.76,50.346,20,1000,1035.4,20.5656854566401,1.02
+ZS-1412,RefeSol 06-A,Polystyrene,TCB/xylene,1,7.76,50.008,0,0,0,0,1.02
+ZS-1413,RefeSol 06-A,Polystyrene,TCB/xylene,2,7.76,50,0,0,0,0,1.02
+ZS-1414,RefeSol 06-A,Polystyrene,TCB/xylene,3,7.76,50.11,0,0,0,0,1.02
+ZS-1415,RefeSol 06-A,Polystyrene,TCB/xylene,1,7.76,50,2,100,99,1.98,1.02
+ZS-1416,RefeSol 06-A,Polystyrene,TCB/xylene,2,7.76,50,2,100,117,2.34,1.02
+ZS-1417,RefeSol 06-A,Polystyrene,TCB/xylene,3,7.76,50,2,100,134,2.68,1.02
+ZS-1418,RefeSol 06-A,Polystyrene,TCB/xylene,1,7.76,50,20,1000,1012,20.24,1.02
+ZS-1419,RefeSol 06-A,Polystyrene,TCB/xylene,2,7.76,50,20,1000,1048.7,20.974,1.02
+ZS-1420,RefeSol 06-A,Polystyrene,TCB/xylene,3,7.76,50,20,1000,1009.8,20.196,1.02

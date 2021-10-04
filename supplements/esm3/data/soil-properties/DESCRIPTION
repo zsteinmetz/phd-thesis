@@ -1,0 +1,71 @@
+CN.csv
+======
+
+Soil carbon and nitrogen
+
+Format
+------
+
+The table contains 10 columns with information on
+
+Series                  name of the measurement Series
+No                      sample number
+Site                    site number
+Replicate               replicate number
+Type                    measurement type
+SDateTime               measurement date [YYYY-MM-DD]
+Position                sample position in device
+Method                  analysis method
+N                       nitrogen content [%]
+C                       carbon content [%]
+
+
+EC.csv
+======
+
+Soil electric conductivity, measured in deionized water
+
+Format
+------
+
+The table contains 3 columns with information on
+
+Site                    site number
+Date                    measurement date [YYYY-MM-DD]
+EC                      electric conductivity [µS/cm]
+
+
+pH.csv
+======
+
+Soil pH, measured in 0.01 M CaCl2 solution
+
+Format
+------
+
+The table contains 3 columns with information on
+
+Site                    site number
+Replicate               replicate number
+Date                    measurement date [YYYY-MM-DD]
+EC                      pH
+
+
+texture.txt
+===========
+
+Raw data on soil texture measurements obtained using the hydrometer method in
+accordance with ASTM D422-63 (2007)
+
+Format
+------
+
+The table contains 7 columns with information on
+
+Site                    site number
+Replicate               replicate number
+Date                    measurement date [YYYY-MM-DD]
+Time                    time passed after starting sedimentation [min]
+Hydrometer              hydrometer reading
+Blank                   respective blank measured in deionized water
+Temp                    ambient temperature [°C]

@@ -1,0 +1,176 @@
+chromatograms
+=============
+
+TD- and Py-GC/MS raw data (Pyro_Plast-263 to Pyro_Plast-279)
+Solvent-based Py-GC/MS raw data (Pyro_PlastSolve-468 to Pyro_PlastSolve-932)
+
+See seqtable.csv for details on sample names and methods used
+
+General format
+--------------
+
+The CSV files contain information on
+
+RT(milliseconds)        retention time [ms]
+RT(minutes)             retention time [min]
+RI                      retention index
+##                      intensities per m/z
+
+.ocb files are accessible via OpenChrom
+(https://lablicate.com/platform/openchrom)
+
+
+meth
+====
+
+Method files instrumental and processing method files
+
+File types
+----------
+
+ID                      unique identifier
+*.m6200                 XML file containing the pyrolysis method (CDS
+                        Analytical, Pyroprobe 6200)
+*.meth                  proprietary Thermo Xcalibur 2.1 file for GC/MS methods
+*.ocm                   OpenChrom (version 1.4) processing method
+
+
+reports
+=======
+
+OpenChrom reports summarizing all identified and integrated peaks per
+measurement
+
+See seqtable.csv for details on sample names and methods used
+
+
+targets
+=======
+
+List of PE, PP, and PS target compounds with retention times and CAS numbers to
+be used with the OpenChrom template identifier
+Ref and PS-d5 denote pyrolysis products of the internal standard
+
+General format
+--------------
+
+The table contains 9 columns with information on
+
+Start retention time    [min]
+End retention time      [min]
+Target name
+CAS number
+Comment
+Contributor
+Reference identifier
+Masses
+Peak Reference
+
+In addition, the folder contains .cal files used for the calculations of
+retention indices
+
+
+field-samples.csv
+=================
+
+Sample list of all field samples
+
+Format
+------
+
+The table contains 18 columns with information on
+
+ID                      unique identifier
+Site                    site number
+Location                site location
+Cover                   agricultural cover on site
+Material                polymer of the respective agricultural cover
+Cultivation             cultivation planted
+Sampling date           sampling date [YYYY-MM-DD]
+Transect                predefined field transect
+Field replicate         no. of field replicate
+Row                     plant or track row
+Sample Name             unique sample name (see also seqtable.csv)
+Separation CW           calendar week of separation
+Separation day          week day of separation
+Soil mass               soil mass [g]
+Comment                 additional comments
+Density solution        volume of added density solution [mL]
+Extract                 volume of added extraction mixture [mL]
+Dilution                dilution factor (due to the addition of internal
+                        standard)
+
+
+interferences.csv
+===========
+
+Sample list of interference tests
+
+Format
+------
+
+The table contains 12 columns with information on
+
+Sample Name             unique identifier
+Soil                    soil type
+Polymer                 polymer added
+Extraction agent        extraction agent(s) used
+Rep                     replicate number
+Extract                 dispensed extract volume [mL]
+Soil mass               soil mass [g]
+PVC                     added PVC [µg]
+PMMA                    added PMMA [µg]
+PET                     added PET [µg]
+TWD                     added tire wear debris [µg]
+Dilution                dilution factor (due to the addition of internal
+                        standard)
+
+
+recovery.csv
+===========
+
+Sample list of recovery tests
+
+Format
+------
+
+The table contains 12 columns with information on
+
+Sample Name             unique identifier
+Soil                    soil type
+Polymer                 polymer added
+Extraction agent        extraction agent(s) used
+Rep                     replicate number
+Extract                 dispensed extract volume [mL]
+Soil mass               soil mass [g]
+Target content          target polymer content [µg/g]
+Target weight           target polymer spike [µg]
+Actual weight           actual polymer spike [µg]
+Actual content          actual polymer content in spiked soil [µg/g]
+Dilution                dilution factor (due to the addition of internal
+                        standard)
+
+
+seqtable.csv
+============
+
+Sequence table containing all Py-GC/MS measurements
+
+Format
+------
+
+The table contains 12 columns with information on
+
+Sample Type             sample type
+File Name               file name
+Sample ID               unique sequence identifier
+Sample Name             sample name as given in field-samples.csv,
+						interferences.csv, or recovery.csv
+Dil Factor              additional dilution factor
+Inj Vol                 injection volume [µL]
+Position                tray position
+Comment                 comment
+Date                    acquisition date [YYYY-MM-DD]
+Instrument Method       instrument method from meth/
+Pyroprobe method        pyroprobe method from meth/
+Processing method       processing method from meth/

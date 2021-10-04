@@ -1,0 +1,200 @@
+% !TeX spellcheck = en_US
+
+\documentclass[justified,a4paper,
+	nofonts,
+	nobib
+]{tufte-handout}
+
+\title{Agricultural Plastic Covers---Source of Plastic Debris in Soil?}
+
+\author{Zacharias Steinmetz}
+
+\date{} % without \date command, current date is supplied
+
+%\geometry{showframe} % display margins for debugging page layout
+
+% A4 widths
+% \marginparwidth = 1.94525in
+% \textwidth = 4.21342in
+% \pagewidth = 6.29707in
+
+\usepackage{microtype}
+\usepackage{graphicx} % allow embedded images
+  \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+  \graphicspath{proposal/} % set of paths to search for images
+
+\usepackage{amsmath}  % extended mathematics
+\usepackage{amsthm}
+\usepackage{booktabs} % book-quality tables
+\usepackage{tabulary}
+\usepackage{multicol} % multiple column layout facilities
+\usepackage{units}    % non-stacked fractions and better unit spacing
+\usepackage[shortcuts]{extdash}
+\usepackage[inline]{enumitem}
+\usepackage{pgfgantt}
+\usepackage{siunitx}
+\usepackage{acro}
+\usepackage{chemmacros}
+\usepackage{chemfig}
+
+\usepackage[
+	backend=bibtex,
+	natbib=true,
+	style=ext-authoryear,
+	date=year,
+	maxnames=2,
+	maxbibnames=10,
+	dashed=false,
+	clearlang=false,
+	articlein=false,
+	hyperref=true,
+	giveninits=true,
+	uniquename=init
+]{biblatex}
+
+% Add bibliography
+\addbibresource{references.bib}
+
+\usetikzlibrary{backgrounds}
+
+\usepackage{fancyvrb} % extended verbatim environments
+\fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
+
+% Standardize command font styles and environments
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+
+% Custom options
+
+\input{options}
+\input{hypenation}
+\input{acronyms}
+
+\begin{document}
+
+\maketitle% this prints the handout title, author, and date
+
+\begin{abstract}
+\noindent\textit{Abstract}~~
+Agricultural fields are covered with plastic films to make crop growth more economical. While in use, however, plastic covers may emit plastic debris into the field’s surrounding. This pathway of plastic fate is still largely understudied due to the lack of analytical methods for the quantification of microplastics in soil.
+Within the scope of my dissertation, I aim to scrutinize the agricultural use of plastic covers and analytical methods for plastic analyses in order to develop a robust method for plastic quantification in agricultural soil. The new method will be applied in a field screening study to assess the extent of plastic pollution in and around fields covered with plastic films. Thereby, I intend to contribute to a better understanding of the occurrence and fate of plastic debris in terrestrial ecosystems.
+\end{abstract}
+
+\section{Scientific Background}\label{sec:background}
+
+Covering soil with plastic films has become a widely applied agricultural practice for its economic benefits such as improving crop yields and crop quality, managing harvest times, and increasing water use efficiency \citep{LamontPlastic1993}. The most common materials used are \ac{pe} foils and \ac{pp} fleeces in various thicknesses.
+Although made to last for \numrange{3}{5} years, wind, heavy machinery, animals, or \ac{uv} irradiation are likely to disintegrate parts of the plastic covers into particles smaller than \SI{5}{\milli\meter} \citep{Scarascia-MugnozzaPlastic2011}, called microplastics \citep{HartmannAre2019}. This supposition raised a discussion about agricultural plastic covers acting as a potential source of plastic debris in the environment \citep{HurleyFate2018}.
+However, the actual contribution of agricultural plastic covers to plastic pollution is virtually unknown and has not yet been discriminated from other potential sources like aerial deposition, littering, or tire debris \citep{HurleyFate2018}.
+
+Developing a better understanding of the occurrence and fate of plastic debris in the terrestrial environment requires analytical methods for reliable microplastic quantification \citep{BlasingPlastics2018,HeMicroplastics2018}.
+So far, the majority of studies have assessed microplastics in water or sediment, and mostly relied on optical detection by \ac{ftir} or Raman microspectroscopy \citep{RennerAnalytical2018}. Both techniques require extensive sample preparation to separate plastic particles from sample matrix without losing analyte \citep{HurleyValidation2018}. With more complex matrices such as soil or organic tissues, microplastic separation becomes increasingly tedious and prone to false detections from interfering matrix. While this complicates the quantification of plastic particles, optical techniques provide additional information on particle shapes and sizes. \citet{ScheurerMicroplastics2018} were the first who successfully developed and applied a method for the quantification of microplastics in soil using a combination of density separation and oxidative matrix digestion followed by \ac{ftir} spectroscopy. With their procedure, the authors obtained recoveries of \SIrange{93}{98}{\percent} and found plastic concentrations in Swiss floodplain soils averaging \SI{5}{\milli\gram\per\kilogram}. However, they did not state any \acp{lod} or \acp{loq}.
+
+An alternative approach is thermoanalytical techniques such as \ac{ted-gc-ms} \citep{DumichenFast2017} or \ac{py-gc-ms} \citep{FischerSimultaneous2017}. The methods are based on thermal decomposition of polymers and their quantification via characteristic pyrolysis products. In contrast to optical methods, thermoanalytical techniques are assumed to be more robust against impurities from sample matrix. However, interferences may occur when pyrolysis products in plastic and matrix are identical. In addition, thermoanalytical measurements are typically restricted to sample amounts of \SIrange{0.1}{100}{\milli\gram} which puts high requirements on sample homogeneity. This challenge might be overcome by combining simple sample preparation techniques as usually applied prior to optical detection with \ac{py-gc-ms}.
+
+\section{Research Objective}\label{sec:objective}
+
+With this dissertation project, I aim to contribute to a better process understanding of the fate of plastic debris in agricultural ecosystems by assessing to what extent agricultural plastic covers act as a source of plastic debris in soil.
+
+This
+\begin{enumerate*}
+	\item requires the development of a reliable method for a time- and cost\-/effective sample preparation and thermoanalytical quantification of microplastics in soil. Due to the widespread use of \ac{pe} and \ac{pp}, method development focuses on these two polymers.
+	Subsequently, \item soils sampled within and around agricultural fields covered with plastic films will be analyzed for \ac{pe} and \ac{pp} to elucidate the distribution of microplastics at field level. Whereas a directed concentration gradient of microplastics from the field center to its periphery would support the assumption of plastic covers contributing to increased microplastic concentrations in soil, an undirected gradient would suggest another source of pollution such as littering. A uniform distribution, however, may be an indicator for aerial deposition. In addition, field borders are expected to be particular hotspots for microplastics due to mechanical stress subjected to plastic covers by weighting them down with soil or sandbags.
+\end{enumerate*}
+
+\section{Working Program}\label{sec:methods}
+
+\subsection{Current trends in plasticulture and plastic analytics}
+
+In order to acquire an in-depth understanding of current agricultural practices involving plastic mulching and state-of-the-art analytical methods, two literature reviews were conducted.
+
+The literature review on plastic mulching\sidenote[][-3\baselineskip]{Published as \fullcite{SteinmetzPlastic2016}.} critically discussed the current understanding of the environmental impact of plastic
+mulch use by linking knowledge of agricultural benefits and research on the life cycle of plastic mulches with direct and indirect implications for long-term soil quality and ecosystem services. By reviewing current analytical methods\sidenote{Published as \fullcite{ThomasSample2020}.} we disentangled the variety of state-of-the-art
+sample preparation techniques for heterogeneous solid matrices to identify and discuss
+best-practice methods for soil-focused microplastic analyses.
+
+\subsection{Developing Analytical Methods for the Quantification of Plastic Debris in Soil}\label{sec:methods-development}
+
+%\begin{figure}[t]
+%	\includegraphics{proposal/pyrogram}
+%	\caption{Pyrolysis of \acl{pe} in a reference loamy sand (LUFA type 2.2, Speyer, Germany) at \SI{700}{\degreeCelsius} \citetext{preliminary data}.}
+%	\label{fig:pyrogram}%
+%\end{figure}
+
+While total polymer contents can be easily assessed via \ac{tga-ms}\sidenote[][-2.5\baselineskip]{Published as \fullcite{DavidQuantitative2018}.}, \ac{py-gc-ms} is required for polymer\-/specific quantification \citep{BeckerQuantification2020}. To this end, method development first focused on the preparation of an operating procedure for routine \ac{py-gc-ms} measurements using a Pyroprobe 6150 (CDS Analytical, Oxford, United States) coupled with a GC Trace Ultra with a DSQII-MSD (Thermo Fisher Scientific, Bremen, Germany). This included the identification of characteristic \ac{pe} and \ac{pp} pyrolysis products that did not interfere with the soil matrix and yield sufficiently stable peak intensities for subsequent quantification.
+
+Calibration curves were prepared by dissolving \ac{pe} and \ac{pp} in 1,2,4\-/trichlorobenzene with \SI{0.015}{\percent} butylated hydroxytoluene. The solvent is usually used for \ac{sec} of polymers \citep{BivensPolymertoSolvent2016}. Dissolution of plastic particles significantly facilitated the preparation of defined plastic concentrations for calibration curves. Calibration curves were assessed for linearity and sensitivity of peak responses before lowering concentrations for the optimization of \acp{lod} and \acp{loq}\sidenote{Published as \fullcite{SteinmetzSimple2020}.}.
+
+Subsequently, agricultural reference soils were spiked with \ac{pe} and \ac{pp} to be tested for their susceptibility to the (bio)\-chemical pretreatments summarized in Table~\ref{tab:extraction}. As for the preparation of calibration curves, dissolution of plastic particles with 1,2,4-trichlorobenzene \citep{BivensPolymertoSolvent2016} and extraction from may be particularly promising to account for the heterogeneous distribution of plastic particles in soil while reducing the total sample amount subjected to pyrolysis. In addition, samples may be spiked with deuterated \ac{ps} as internal standard to increase the repeatability of the method.
+
+\begin{table}
+	\centering\footnotesize
+	\caption{Potential (bio)chemical pretreatments.}\label{tab:extraction}
+	\begin{tabulary}{\linewidth}{LLL}
+		\toprule
+		Method & Chemicals & Reference \\
+		\midrule
+		Dissolution of plastic particles & 1,2,4-Trichlorobenzene + \SI{0.015}{\percent} butylated hydroxytoluene & \citealp{BivensPolymertoSolvent2016} \\
+		Matrix oxidation & \ch{H2O2} & \citealp{NuelleNew2014} \\
+		& Fenton reagent & \\
+		Density fractionation & \ch{ZnCl2} & \citealp{ImhofPigments2016} \\
+		Acid digestion & \ch{HNO3} & \citealp{ScheurerMicroplastics2018} \\
+		Enzymatic digestion & Protease, chitinase & \citealp{LoderEnzymatic2017} \\
+		Sequential purification & Sodium dodecyl sulfate with enzymatic digestion and \ch{H2O2} & \citealp{FischerSimultaneous2017} \\
+		\bottomrule
+	\end{tabulary}
+\end{table}
+
+\subsection{Screening Study: Are Agricultural Plastic Films a Source for Plastic Particles in Soil?}
+
+\begin{marginfigure}
+	\includegraphics{proposal/field}
+	\caption{Randomized sampling scheme for one exemplary plot with $n$ = 5 samples (\SIrange{0}{5}{\centi\meter} depth) per transect; within the cultivated field, ridges and furrows are sampled separately.}
+	\label{fig:field}%
+\end{marginfigure}
+
+\begin{table}[b]
+	\centering\footnotesize
+	\caption{Sampling sites.}\label{tab:sites}
+	\begin{tabular}{lllll}
+		\toprule
+		Site & Cover & Polymer & Cultivation & Location \\
+		\midrule
+		1 & Fleece under perforated foil & \acs{pp}, \acs{pe} & Strawberry & Offenbach \\
+		3 & Black mulch under fleece & \acs{pe}, \acs{pp} & Strawberry & Offenbach \\
+		4 & Black mulch & \acs{pe} & Strawberry & Offenbach \\
+		9 & Fleece under perforated foil & \acs{pp}, \acs{pe} & Lettuce & Schifferstadt \\
+		12 & Perforated foil & \acs{pe} & Rhubarb & Landau  \\
+		13 & Fleece under perforated foil & \acs{pe}, \acs{pe} & Cabbage & Schifferstadt \\
+		14 & Perforated foil & \acs{pe} & Rhubarb & Landau \\
+		15 & Perforated foil & \acs{pe} & Rhubarb & Landau \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+In order to screen agricultural fields covered with plastic films for their contribution to microplastic pollution and to better understand the distribution of microplastics at field level, $n = 8$ sampling sites in Palatinate, Germany (Table~\ref{tab:sites}), were be subdivided into \num{4} transects as shown in Figure~\ref{fig:field}. Sampling spots were randomly selected for each transect. In cultivated field transects, namely field centers and inner field edges, plant rows (ridges) and track rows (furrows) were sampled separately. Topsoil (\SIrange{0}{5}{\centi\meter} depth) were sampled shortly after retrieval of plastic covers in spring 2018. Samples will be analyzed for plastic particles as outlined in Section~\ref{sec:methods-development}.
+
+\subsection{Schedule}
+
+The dissertation project follows the schedule shown in Figure~\ref{fig:ganttchart}, including a research stay in Finland for additional training of analytical and extraction techniques.
+
+\begin{figure*}
+	\input{proposal/gantt}
+	\caption{Research schedule of the dissertation project subdivided into three working packages; \textsuperscript{\textdagger}includes additional training on analytical and extraction techniques at Lappeenranta University of Technology, Finland.}
+	\label{fig:ganttchart}%
+\end{figure*}
+
+\section{Outlook}\label{sec:outlook}
+
+The availability of a reliable method for the quantification of \ac{pe} and \ac{pp} microplastics in soil would considerably contribute to the advancement of microplastic research. Knowing microplastic concentrations in soil and understanding the fate of microplastic particles in the environment will enable a realistic risk assessment of microplastics and communication of these risks to farmers and consumers.
+
+\begin{fullwidth}
+	\printbibliography[notcategory=ignore]
+\end{fullwidth}
+
+\end{document}

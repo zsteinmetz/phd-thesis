@@ -1,0 +1,13 @@
+Sample Name,Soil,Polymer,Extraction agent,Rep,Extract,Soil mass,PVC,PMMA,PET,TWD,Dilution
+Interfering polymers LUFA I,LUFA 2.2,Polyethylene,TCB/xylene,1,7.76,50.02,2096.6,2112.9,1967.4,2065.2,1.02
+Interfering polymers LUFA II,LUFA 2.2,Polyethylene,TCB/xylene,1,7.76,49.92,1961,2027.2,2043.5,1917.2,1.02
+Interfering polymers LUFA III,LUFA 2.2,Polyethylene,TCB/xylene,1,7.76,50.02,1935.9,1890.5,2106.7,2047,1.02
+Interfering polymers LUFA I,LUFA 2.2,Polypropylene,TCB/xylene,1,7.76,50.02,2096.6,2112.9,1967.4,2065.2,1.02
+Interfering polymers LUFA II,LUFA 2.2,Polypropylene,TCB/xylene,1,7.76,49.92,1961,2027.2,2043.5,1917.2,1.02
+Interfering polymers LUFA III,LUFA 2.2,Polypropylene,TCB/xylene,1,7.76,50.02,1935.9,1890.5,2106.7,2047,1.02
+Interfering polymers LUFA I,LUFA 2.2,Polystyrene,TCB/xylene,1,7.76,50.02,2096.6,2112.9,1967.4,2065.2,1.02
+Interfering polymers LUFA II,LUFA 2.2,Polystyrene,TCB/xylene,1,7.76,49.92,1961,2027.2,2043.5,1917.2,1.02
+Interfering polymers LUFA III,LUFA 2.2,Polystyrene,TCB/xylene,1,7.76,50.02,1935.9,1890.5,2106.7,2047,1.02
+ZS-1400,Blank,Polyethylene,TCB/xylene,1,7.76,0,,,,,1.02
+ZS-1400,Blank,Polypropylene,TCB/xylene,1,7.76,0,,,,,1.02
+ZS-1400,Blank,Polystyrene,TCB/xylene,1,7.76,0,,,,,1.02

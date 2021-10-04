@@ -1,0 +1,53 @@
+\renewcommand{\maketitle}{%
+	\noindent
+	\makebox[\textwidth][l]{%
+		\begin{minipage}[b]{\textwidth+\marginparsep+\marginparwidth}
+			\newpage
+			\raggedright
+			\global\@topnum\z@% prevent floats from being placed at the top of the page
+			\begingroup
+			\setlength{\parindent}{0pt}%
+			\setlength{\parskip}{4pt}%
+			\let\@@title\@empty
+			\let\@@author\@empty
+			\let\@@date\@empty
+			\ifthenelse{\boolean{@tufte@sfsidenotes}}{%
+				\gdef\@@title{\sffamily\LARGE\allcaps{\@title}\par}%
+				\gdef\@@author{\sffamily\Large\allcaps{\@author}\par}%
+				\gdef\@@date{\sffamily\Large\allcaps{\@date}\par}%
+			}{%
+				\gdef\@@title{\LARGE{\bfseries\@title}\par}%
+				\gdef\@@author{\Large\textit{by} {\scshape\@author}\par}%
+				\gdef\@@date{\Large\@date\par}%
+			}%
+			\@@title
+			\vspace{.5\baselineskip}
+			\@@author
+			\@@date
+			\endgroup
+			\thispagestyle{plain}% suppress the running head
+			\tuftebreak% add some space before the text begins
+			\@afterindentfalse\@afterheading% suppress indentation of the next paragraph
+		\end{minipage}%
+	}
+}
+
+\titleformat{\section}%
+  [hang]% shape
+  {\normalfont\Large\scshape}% format applied to label+text
+  {\thesection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\titleformat{\subsection}%
+  [hang]% shape
+  {\normalfont\large\scshape}% format applied to label+text
+  {\thesubsection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+ 
+\setcounter{secnumdepth}{2}
+
+

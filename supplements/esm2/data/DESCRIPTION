@@ -1,0 +1,103 @@
+chromatograms
+=============
+
+Chromatogram raw data (Pyro_Plast-004.csv until Pyro_Plast-209.csv, see data/
+seqtable for details on sample names and methods used)
+
+Format
+------
+
+The CSV files contain 143 columns with information on
+
+RT(milliseconds)        retention time in milliseconds
+RT(minutes)             retention time in minutes
+RI                      retention index
+69                      intensities per m/z
+..
+208
+
+OCB files are accessible via OpenChrom (https://lablicate.com/platform/openchrom)
+
+
+reports
+=======
+
+OpenChrom reports summarizing all identified and integrated peaks per
+measurement (see data/seqtable for details on sample names and methods used)
+
+
+targets
+=======
+
+List of PE, PP, and PS target compounds with retention times and CAS numbers to
+be used with the OpenChrom template identifier
+
+Format
+------
+
+The table contains 9 columns with information on
+
+Start retention time in minutes
+End retention time in minutes
+Target name
+CAS number
+Comment
+Contributor
+Reference identifier
+Masses
+Peak Reference
+
+
+samples.csv
+===========
+
+Sample list of the recovery experiment
+
+Format
+------
+
+The table contains 18 columns with information on
+
+Sample Name             unique identifier
+Date                    preparation date
+Soil                    soil type
+Polymer                 polymer added
+Extraction procedure    extraction agent(s) used
+Rep                     replicate number
+Extract                 dispensed extract volume in milliliters
+Soil target             targeted soil mass in grams
+Soil mass               actual soil mass in grams
+Target content          target polymer content in microgram per gram
+Target weight           target polymer spike in milligrams
+Actual weight           actual polymer spike in milligrams
+Actual content          actual polymer content in spiked soil in microgram per
+                        gram
+Interference target     target weight of added non-target polymers in milligrams
+Interference weight     actual weight of added non-target polymers in milligrams
+Interference content    actual content of non-target polymers in milligram per
+                        gram soil
+Dilution                dilution factor
+Extraction Batch No     batch number of the extraction
+
+
+seqtable.csv
+============
+
+Sequence table containing all Py-GC/MS measurements
+
+Format
+------
+
+The table contains 11 columns with information on
+
+Sample Type             sample type
+File Name               file name
+Sample ID               unique sequence identifier
+Sample Name             sample name as given in sample.csv
+Inj Vol                 injection volume in microliters
+Position                tray position
+Comment                 comment
+Date                    acquisition date
+Instrument Method       instrument method from meth/
+Pyroprobe method        pyroprobe method from meth/
+Processing method       processing method from meth/

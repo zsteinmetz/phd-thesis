@@ -1,0 +1,54 @@
+\titlecontents{chapter}
+	[2em] % distance from left margin
+	{\vspace{\baselineskip}\rmfamily\scshape} % above (global formatting of entry)
+	{\hspace*{0em}{\contentslabel{2em}}} % before w/label (label = ``2.6'')
+	{\hspace*{0em}} % before w/o label
+	{\titlerule*{}\rmfamily\upshape\contentspage} % filler + page (leaders and page num)
+	[] % after
+
+\titlecontents{section}
+	[2em] % distance from left margin
+	{\rmfamily} % above (global formatting of entry)
+	{\hspace*{2.5em}{\contentslabel{2.5em}}} % before w/label (label = ``2.6'')
+	{\hspace*{2.5em}} % before w/o label
+	{\hspace*{0.5em}\titlerule*[0.7em]{.}\rmfamily\upshape\hspace*{0.5em}\contentspage} % filler + page (leaders and page num)
+	[] % after
+
+\titlecontents{subsection}
+	[2em] % distance from left margin
+	{\rmfamily} % above (global formatting of entry)
+	{\hspace*{5.5em}{\contentslabel{3em}}} % before w/label (label = ``2.6'')
+	{\hspace*{5.5em}} % before w/o label
+	{\hspace*{0.5em}\titlerule*[0.7em]{.}\rmfamily\upshape\hspace*{0.5em}\contentspage} % filler + page (leaders and page num)
+	[] % after
+
+% Chapter format
+\titleformat{\chapter}%
+	[display]% shape
+	{\begin{fullwidth}}% format applied to label+text
+	{\fontsize{50}{55}\selectfont\thechapter\bigskip}% label
+	{0em}% horizontal separation between label and title body
+	{\huge\scshape}% before the title body
+	[\end{fullwidth}]% after the title body
+
+\titleformat{\section}%
+  [hang]% shape
+  {\normalfont\LARGE\scshape}% format applied to label+text
+  {\thesection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\titleformat{\subsection}%
+  [hang]% shape
+  {\normalfont\Large\scshape}% format applied to label+text
+  {\thesubsection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\renewcommand*\l@figure{\@dottedtocline{1}{0em}{2.5em}}
+\renewcommand*\l@table{\@dottedtocline{1}{0em}{2.5em}}

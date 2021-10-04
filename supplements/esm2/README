@@ -1,0 +1,140 @@
+Data from: A simple method for the selective quantification of polyethylene,
+polypropylene, and polystyrene plastic debris in soil by pyrolysis-gas
+chromatography/mass spectrometry
+
+Zacharias Steinmetz (a), Aaron Kintzi (a), Katherine Muñoz (b),
+Gabriele E. Schaumann (a)
+
+(a) iES Landau, Institute for Environmental Sciences, Group of Environmental and
+    Soil Chemistry, University of Koblenz–Landau, Fortstraße 7, 76829 Landau,
+    Germany
+(b) Interdisciplinary Research Group on Environmental Issues, University of
+    Koblenz–Landau, Fortstraße 7, 76829 Landau, Germany
+
+Corresponding author: Gabriele E. Schaumann (E-mail: schaumann@uni-landau.de)
+
+
+Note
+====
+
+This collection contains data and R code to reproduce the findings published in
+the following article:
+
+Z. Steinmetz, A. Kintzi, K. Muñoz, G.E. Schaumann, A simple method for the
+selective quantification of polyethylene, polypropylene, and polystyrene plastic
+debris in soil by pyrolysis-gas chromatography/mass spectrometry, Journal of
+Analytical and Applied Pyrolysis (2020).
+
+
+Files
+=====
+
+data                    data files
+data/chromatograms      chromatogram raw data
+data/reports            chromatogram reports listing all identified and
+                        integrated peaks
+data/targets            list of PE, PP, and PS target compounds with retention
+                        times and CAS numbers
+data/samples.csv        sample list of the recovery experiment
+data/seqtable.csv		    sequence table containing all Py-GC/MS measurements
+
+see data/DESCRIPTION for detailed information on files types and contents
+
+meth                    instrumental and processing method files
+meth/pyroprobe.m6200    XML file containing the pyrolysis method (CDS
+                        Analytical, Pyroprobe 6200)
+meth/gcms.meth          proprietary Thermo Xcalibur 2.1 file for GC/MS methods
+meth/peakident.ocm      OpenChrom (version 1.4) processing method
+
+src                     R source files
+src/func                loads R packages, global variables, and functions
+src/calibration.R       fits calibration curves and estimates limits of
+                        detection and quantification
+src/pyrograms.R         prints sample pyrograms
+src/recovery.R          manages and analyzes recovery data
+src/replication.R       analyzes measurement repeatability
+src/selectivity.R       evaluates measurement selectivity
+
+
+Getting started
+===============
+
+Please make sure that you use up-to-date software (see below). To reproduce data
+processing and analysis, execute src/func/init.R before running the R scripts in
+src.
+
+
+System information
+==================
+
+R version 3.6.2 (2019-12-12)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Manjaro Linux
+
+Matrix products: default
+BLAS:   /usr/lib/libblas.so.3.9.0
+LAPACK: /usr/lib/liblapack.so.3.9.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=de_DE.UTF-8
+ [4] LC_COLLATE=en_US.UTF-8     LC_MONETARY=de_DE.UTF-8    LC_MESSAGES=en_US.UTF-8
+ [7] LC_PAPER=de_DE.UTF-8       LC_NAME=C                  LC_ADDRESS=C
+[10] LC_TELEPHONE=C             LC_MEASUREMENT=de_DE.UTF-8 LC_IDENTIFICATION=C
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+ [1] xtable_1.8-4             multcomp_1.4-10          TH.data_1.0-10
+ [4] MASS_7.3-51.4            survival_3.1-8           mvtnorm_1.0-11
+ [7] nationalparkcolors_0.1.0 RColorBrewer_1.1-2       cowplot_1.0.0
+[10] ggrepel_0.8.1            ggsignif_0.6.0           ggplot2_3.2.1
+[13] readxl_1.3.1             envalysis_0.4            data.table_1.12.8
+
+loaded via a namespace (and not attached):
+ [1] gtools_3.8.1     zoo_1.8-6        tidyselect_0.2.5 purrr_0.3.3      splines_3.6.2
+ [6] haven_2.1.1      lattice_0.20-38  carData_3.0-2    colorspace_1.4-1 vctrs_0.2.0
+[11] rlang_0.4.0      pillar_1.4.2     foreign_0.8-72   glue_1.3.1       withr_2.1.2
+[16] munsell_0.5.0    gtable_0.3.0     cellranger_1.1.0 zip_2.0.4        codetools_0.2-16
+[21] rio_0.5.16       forcats_0.4.0    curl_4.2         Rcpp_1.0.2       backports_1.1.5
+[26] scales_1.0.0     plotrix_3.7-6    abind_1.4-5      hms_0.5.1        openxlsx_4.1.0.1
+[31] dplyr_0.8.3      grid_3.6.2       tools_3.6.2      sandwich_2.5-1   magrittr_1.5
+[36] lazyeval_0.2.2   tibble_2.1.3     crayon_1.3.4     car_3.0-3        drc_3.0-1
+[41] pkgconfig_2.0.3  zeallot_0.1.0    Matrix_1.2-18    assertthat_0.2.1 rstudioapi_0.10
+[46] R6_2.4.0         compiler_3.6.2
+
+
+OpenChrom Lablicate Edition (Lawrence)	1.4.0.201912021204
+  openchrom.compilation.lablicate.product.id	null
+
+
+Thermo Fisher Scientific Software Installation Report
+Foundation
+  Product Version: 1.0.1.03
+  Release Date: Thursday, July 16, 2009
+  Install Date: August 4, 2010
+Applications
+  LCquan.2.6.0 1128
+    2.6.0
+      Release Date: February 04,2009
+      Install Date: September 17, 2010
+      Description: LCquan 2.6.0 release
+      Build Version: 1128
+  Xcalibur 2.1.0 build 1139
+    2.1.0
+      Release Date: Tuesday, February 03, 2009
+      Install Date: August 4, 2010
+      Description: Xcalibur 2.1 Release
+      Build Version: build 1139
+Configured Instruments
+  DSQ II 2.1.0 Build 8
+    2.1.0
+      Release Date: 04/20/2011
+      Install Date: 12/5/2014
+      Description: MS instrument driver for Xcalibur 2.1
+      Build Version: Build 8
+  TRACE GC Ultra 2.1.0
+    2.1.0
+      Release Date: June 12, 2009
+      Install Date: Aug 4, 2010
+      Description: GC Devices 2.1.0 Release

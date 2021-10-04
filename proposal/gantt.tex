@@ -1,0 +1,55 @@
+\begin{ganttchart}[
+	expand chart=\textwidth,
+	y unit title=8mm,
+	y unit chart=6mm,
+	bar top shift=-0.1, bar height=0.6,
+	vgrid={{draw=none}, {draw=none}, {dotted, gray}},
+	canvas/.style={draw=none},
+	link/.style={-latex},
+	link/.append style={color=InfDk},
+	time slot format=isodate-yearmonth,
+	time slot unit=month,
+	title label font=\normalsize\sffamily,
+	group label font=\small\sffamily\bfseries\color{InfDk},
+	group/.append style={fill=InfDk},
+	bar label font=\footnotesize\sffamily,
+	milestone label font=\small\sffamily\bfseries\color{InfDk},
+	milestone/.append style={fill=InfDk, color=InfDk},
+	]{2018-01}{2021-12}
+	\gantttitlecalendar{year} \\
+	\ganttgroup[name=g0]{Literature review}{2018-01}{2020-07} \\
+	\ganttbar[inline]{Plastic covers}{2017-07}{2018-01} 
+	\ganttbar[inline]{Analytical methods}{2018-06}{2019-02}
+	\ganttbar[inline]{Soil sample preparation}{2019-07}{2020-06} \\
+	\ganttmilestone[name=m0]{}{2020-09}
+	\begin{scope}[on background layer]
+		\ganttlink{g0}{m0}
+	\end{scope}
+	\\
+	\ganttgroup[name=g1]{Analytical methods}{2018-01}{2019-11} \\
+	\ganttbar[inline, bar inline label node/.append style={left=3mm}]{Method development}{2018-03}{2018-03}
+	\ganttbar[inline]{\acs{tga-ms}}{2018-03}{2018-12}
+	\ganttbar[inline]{\acs{py-gc-ms}}{2019-02}{2019-10} \\
+	\ganttbar[inline]{Plastic extraction from soil}{2018-08}{2019-07} \\
+	\ganttbar[inline, bar inline label node/.append style={left=5mm}]{Analytical training\textsuperscript{\textdagger}}{2019-06}{2019-08}
+	\ganttbar[inline]{}{2019-06}{2019-08}
+	\ganttmilestone[name=m1]{}{2020-01}
+	\begin{scope}[on background layer]
+		\ganttlink{g1}{m1}
+	\end{scope}
+	\\
+	\ganttgroup[name=g2]{Screening study}{2018-04}{2021-01} \\
+	\ganttbar[inline, bar inline label node/.append style={left=3mm}]{Soil sampling}{2018-04}{2018-04} \\
+	\ganttbar[inline, bar inline label node/.append style={left=5mm}]{Soil characterization}{2018-05}{2018-07} \\
+	\ganttbar[inline]{Plastic analyses}{2020-02}{2020-12}
+	\ganttmilestone[name=m2]{}{2021-03}
+	\begin{scope}[on background layer]
+		\ganttlink{g2}{m2}
+	\end{scope}
+	\\
+	\ganttgroup[name=gf]{Synthesis}{2021-03}{2021-07} \\
+	\ganttmilestone[name=mf, inline, milestone inline label node/.append style={left=5mm}]{Thesis submission}{2021-09}
+	\begin{scope}[on background layer]
+		\ganttlink{gf}{mf}
+	\end{scope}
+\end{ganttchart}

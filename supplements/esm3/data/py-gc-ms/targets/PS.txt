@@ -1,0 +1,4 @@
+-0.001 | 0.124 | Styrene | 100-42-5 | quantifiable | Polystyrene |  | 104 | Styrene-d5
+1.83 | 1.91 | α-Methylstyrene | 98-83-9 | quantifiable | Polystyrene |  | 118 | Styrene-d5
+14.25 | 14.33 | 2,4-Diphenyl-1-butene | 16606-47-6 | quantifiable | Polystyrene |  | 91 | Styrene-d5
+22.68 | 22.78 | 2,4,6-Triphenyl-1-hexene | 18964-53-9 |  | Polystyrene |  | 91 | Styrene-d5

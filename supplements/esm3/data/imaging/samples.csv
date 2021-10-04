@@ -1,0 +1,40 @@
+Site,Transect/Cover,Field replicate ,Row,Image file,FTIR match 1,r1,FTIR match 2,r2,FTIR match 3,r3
+5,Field center,2,Track,Image001,HDPE,0.92,HDPE,0.92,HDPE,0.92
+7,Periphery,4,None,Image003,algae fucus serratus,0.92,chitin from crustacean shellls,0.84,algae laminaria digita and hyperborea,0.78
+4,Periphery,3,None,Image004,algae fucus serratus,0.9/0.94,resin dispersion/chitin from crustacean,0.89/0.87,fibre jute/papercup_cellulosic,0.85/0.85
+6,Field center,1,Planting,Image005,PE,0.92,PE,0.92,LDPE,0.91
+8,Field margin,3,None,Image007,algae fucus serratus,0.91,papercup_cellulosic,0.87,Cardboard/cellulose,0.87
+5,Field center,2,Track,Image011,HDPE,0.92,HDPE,0.92,HDPE,0.92
+7,Periphery,4,None,Image012,,,,,,
+6,Periphery,5,None,Image015,resin dispersion,0.92,fibre jute,0.87,fibre viscose,0.84
+6,Periphery,5,None,Image016,resin dispersion,0.94,PP with silicate mix,0.83,PE chlorosulfonated,0.81
+6,Periphery,5,None,Image018,resin dispersion,0.92,fibre jute,0.87,fibre viscose,0.85
+6,Field center,4,Track,Image019,algae fucus serratus,0.89,chitin from crustacean shellls,0.82,papercup_cellulosic,0.77
+6,Field center,4,Track,Image020,,,,,,
+6,Field edge,5,Track,Image022,algae fucus serratus,0.91,chitin from crustacean shellls,0.84,papercup_cellulosic,0.79
+6,Field edge,5,Track,Image023,algae fucus serratus,0.9,chitin from crustacean shellls,0.83,papercup_cellulosic,0.79
+6,Field edge,5,Track,Image024,algae fucus serratus,0.94,chitin from crustacean shellls,0.87,papercup_cellulosic,0.85
+5,Field margin,2,None,Image028,PS,0.95,PS,0.95,PS,0.95
+5,Field margin,2,None,Image029,PS,0.96,PS,0.95,PS expanded,0.95
+5,Field margin,2,None,Image030,PS,0.91,PS,0.91,PS,0.91
+5,Field margin,2,None,Image032,PS,0.93,PS,0.92,PS,0.91
+7,Field edge,2,Planting,Image034,resin dispersion,0.92,fibre jute,0.82,fibre grass,0.8
+7,Field edge,2,Planting,Image035,resin dispersion,0.92,fibre jute,0.8,fibre grass,0.78
+7,Field edge,2,Planting,Image036,resin dispersion,0.92,algae fucus serratus,0.79,fibre jute,0.78
+7,Field edge,2,Planting,Image037,resin dispersion,0.92,fibre jute,0.81,fibre grass,0.79
+7,Field edge,2,Planting,Image038,resin dispersion,0.94,fibre jute,0.83,PP with silicate mix,0.82
+7,Field edge,2,Planting,Image039,resin dispersion,0.89,algae fucus serratus,0.79,fibre jute,0.73
+7,Field edge,2,Planting,Image040,resin dispersion,0.9,cellulose,0.84,fibre jute,0.83
+7,Field edge,2,Planting,Image041,resin dispersion,0.89,algae fucus serratus,0.77,fibre jute,0.74
+7,Field edge,2,Planting,Image043,resin dispersion,0.93,PP with silicate mix,0.84,fibre jute,0.82
+7,Field edge,2,Planting,Image044,resin dispersion,0.91,algae fucus serratus,0.79,fibre jute,0.82
+7,Field edge,2,Planting,Image045,resin dispersion,0.93,fibre jute,0.81,PP with silicate mix,0.79
+1,Fleece,,,Image046,fibre PP,0.98,fibre PP dyed,0.98,PP,0.98
+2,Fleece,,,Image047,fibre PP,0.96,fibre PP dyed,0.96,PP,0.96
+2,Mulch,,,Image048,resin dispersion,0.95,PE,0.86,PP with silicate mix,0.86
+3,Mulch,,,Image048,resin dispersion,0.95,PE,0.86,PP with silicate mix,0.86
+5,Field center,,,Image049,HDPE,0.96,HDPE,0.96,LDPE,0.96
+5,Perforated foil,,,Image050,LDPE,0.97,HDPE,0.97,HDPE,0.97
+6,Perforated foil,,,Image050,LDPE,0.97,HDPE,0.97,HDPE,0.97
+7,Perforated foil,,,Image051,LDPE,0.97,HDPE,0.96,LDPE,0.96
+8,Perforated foil,,,Image052,LDPE,0.97,HDPE,0.97,HDPE,0.97
