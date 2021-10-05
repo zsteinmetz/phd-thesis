@@ -1,8 +1,14 @@
 % !TeX spellcheck = en_US
 % TODO: Check dates, affidavit
 % TODO: Check consistent spelling (hyphenation)
+% TODO: Check floats
+% \setfloatalignment{b}% forces caption to be bottom-aligned
+% \forceversofloat% forces caption to be set to the left of the float
+% \forcerectofloat% forces caption to the right
 
+% TODO: Enable before submission
 \documentclass[a4paper,justified,
+	%twoside,symmetric,
 	notitlepage,
 	nofonts,
 	notoc,
@@ -39,6 +45,8 @@
 \usepackage{chemfig}
 \chemsetup{modules = redox}
 
+\usepackage[nolinks]{qrcode}
+
 % The fancyvrb package lets us customize the formatting of verbatim
 % environments. We use a slightly smaller font.
 \usepackage{fancyvrb} % extended verbatim environments
@@ -54,6 +62,7 @@
 	dashed=false,
 	clearlang=false,
 	articlein=false,
+	eprint=false,
 	hyperref=true,
 	giveninits=true,
 	uniquename=init
@@ -171,8 +180,11 @@
 \cleardoublepage
 
 % Summary
+\include{frontbackmatter/affidavit}
+\include{frontbackmatter/publications}
+\clearpage
 \include{frontbackmatter/acknowledgments}
-\cleardoublepage
+\clearpage
 \include{frontbackmatter/summary}
 \clearpage
 \include{frontbackmatter/zusammenfassung}
@@ -180,9 +192,7 @@
 \thispagestyle{empty}
 
 % Contents
-\begin{fullwidth}
-	\tableofcontents
-\end{fullwidth}
+\tableofcontents
 
 % Start the main matter (normal chapters)
 \mainmatter
@@ -197,39 +207,31 @@
 \include{chapters/screening}
 \include{chapters/general-discussion}
 
-\begin{fullwidth}
-	\chapter{Bibliography}
-	\printbibliography[heading=none,notcategory=ignore]
-\end{fullwidth}
+% TODO: Check for overfull boxes
+\chapter{Bibliography}
+\printbibliography[heading=none,notcategory=ignore]
 
 \appendix
 
 \part*{Appendices}
 \include{appendices/tga-ms-method}
+\clearpage
 
 \backmatter
-\cleardoublepage
 
 % TODO: Check for short captions
-\begin{fullwidth}
-	\listoffigures
-	\addcontentsline{toc}{chapter}{List of Figures}
-\end{fullwidth}
+\listoffigures\pagenumbering{Roman}
+\addcontentsline{toc}{chapter}{List of Figures}
 
-\begin{fullwidth}
-	\listoftables
-	\addcontentsline{toc}{chapter}{List of Tables}
-\end{fullwidth}
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
 
-\begin{fullwidth}
-	\printacronyms[name = List of Abbreviations, heading = chapter, template = thesis]
-\end{fullwidth}
+\printacronyms[name = List of Abbreviations, heading = chapter, template = thesis]
 
-\cleardoublepage
-\pagenumbering{Roman}
+\include{frontbackmatter/esm}
+\clearpage
 
-\include{frontbackmatter/publications}
-\include{frontbackmatter/affidavit}
 \include{frontbackmatter/cv}
+\cleardoublepage
 
 \end{document}
