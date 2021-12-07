@@ -7,10 +7,9 @@ source("R/init.R")
 seqtable <- fread("esm2/data/seqtable.csv")
 
 allcompounds <- rbind(
-  cbind(read_targets("Targets/Refs.txt", header = F)),
-  cbind(read_targets("Targets/PE.txt", header = F)),
-  cbind(read_targets("Targets/PP.txt", header = F)),
-  cbind(read_targets("Targets/PS.txt", header = F))
+  cbind(read_targets("esm2/data/targets/PE.txt", header = F)),
+  cbind(read_targets("esm2/data/targets/PP.txt", header = F)),
+  cbind(read_targets("esm2/data/targets/PS.txt", header = F))
 )
 names(allcompounds)[names(allcompounds) == "Contributor"] <- "Polymer"
 

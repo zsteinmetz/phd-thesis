@@ -1,1 +1,42 @@
-\chemfig{[:-60]*6(=(--[::-60](-[:90]O^{-})(=O))-*6(-(-)=-(--[:-90]OH)=-)=-(--[::-60]-)=(-(-[:150]O^{-})([:30]=O))-)}
+\schemestart
+\chemname*[\baselineskip]{
+	\chemfig{[:-60]*6(=(--[::-60](-[:90]O^{-})(=O))-*6(-(-)=-(--[:-90]OH)=-)=-(--[::-60]-)=(-(-[:150]O^{-})([:30]=O))-)}
+}{Aromatic lignin derivatives}
+\arrow{->[ $\Delta$T ]}[,1.5]
+\subscheme{
+	\chemname*[\baselineskip]{
+		\chemfig{
+			OH% 7
+			-[:210,,1]% 5
+			-[:270]% 4
+			(
+			-[:330,,,1])
+			=_[:210]% 3
+			-[:150]% 2
+			=_[:90]% 1
+			-[:30]% 6
+			(
+			=_[:330]% -> 5
+			)
+		}
+	}{\textit{o}-cresol}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname*[\baselineskip]{
+		\chemfig{
+			-[:330]O-[:270]=_[:330](
+				-[:30]=[:330]-[:30]=[:330]O
+				)
+			-[:270]=_[:210]-[:150](
+				-[:210,,,2]HO
+				)
+			=_[:90](-[:30])
+		}
+	}{4-hydroxy-2-methoxycinnamaldehyde}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0.1]
+	\ldots
+}
+\schemestop

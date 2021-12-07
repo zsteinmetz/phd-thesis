@@ -7,10 +7,9 @@ source("R/init.R")
 seqtable <- fread("esm2/data/seqtable.csv")
 
 allcompounds <- rbind(
-  cbind(read_targets("Targets/Refs.txt", header = F)),
-  cbind(read_targets("Targets/PE.txt", header = F)),
-  cbind(read_targets("Targets/PP.txt", header = F)),
-  cbind(read_targets("Targets/PS.txt", header = F))
+  cbind(read_targets("esm2/data/targets/PE.txt", header = F)),
+  cbind(read_targets("esm2/data/targets/PP.txt", header = F)),
+  cbind(read_targets("esm2/data/targets/PS.txt", header = F))
 )
 names(allcompounds)[names(allcompounds) == "Contributor"] <- "Polymer"
 
@@ -113,11 +112,11 @@ ggplot(rec$sum[`Target content` != 0 & RecMean > .05],
                     group = interaction(`Extraction procedure`, Soil)), width = .25, position = pd) +
   geom_point(size = pt, aes(shape = Soil, color = `Extraction procedure`), position = pd) +
   facet_grid(. ~ Polymer, labeller = polymer_labeller) +
-  xlab(bquote("Nominal polymer content"~"["*"\U003BCg"~g^-1*"]")) +
+  xlab(bquote("Nominal polymer content"~"[mg kg"^-1*"]")) +
   scale_y_continuous(name = "Matrix-corrected recovery [%]", breaks = c(0, 50, 100, 150, 200, 300)) +
   scale_color_viridis(discrete = T, option = "inferno", begin = .1, end = .9,
                       labels = c("TCB only", "Methanol\ncleanup",
-                                 bquote(KAl(SO[4])[2]~"flocculation"),
+                                 bquote("KAl(SO"["4"]*")"["2"]~"flocculation"),
                                  "Fenton digestion")) +
   scale_shape_manual(values = c(19, 1, 17, 15)) +
   theme_publish(base_family = font) + theme(legend.box = "vertical")

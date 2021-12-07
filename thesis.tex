@@ -1,14 +1,13 @@
 % !TeX spellcheck = en_US
-% TODO: Check dates, affidavit
+% TODO: Check dates, declaration
 % TODO: Check consistent spelling (hyphenation)
 % TODO: Check floats
 % \setfloatalignment{b}% forces caption to be bottom-aligned
 % \forceversofloat% forces caption to be set to the left of the float
 % \forcerectofloat% forces caption to the right
 
-% TODO: Enable before submission
 \documentclass[a4paper,justified,
-	%twoside,symmetric,
+	twoside,symmetric,
 	notitlepage,
 	nofonts,
 	notoc,
@@ -23,6 +22,8 @@
 % Book metadata
 \title{Agricultural Plastic Covers---Source of Plastic Debris in Soil?}
 \author{Zacharias Steinmetz}
+\date{December 15, 2021}
+% TODO: Check date
 \publisher{Universität Koblenz--Landau}
 
 \usepackage{microtype}
@@ -156,6 +157,7 @@
 
 % Further options
 \input{options}
+\input{cv/options}
 \input{acronyms}
 \input{hypenation}
 
@@ -179,20 +181,22 @@
 \include{frontbackmatter/dedication}
 \cleardoublepage
 
-% Summary
-\include{frontbackmatter/affidavit}
+% Declaration
+\include{frontbackmatter/declaration}
 \include{frontbackmatter/publications}
 \clearpage
 \include{frontbackmatter/acknowledgments}
-\clearpage
+\cleardoublepage
+\acresetall
+
+% Summary
 \include{frontbackmatter/summary}
-\clearpage
-\include{frontbackmatter/zusammenfassung}
 \clearpage
 \thispagestyle{empty}
 
 % Contents
 \tableofcontents
+\cleardoublepage
 
 % Start the main matter (normal chapters)
 \mainmatter
@@ -207,31 +211,35 @@
 \include{chapters/screening}
 \include{chapters/general-discussion}
 
-% TODO: Check for overfull boxes
 \chapter{Bibliography}
-\printbibliography[heading=none,notcategory=ignore]
+{\sloppy
+	\printbibliography[heading=none,notcategory=ignore]
+}
 
 \appendix
 
 \part*{Appendices}
 \include{appendices/tga-ms-method}
-\clearpage
+\include{appendices/screening}
+\include{appendices/solubility-tests}
+\cleardoublepage
 
 \backmatter
+\pagenumbering{Roman}
 
 % TODO: Check for short captions
-\listoffigures\pagenumbering{Roman}
 \addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
 
-\listoftables
 \addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
 
 \printacronyms[name = List of Abbreviations, heading = chapter, template = thesis]
 
 \include{frontbackmatter/esm}
 \clearpage
 
-\include{frontbackmatter/cv}
+\include{cv/cv}
 \cleardoublepage
 
 \end{document}

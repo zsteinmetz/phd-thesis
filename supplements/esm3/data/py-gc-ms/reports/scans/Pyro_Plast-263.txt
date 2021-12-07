@@ -1,0 +1,152 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ASCII Report
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Name: Pyro_Plast-263
+Data Name: 
+Operator: Xcalibur_System
+Date: 2019/09/11
+Info: 
+Misc: 
+Misc (separated): 
+Details: 
+Scans: 4550
+Start RT (min): 3.00078
+Stop RT (min): 39.53047
+Barcode: 
+
+>>>
+
+Operator: Xcalibur_System
+Misc Info: 
+Sample Weight: 0.0
+Data Name: 
+Barcode: 
+Detailed Info: 
+Sample Group: 
+Sample Weight Unit: 
+Misc Info Separated: 
+Date: 2019/09/11 15:32:36
+Short Info: 
+Barcode Type: 
+------------------------------
+
+NAME: Pyro_Plast-263
+TYPE: MSD
+------------------------------
+Integrated Chromatogram Area: 0.0
+Integrated Background Area: 0.0
+Integrated Peak Area: 65159115.375
+
+
+PEAK LIST OVERVIEW
+------------------------------
+[#]	RT (Min)	RI	Start RT (Min)	Stop RT (Min)	Tailing	Width (at 50% peak height by inflection points)	Integrated Area	S/N	Leading	Tailing	Scan #	Purity	Integrator	Detector	Model	Trace ...
+[1]	16.52447	1470.65491	16.47657	16.60493	1.03106	0.02423	2551227.0	69.29293	0.96988	1.03106	1685	1.0	PeakMax	Peak Detector First Derivative		161.04 203.11 218.06 91.02 175.23 ...
+[2]	17.0466	1503.85547	16.9987	17.15103	1.04173	0.02312	5843191.5	158.70476	0.95994	1.04173	1750	1.0	PeakMax	Peak Detector First Derivative		191.07 57.1 206.08 192.13 74.03 ...
+[3]	18.79765	1622.12732	18.75728	18.89375	1.21845	0.0236	1098386.375	29.83286	0.82071	1.21845	1968	1.0	PeakMax	Peak Detector First Derivative		60.06 55.06 57.12 102.13 59.11 ...
+[4]	29.06745	2486.50439	29.01145	29.10782	0.88716	0.02587	6162314.5	167.37233	1.12719	0.88716	3247	1.0	PeakMax	Peak Detector First Derivative		55.07 69.06 57.11 56.12 54.07 ...
+[5]	31.7414	0.0	31.6612	31.92603	0.96129	0.02768	49503996.0	1344.55957	1.04027	0.96129	3580	1.0	PeakMax	Peak Detector First Derivative		59.03 55.08 72.03 57.1 69.08 ...
+
+
+PEAK INTEGRATION RESULTS
+------------------------------
+[#]	Trace (0 = TIC or SUM XIC/XWC))	Integrated Area
+[1]	TIC	2551227.0
+[2]	TIC	5843191.5
+[3]	TIC	1098386.375
+[4]	TIC	6162314.5
+[5]	TIC	49503996.0
+
+
+SCAN IDENTIFICATION RESULTS
+------------------------------
+Scan identification results are not available.
+
+
+PEAK IDENTIFICATION RESULTS
+------------------------------
+[#]	Name	CAS	MatchFactor	ReverseMatchFactor	Formula	Mol Weight	Probability	Advise	Identifier	Miscellaneous	Comments
+---
+[1]	2,2,7,7-Tetramethyltricyclo[6.2.1.0(1,6)]undec-4-en-3-one	0-00-0	75.4	77.1		0.0	17.28		NIST	InLib Factor: -778	
+[1]	1,2,3,4,5,6-Hexahydro-1,1,5,5-tetramethyl-2,4a-methanonaphthalen-7(4aH)-one	23747-14-0	72.2	73.4		0.0	5.6		NIST	InLib Factor: -778	
+[1]	5(1H)-Azulenone, 2,4,6,7,8,8a-hexahydro-3,8-dimethyl-4-(1-methylethylidene)-, (8S-cis)-	6754-66-1	73.6	77.4		0.0	9.25		NIST	InLib Factor: -778	
+[1]	2H-Cyclopropa[g]benzofuran, 4,5,5a,6,6a,6b-hexahydro-4,4,6b-trimethyl-2-(1-methylethenyl)-	102681-49-2	71.5	72.4		0.0	4.29		NIST	InLib Factor: -778	
+[1]	9H-Cycloisolongifolene, 8-oxo-	0-00-0	72.5	75.8		0.0	6.34		NIST	InLib Factor: -778	
+[1]	2(1H)Naphthalenone, 3,5,6,7,8,8a-hexahydro-4,8a-dimethyl-6-(1-methylethenyl)-	0-00-0	71.4	75.9		0.0	4.13		NIST	InLib Factor: -778	
+[1]	2(3H)-Naphthalenone, 4,4a,5,6,7,8-hexahydro-4a,5-dimethyl-3-(1-methylethylidene)-, (4ar-cis)-	19598-45-9	70.3	79.0		0.0	2.72		NIST	InLib Factor: -778	
+[1]	Cyclolongifolene oxide, dehydro-	0-00-0	70.6	74.3		0.0	3.08		NIST	InLib Factor: -778	
+[1]	2,4a-Methanonaphthalen-7(4aH)-one, 1,2,3,4,5,6-hexahydro-1,1,5,5-tetramethyl-, (2s-cis)-	26839-52-1	73.9	77.4		0.0	10.47		NIST	InLib Factor: -778	
+---
+[2]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	88.4	89.8		0.0	15.0		NIST	InLib Factor: 103	
+[2]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	90.8	91.0		0.0	62.14		NIST	InLib Factor: 103	
+[2]	Phenol, 2,6-bis(1,1-dimethylethyl)-	128-39-2	88.7	89.1		0.0	16.26		NIST	InLib Factor: 103	
+[2]	Phenol, 2,6-bis(1,1-dimethylethyl)-	128-39-2	86.8	87.3		0.0	16.26		NIST	InLib Factor: 103	
+[2]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	87.2	87.9		0.0	15.0		NIST	InLib Factor: 103	
+[2]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	91.9	93.6		0.0	62.14		NIST	InLib Factor: 103	
+[2]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	92.0	92.6		0.0	62.14		NIST	InLib Factor: 103	
+[2]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	88.5	90.4		0.0	15.0		NIST	InLib Factor: 103	
+[2]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	87.7	88.2		0.0	15.0		NIST	InLib Factor: 103	
+---
+[3]	Dodecanoic acid, 1-methylpropyl ester	6937-42-4	71.5	77.5		0.0	6.62		NIST	InLib Factor: -324	
+[3]	n-Butyl laurate	106-18-3	69.2	77.2		0.0	2.71		NIST	InLib Factor: -324	
+[3]	Dodecanoic acid, propyl ester	3681-78-5	70.7	76.6		0.0	5.59		NIST	InLib Factor: -324	
+[3]	Dodecanoic acid, 1-methylethyl ester	10233-13-3	77.4	82.5		0.0	40.41		NIST	InLib Factor: -324	
+[3]	Isobutyl laurate	37811-72-6	67.6	74.8		0.0	1.56		NIST	InLib Factor: -324	
+[3]	Dodecanoic acid	143-07-7	66.5	73.7		0.0	1.07		NIST	InLib Factor: -324	
+[3]	i-Propyl dodecanoate	0-00-0	77.0	83.9		0.0	34.14		NIST	InLib Factor: -324	
+[3]	Dodecanoic acid, propyl ester	3681-78-5	69.0	77.0		0.0	5.59		NIST	InLib Factor: -324	
+[3]	Dodecanoic acid, propyl ester	3681-78-5	71.1	78.7		0.0	5.59		NIST	InLib Factor: -324	
+---
+[4]	Oleanitrile	0-00-0	80.7	86.2		0.0	57.82		NIST	InLib Factor: -225	
+[4]	Erucic acid	112-86-7	68.3	70.9		0.0	1.05		NIST	InLib Factor: -225	
+[4]	13-Octadecenal, (Z)-	58594-45-9	68.1	73.0		0.0	0.97		NIST	InLib Factor: -225	
+[4]	9-Octadecenal, (Z)-	2423-10-1	69.1	78.7		0.0	1.4		NIST	InLib Factor: -225	
+[4]	trans-13-Octadecenoic acid	693-71-0	68.2	71.3		0.0	1.01		NIST	InLib Factor: -225	
+[4]	Hexadecenenitrile	88592-11-4	73.3	84.2		0.0	7.69		NIST	InLib Factor: -225	
+[4]	cis-10-Nonadecenoic acid	73033-09-7	68.3	69.8		0.0	1.05		NIST	InLib Factor: -225	
+[4]	2-Methyl-Z,Z-3,13-octadecadienol	0-00-0	72.0	75.7		0.0	4.97		NIST	InLib Factor: -225	
+[4]	cis-Vaccenic acid	506-17-2	68.0	70.9		0.0	0.93		NIST	InLib Factor: -225	
+[4]	9-Octadecenamide	3322-62-1	72.0	73.6		0.0	4.97		NIST	InLib Factor: -225	
+---
+[5]	13-Docosenamide, (Z)-	112-84-5	77.1	77.1		0.0	9.21		NIST	InLib Factor: -148	
+[5]	9-Octadecenamide	3322-62-1	73.2	74.0		0.0	2.17		NIST	InLib Factor: -148	
+[5]	8-Methyl-6-nonenamide	0-00-0	70.5	80.6		0.0	0.71		NIST	InLib Factor: -148	
+[5]	13-Docosenamide, (Z)-	112-84-5	71.6	84.1		0.0	9.21		NIST	InLib Factor: -148	
+[5]	9-Octadecenamide, (Z)-	301-02-0	73.7	77.0		0.0	78.06		NIST	InLib Factor: -148	
+[5]	13-Docosenamide, (Z)-	112-84-5	76.6	77.0		0.0	9.21		NIST	InLib Factor: -148	
+[5]	Nonadecanamide	58185-32-3	73.1	76.2		0.0	2.08		NIST	InLib Factor: -148	
+[5]	cis-11-Eicosenamide	10436-08-5	72.6	72.6		0.0	1.68		NIST	InLib Factor: -148	
+[5]	9-Octadecenamide, (Z)-	301-02-0	78.0	78.6		0.0	78.06		NIST	InLib Factor: -148	
+[5]	9-Octadecenamide, (Z)-	301-02-0	84.9	89.1		0.0	78.06		NIST	InLib Factor: -148	
+
+
+BACKGROUND INTEGRATION RESULTS
+------------------------------
+Background integration results are not available.
+
+
+CHROMATOGRAM INTEGRATION RESULTS
+------------------------------
+Chromatogram integration results are not available.
+
+
+CHROMATOGRAM IDENTIFICATION RESULTS
+------------------------------
+Chromatogram identification results are not available.
+
+
+PEAK QUANTITATION RESULTS
+------------------------------
+[#]	Name	ChemicalClass	Concentration	ConcentrationUnit	Area	Description	Ion
+
+
+PEAK QUANTITATION SUMMARY
+------------------------------
+Time [min]	Name	Area	Classifier	Quantifier
+16.52447	2551227.0
+17.0466	5843191.5
+18.79765	1098386.375
+29.06745	6162314.5
+31.7414	49503996.0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

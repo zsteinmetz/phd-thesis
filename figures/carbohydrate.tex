@@ -1,0 +1,59 @@
+% Glucose
+\definesubmol{Glc}{
+	O-[:10,.7]
+	(
+	-[:-10](-[:150,0.7]-[2,0.7]OH)
+	-[:10]{O}-[:-50]
+	)
+	-[:-50](-[:170]HO)
+	-[:10](-[:-55,0.7]OH)
+	-[:-10]
+	-[:10,.7]O
+}
+% Turned glucose
+\definesubmol{turned-Glc}{
+	-[:-10,.7]
+	(
+	-[:10](-[:-150,0.7]-[6,0.7]OH)
+	-[:-10]{O}-[:50]
+	)
+	-[:50](-[:-170]HO)
+	-[:-10](-[:55,0.7]OH)
+	-[:10]()
+	-[:-10,.7]
+}
+% Merge to cellulose
+\schemestart
+\chemname[\baselineskip]{
+	\chemfig{-[@{op,.5}:-10,.7]!{Glc}!{turned-Glc}-[@{cl,0}:-10,.25]}
+	\polymerdelim[delimiters ={[]}, height = 3em, depth = 3em, indice = n]{op}{cl}
+}{Polycarbohydrates}
+\arrow{->[ $\Delta$T ]}[,1.5]
+\subscheme{
+	\chemname*[1.5\baselineskip]{
+		\chemfig{O=[:240]-[:180]-[:234]O-[:162]=_[:90]-[:18](=_[:306])}
+	}{furfural}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname*[1.5\baselineskip]{
+		\chemfig{
+			OH-[:230.3,,1]-[:279.6,1.005](
+			-[:299.9,,,1]OH
+			)-[:140.3,0.813](
+			-[:250.1,,,2]HO
+			)
+			-[:180,1.178]-[:233.9,1.069]-[:31.3,0.88]O-[:65.7,0.943](
+			-[:1,1.126]
+			)
+			-[:141.9,0.864]O(
+			-[:279.7]
+			)
+		}
+	}{levoglucosan}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0.1]
+	\ldots
+}
+\schemestop

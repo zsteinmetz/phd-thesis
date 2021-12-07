@@ -1,0 +1,195 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ASCII Report
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Name: Pyro_Plast-275
+Data Name: 
+Operator: Xcalibur_System
+Date: 2019/09/13
+Info: 
+Misc: 
+Misc (separated): 
+Details: 
+Scans: 4798
+Start RT (min): 1.00105
+Stop RT (min): 39.52188
+Barcode: 
+
+>>>
+
+Operator: Xcalibur_System
+Misc Info: 
+Sample Weight: 0.0
+Data Name: 
+Barcode: 
+Detailed Info: 
+Sample Group: 
+Sample Weight Unit: 
+Misc Info Separated: 
+Date: 2019/09/13 10:23:45
+Short Info: 
+Barcode Type: 
+------------------------------
+
+NAME: Pyro_Plast-275
+TYPE: MSD
+------------------------------
+Integrated Chromatogram Area: 0.0
+Integrated Background Area: 0.0
+Integrated Peak Area: 78220060.375
+
+
+PEAK LIST OVERVIEW
+------------------------------
+[#]	RT (Min)	RI	Start RT (Min)	Stop RT (Min)	Tailing	Width (at 50% peak height by inflection points)	Integrated Area	S/N	Leading	Tailing	Scan #	Purity	Integrator	Detector	Model	Trace ...
+[1]	11.53047	1177.15247	11.4823	11.62683	1.14297	0.02485	1358403.0	31.74061	0.87491	1.14297	1312	1.0	PeakMax	Peak Detector First Derivative		181.85 179.66 74.0 108.99 180.21 ...
+[2]	18.79012	1621.59753	18.74975	18.87032	1.04926	0.02428	1309854.75	30.60623	0.95306	1.04926	2216	1.0	PeakMax	Peak Detector First Derivative		59.99 57.11 55.16 102.06 59.0 ...
+[3]	27.68725	2350.40698	27.55053	27.69532	1.64396	0.07007	905333.125	21.15413	0.60829	1.64396	3324	1.0	PeakMax	Peak Detector First Derivative		57.1 55.04 83.09 97.1 69.14 ...
+[4]	29.04453	2484.20605	28.98827	29.2052	1.07178	0.02727	5230071.0	122.20649	0.93303	1.07178	3493	1.0	PeakMax	Peak Detector First Derivative		55.08 57.1 69.14 83.08 56.11 ...
+[5]	31.71042	0.0	31.6461	31.90287	1.09393	0.02747	46339308.0	1082.77002	0.91414	1.09393	3825	1.0	PeakMax	Peak Detector First Derivative		59.03 55.06 72.03 57.1 69.07 ...
+[6]	34.21615	0.0	34.09583	34.28047	1.5792	0.10932	5029660.0	117.52366	0.63323	1.5792	4137	1.0	PeakMax	Peak Detector First Derivative		57.1 55.14 83.1 69.05 97.12 ...
+[7]	35.70938	0.0	35.40468	36.1672	1.03476	0.1794	9943714.0	232.34605	0.96641	1.03476	4323	1.0	PeakMax	Peak Detector First Derivative		57.1 55.1 83.11 69.1 97.14 ...
+[8]	36.87343	0.0	36.62448	37.11407	1.1479	0.15667	8103716.5	189.35245	0.87116	1.1479	4468	1.0	PeakMax	Peak Detector First Derivative		57.09 55.05 83.12 69.07 97.13 ...
+
+
+PEAK INTEGRATION RESULTS
+------------------------------
+[#]	Trace (0 = TIC or SUM XIC/XWC))	Integrated Area
+[1]	TIC	1358403.0
+[2]	TIC	1309854.75
+[3]	TIC	905333.125
+[4]	TIC	5230071.0
+[5]	TIC	46339308.0
+[6]	TIC	5029660.0
+[7]	TIC	9943714.0
+[8]	TIC	8103716.5
+
+
+SCAN IDENTIFICATION RESULTS
+------------------------------
+Scan identification results are not available.
+
+
+PEAK IDENTIFICATION RESULTS
+------------------------------
+[#]	Name	CAS	MatchFactor	ReverseMatchFactor	Formula	Mol Weight	Probability	Advise	Identifier	Miscellaneous	Comments
+---
+[1]	Benzene, 1,3,5-trichloro-	108-70-3	79.9	85.3		0.0	27.49		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,3-trichloro-	87-61-6	80.7	89.4		0.0	38.52		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,3-trichloro-	87-61-6	78.1	84.2		0.0	38.52		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,4-trichloro-	120-82-1	78.9	84.7		0.0	32.54		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,4-trichloro-	120-82-1	78.6	85.1		0.0	32.54		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,4-trichloro-	120-82-1	80.3	86.5		0.0	32.54		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,3-trichloro-	87-61-6	79.9	85.0		0.0	38.52		NIST	InLib Factor: 137	
+[1]	Benzene, 1,2,3-trichloro-	87-61-6	79.0	84.8		0.0	38.52		NIST	InLib Factor: 137	
+---
+[2]	i-Propyl dodecanoate	0-00-0	76.7	82.2		0.0	30.4		NIST	InLib Factor: -458	
+[2]	Isobutyl laurate	37811-72-6	68.7	74.9		0.0	1.1		NIST	InLib Factor: -458	
+[2]	Dodecanoic acid, propyl ester	3681-78-5	72.0	76.8		0.0	8.28		NIST	InLib Factor: -458	
+[2]	Dextrose	0-00-0	68.9	69.4		0.0	1.2		NIST	InLib Factor: -458	
+[2]	Dodecanoic acid, 1-methylethyl ester	10233-13-3	77.7	81.9		0.0	43.06		NIST	InLib Factor: -458	
+[2]	Dodecanoic acid, 1-methylpropyl ester	6937-42-4	72.7	77.4		0.0	6.01		NIST	InLib Factor: -458	
+[2]	Dodecanoic acid, propyl ester	3681-78-5	73.6	80.6		0.0	8.28		NIST	InLib Factor: -458	
+[2]	n-Butyl laurate	106-18-3	70.1	77.2		0.0	1.8		NIST	InLib Factor: -458	
+[2]	Dodecanoic acid, propyl ester	3681-78-5	71.1	78.1		0.0	8.28		NIST	InLib Factor: -458	
+[2]	Dodecanoic acid tert-butyl ester	7143-18-2	68.6	74.4		0.0	1.06		NIST	InLib Factor: -458	
+---
+[3]	Poly Octadecyl Acrylate	0-00-0	81.3	81.4		0.0	13.17		NIST	InLib Factor: -371	
+[3]	1-Hexadecanol, 2-methyl-	2490-48-4	78.1	79.6		0.0	3.52		NIST	InLib Factor: -371	
+[3]	4-Octadecenal	56554-98-4	79.2	80.2		0.0	5.6		NIST	InLib Factor: -371	
+[3]	1-Eicosanol	629-96-9	76.9	82.1		0.0	2.19		NIST	InLib Factor: -371	
+[3]	Behenic alcohol	661-19-8	79.2	80.7		0.0	5.6		NIST	InLib Factor: -371	
+[3]	2-Hexadecanol	14852-31-4	77.3	79.8		0.0	2.59		NIST	InLib Factor: -371	
+[3]	17-Pentatriacontene	6971-40-0	78.6	82.0		0.0	4.34		NIST	InLib Factor: -371	
+[3]	Polyethylene, LLDPE	0-00-0	77.4	83.1		0.0	2.7		NIST	InLib Factor: -371	
+[3]	5-Octadecenal	56554-88-2	78.7	79.8		0.0	4.51		NIST	InLib Factor: -371	
+[3]	Hexadecane, 1,1-bis(dodecyloxy)-	56554-64-4	78.2	78.9		0.0	3.66		NIST	InLib Factor: -371	
+---
+[4]	trans-13-Octadecenoic acid	693-71-0	71.4	74.0		0.0	2.06		NIST	InLib Factor: -275	
+[4]	cis-13-Eicosenoic acid	17735-94-3	71.1	72.3		0.0	1.83		NIST	InLib Factor: -275	
+[4]	Oleic Acid	112-80-1	71.2	77.2		0.0	1.9		NIST	InLib Factor: -275	
+[4]	cis-10-Nonadecenoic acid	73033-09-7	71.8	73.3		0.0	2.43		NIST	InLib Factor: -275	
+[4]	Erucic acid	112-86-7	71.5	73.8		0.0	2.14		NIST	InLib Factor: -275	
+[4]	Hexadecenenitrile	88592-11-4	75.2	85.1		0.0	8.01		NIST	InLib Factor: -275	
+[4]	Oleanitrile	0-00-0	80.2	85.2		0.0	39.36		NIST	InLib Factor: -275	
+[4]	2-Methyl-Z,Z-3,13-octadecadienol	0-00-0	72.7	76.2		0.0	3.34		NIST	InLib Factor: -275	
+[4]	cis-Vaccenic acid	506-17-2	71.3	73.6		0.0	1.98		NIST	InLib Factor: -275	
+[4]	9-Octadecenamide	3322-62-1	74.3	75.8		0.0	5.81		NIST	InLib Factor: -275	
+---
+[5]	Nonadecanamide	58185-32-3	72.5	75.0		0.0	2.59		NIST	InLib Factor: -172	
+[5]	13-Docosenamide, (Z)-	112-84-5	72.4	83.8		0.0	11.97		NIST	InLib Factor: -172	
+[5]	9-Octadecenamide	3322-62-1	72.0	73.0		0.0	2.09		NIST	InLib Factor: -172	
+[5]	cis-11-Eicosenamide	10436-08-5	70.9	70.9		0.0	1.41		NIST	InLib Factor: -172	
+[5]	13-Docosenamide, (Z)-	112-84-5	76.0	76.2		0.0	11.97		NIST	InLib Factor: -172	
+[5]	9-Octadecenamide, (Z)-	301-02-0	76.8	77.4		0.0	71.44		NIST	InLib Factor: -172	
+[5]	13-Docosenamide, (Z)-	112-84-5	76.9	76.9		0.0	11.97		NIST	InLib Factor: -172	
+[5]	8-Methyl-6-nonenamide	0-00-0	71.0	80.4		0.0	1.47		NIST	InLib Factor: -172	
+[5]	9-Octadecenamide, (Z)-	301-02-0	73.5	76.5		0.0	71.44		NIST	InLib Factor: -172	
+[5]	9-Octadecenamide, (Z)-	301-02-0	83.2	87.1		0.0	71.44		NIST	InLib Factor: -172	
+---
+[6]	EPDM Rubber	0-00-0	80.2	82.7		0.0	5.23		NIST	InLib Factor: -407	
+[6]	Behenic alcohol	661-19-8	78.7	79.1		0.0	3.03		NIST	InLib Factor: -407	
+[6]	Polyethylene, LLDPE	0-00-0	80.6	84.2		0.0	6.19		NIST	InLib Factor: -407	
+[6]	17-Pentatriacontene	6971-40-0	77.9	79.8		0.0	2.18		NIST	InLib Factor: -407	
+[6]	Octatriacontyl pentafluoropropionate	0-00-0	78.4	79.2		0.0	2.67		NIST	InLib Factor: -407	
+[6]	Polypropylene	0-00-0	79.8	80.8		0.0	4.41		NIST	InLib Factor: -407	
+[6]	5-Octadecenal	56554-88-2	78.3	79.2		0.0	2.57		NIST	InLib Factor: -407	
+[6]	Poly Octadecyl Acrylate	0-00-0	81.5	81.5		0.0	8.52		NIST	InLib Factor: -407	
+[6]	8-Octadecenal	56554-94-0	78.0	78.4		0.0	2.27		NIST	InLib Factor: -407	
+[6]	Polyethylene, LDPE	0-00-0	77.7	79.3		0.0	2.01		NIST	InLib Factor: -407	
+---
+[7]	Behenic alcohol	661-19-8	80.4	80.8		0.0	3.43		NIST	InLib Factor: -558	
+[7]	Octacosyl trifluoroacetate	0-00-0	79.4	84.1		0.0	2.27		NIST	InLib Factor: -558	
+[7]	Octatriacontyl pentafluoropropionate	0-00-0	81.6	82.3		0.0	5.56		NIST	InLib Factor: -558	
+[7]	EPDM Rubber	0-00-0	80.4	82.2		0.0	3.43		NIST	InLib Factor: -558	
+[7]	1-Octacosanol	0-00-0	80.1	84.7		0.0	3.03		NIST	InLib Factor: -558	
+[7]	Hexatriacontyl pentafluoropropionate	0-00-0	79.7	83.1		0.0	2.57		NIST	InLib Factor: -558	
+[7]	Tetratriacontyl heptafluorobutyrate	0-00-0	79.2	84.3		0.0	2.1		NIST	InLib Factor: -558	
+[7]	Poly Octadecyl Acrylate	0-00-0	80.0	80.0		0.0	2.91		NIST	InLib Factor: -558	
+[7]	Lubricant (stick)	0-00-0	79.3	79.6		0.0	2.18		NIST	InLib Factor: -558	
+[7]	Polyethylene, LLDPE	0-00-0	80.9	84.0		0.0	4.26		NIST	InLib Factor: -558	
+---
+[8]	Behenic alcohol	661-19-8	80.3	80.8		0.0	4.53		NIST	InLib Factor: -367	
+[8]	4-Octadecenal	56554-98-4	78.9	79.5		0.0	2.55		NIST	InLib Factor: -367	
+[8]	Octatriacontyl pentafluoropropionate	0-00-0	79.7	80.6		0.0	3.53		NIST	InLib Factor: -367	
+[8]	EPDM Rubber	0-00-0	80.1	82.1		0.0	4.18		NIST	InLib Factor: -367	
+[8]	Poly Octadecyl Acrylate	0-00-0	79.5	79.5		0.0	3.25		NIST	InLib Factor: -367	
+[8]	Polyethylene, LLDPE	0-00-0	82.1	85.3		0.0	8.79		NIST	InLib Factor: -367	
+[8]	1-Eicosanol	629-96-9	79.1	89.0		0.0	2.77		NIST	InLib Factor: -367	
+[8]	Polyethylene	0-00-0	78.5	82.1		0.0	2.17		NIST	InLib Factor: -367	
+[8]	1-Octacosanol	0-00-0	78.6	83.3		0.0	2.25		NIST	InLib Factor: -367	
+[8]	5-Octadecenal	56554-88-2	79.3	79.9		0.0	3.0		NIST	InLib Factor: -367	
+
+
+BACKGROUND INTEGRATION RESULTS
+------------------------------
+Background integration results are not available.
+
+
+CHROMATOGRAM INTEGRATION RESULTS
+------------------------------
+Chromatogram integration results are not available.
+
+
+CHROMATOGRAM IDENTIFICATION RESULTS
+------------------------------
+Chromatogram identification results are not available.
+
+
+PEAK QUANTITATION RESULTS
+------------------------------
+[#]	Name	ChemicalClass	Concentration	ConcentrationUnit	Area	Description	Ion
+
+
+PEAK QUANTITATION SUMMARY
+------------------------------
+Time [min]	Name	Area	Classifier	Quantifier
+11.53047	1358403.0
+18.79012	1309854.75
+27.68725	905333.125
+29.04453	5230071.0
+31.71042	46339308.0
+34.21615	5029660.0
+35.70938	9943714.0
+36.87343	8103716.5
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

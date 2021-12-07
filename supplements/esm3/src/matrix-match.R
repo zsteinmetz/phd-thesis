@@ -29,8 +29,8 @@ mama$data[grep("ug/mL", `Sample Name`, ignore.case = T),
 mama$data[`Sample Type` == "Standard",
                Conc := as.numeric(gsub(" ug/mL.*", "",
                                        `Sample Name`, ignore.case = T))]
-mama$data[grepl("PS-d5", `Sample Name`), `Cal Type` := "Xylene/TCB only"]
-mama$data[grepl("LUFA", `Sample Name`), `Cal Type` := "LUFA 2.2 matrix"]
+mama$data[grepl("PS-d5", `Sample Name`), `Cal Type` := "In solvent mixture"]
+mama$data[grepl("LUFA", `Sample Name`), `Cal Type` := "In LUFA 2.2 matrix"]
 
 mama$data[, Acquisition := as.POSIXct(Date)]
 mama$data[, CW := isoweek(Acquisition)]
@@ -97,8 +97,10 @@ ggplot(data = mama$markers, aes(Conc, `Integrated Area` * 10^-6)) +
                       option = "inferno", begin = .1, end = .9) +
   scale_fill_viridis(discrete = T, name = "Calibration",
                      option = "inferno", begin = .1, end = .9) +
-  theme_publish(base_size = 12)
-
+  # theme_publish(base_size = 12) +
+  theme_publish(base_family = font)
+ggsave('../../../figures/matrix-match.pdf', scale = 1.5, width = pagewidth,
+       height = 2.5, unit = 'in', device = cairo_pdf)
 
 mama$pe <- mama$markers[Polymer == "Polyethylene"]
 matrix_effect(calibration(`Integrated Area` ~ Conc,

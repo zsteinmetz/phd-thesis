@@ -1,2 +1,27 @@
-\chemfig{-[@{op,.5}::30]-[::-60]-[@{cl,0.5}::60]}
-\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = n]{op}{cl}
+\schemestart
+\chemname[1.5\baselineskip]{
+	\chemfig{-[@{op,.5}::30]-[::-60]-[@{cl,0.5}::60]}
+	\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = n]{op}{cl}
+	}{\Acf{pe}}
+\arrow{->[ $\Delta$T ]}[,1.5]
+\subscheme{
+	\chemname[1.5\baselineskip]{
+		\chemfig{-[@{op,.5}::30]-[@{cl,0.5}::-60]}
+		\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = x]{op}{cl}
+	}{$n$-alkanes}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname[1.5\baselineskip]{
+		\chemfig{-[@{op,.5}::30]-[@{cl,0.5}::-60]=[::60]}
+		\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = y]{op}{cl}
+	}{$n$-alkenes}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname[1.5\baselineskip]{
+		\chemfig{=[::30]-[@{op,.5}::-60]-[@{cl,0.5}::60]=[::-60]}
+		\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = z]{op}{cl}
+	}{$n$-alkadienes}
+}
+\schemestop

@@ -1,0 +1,55 @@
+% iso chain
+\definesubmol{iso}{
+	-[:30]
+	(
+	-[:90]
+	)
+	-[@{op1,.5}:330]
+	-[:30]
+	-[@{cl1,0.5}:330]
+	-[:30]
+	(=[:90]O)
+	-[:330,,,1]O
+}
+\definesubmol{turned-iso}{
+	O
+	-[:-150](=[:-90]O)
+	-[::-60]
+	-[@{cl2,0.5}::60]
+	-[::-60]
+	-[@{op2,.5}::60](-[:-90])
+	-[::-60]
+}
+% Merge to phospolipid and start scheme
+\schemestart
+\chemname[\baselineskip]{
+	\chemfig{!{iso}-[:-75](-[:45])(-[:-30]-[::-60,.8,,2]HPO_4^{-})-[::-75]-[::-75]!{turned-iso}}
+	\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = n]{op1}{cl1}
+	\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = m]{op2}{cl2}
+}{Lipids}
+\arrow{->[ $\Delta$T ]}[,1.5]
+\subscheme{
+	\chemname*[1.5\baselineskip]{
+		\chemfig{-[@{op,.5}::30]-[@{cl,0.5}::-60]}
+		\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = x]{op}{cl}
+	}{$n$-alkanes}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname*[1.5\baselineskip]{
+		\chemfig{-[@{op,.5}::30]-[@{cl,0.5}::-60]=[::60]}
+		\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = y]{op}{cl}
+	}{$n$-alkenes}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname*[1.5\baselineskip]{
+		\chemfig{=[::30]-[@{op,.5}::-60]-[@{cl,0.5}::60]=[::-60]}
+		\polymerdelim[delimiters ={[]}, height = 1.5em, depth = 1.5em, indice = z]{op}{cl}
+	}{$n$-alkadienes}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0.1]
+	\ldots
+}
+\schemestop

@@ -1,0 +1,63 @@
+\usepackage[ManyBibs,LabelsAligned]{currvita} % currvita style
+\usepackage[export]{adjustbox}
+
+% Symbols and SVGs via TikZ
+\usepackage{fontawesome5}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+\usepackage{scalerel}
+
+\include{cv/tikz/orcid}
+\newcommand\orcid{\mbox{\scalerel*{
+			\begin{tikzpicture}[transform shape]
+				\pic{orcid};
+			\end{tikzpicture}
+		}{\textnormal |}}}
+
+\include{cv/tikz/publons}
+\newcommand\publons{\mbox{\scalerel*{
+			\begin{tikzpicture}[transform shape]
+				\pic{publons};
+			\end{tikzpicture}\phantom{.}
+		}{\textnormal p}}}
+
+\include{cv/tikz/researchgate}
+\newcommand\researchgate{\mbox{\scalerel*{
+			\begin{tikzpicture}[transform shape]
+				\pic{researchgate};
+			\end{tikzpicture}
+		}{\textnormal R\textsuperscript{G}}}}
+
+\include{cv/tikz/googlescholar}
+\newcommand\googlescholar{\mbox{
+		\begin{tikzpicture}[transform shape,baseline=.16\baselineskip]
+			\pic{googlescholar};
+		\end{tikzpicture}
+}}
+
+\include{cv/tikz/envelope}
+\newcommand\envelope{\mbox{\scalerel*{
+			\begin{tikzpicture}[transform shape, rotate=180]
+				\pic{envelope};
+			\end{tikzpicture}
+		}{\textnormal l}}}
+
+\newcommand{\raisedrule}[2][0em]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+\newcommand{\heading}[1]{\vspace*{1em}\noindent\marginpar{\textcolor{black}{ \rule[.33\baselineskip]{\marginparwidth}{.66pt}}}{\color{black}\Large\scshape #1}\hspace{\marginparsep}\textcolor{black}{\raisedrule[.33\baselineskip]{.66pt}\vspace*{1em}}}
+% Margin text style
+\newcommand{\info}[1]{\marginpar{\raggedleft{\small #1}\vspace{-4em}}}
+% Date box width
+% CV entry
+\newcommand\entry[3]{\noindent\hangafter=0\info{#1}{\color{black}#2}\hfill{\small #3} % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+	\nopagebreak[4]\par\vspace{0.5em}} % Add some white space after each new entry
+% Entry description (goes well with \info)
+\newcommand{\desc}[1]{\hangafter=0\noindent{#1}\par\vspace{1em}}
+% Make it easier to handle linked email addresses
+%\newcommand\reference[1]{\info{Reference}{\small#1}}
+\newcommand{\email}[1]{\href{mailto:#1}{#1}}
+\newcommand{\link}[1]{\href{#1}{#1}}
+
+% Publications
+\addbibresource[label=articles]{cv/articles.bib}
+\addbibresource[label=talks]{cv/talks.bib}

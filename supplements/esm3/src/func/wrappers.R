@@ -48,6 +48,22 @@ theme_red <- function() {
         axis.text.x = element_blank())
 }
 
+batch_asp <- function(path, ...) {
+  files <- list.files(path = path, pattern = "\\.asp$")
+  
+  ret <- data.frame()
+  for (cfile in files) {
+    asp <- read_asp(file.path(path, cfile)) %>% 
+      adj_intens() %>% 
+      smooth_intens() %>% 
+      subtr_bg()
+    add <- cbind(`File Name` = gsub("\\.asp$", "", cfile), asp)
+    ret <- rbind(ret, add)
+  }
+  
+  return(ret)
+}
+
 scientific_10 <- function(x) {
   ifelse(x==0, "0", parse(text=gsub("[+]", "", gsub("e", " %*% 10^", scales::scientific_format()(x)))))
 }

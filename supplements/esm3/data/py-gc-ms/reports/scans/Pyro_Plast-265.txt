@@ -1,0 +1,346 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ASCII Report
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Name: Pyro_Plast-265
+Data Name: 
+Operator: Xcalibur_System
+Date: 2019/09/11
+Info: 
+Misc: 
+Misc (separated): 
+Details: 
+Scans: 4800
+Start RT (min): 1.00078
+Stop RT (min): 39.51407
+Barcode: 
+
+>>>
+
+Operator: Xcalibur_System
+Misc Info: 
+Sample Weight: 0.0
+Data Name: 
+Barcode: 
+Detailed Info: 
+Sample Group: 
+Sample Weight Unit: 
+Misc Info Separated: 
+Date: 2019/09/11 18:53:44
+Short Info: 
+Barcode Type: 
+------------------------------
+
+NAME: Pyro_Plast-265
+TYPE: MSD
+------------------------------
+Integrated Chromatogram Area: 20185966893.73496
+Integrated Background Area: 0.0
+Integrated Peak Area: 96017401.125
+
+
+PEAK LIST OVERVIEW
+------------------------------
+[#]	RT (Min)	RI	Start RT (Min)	Stop RT (Min)	Tailing	Width (at 50% peak height by inflection points)	Integrated Area	S/N	Leading	Tailing	Scan #	Purity	Integrator	Detector	Model	Trace ...
+[1]	11.53802	1177.55408	11.49792	11.65027	2.20661	0.02875	982628.6875	23.64874	0.45318	2.20661	1314	1.0	PeakMax	Peak Detector First Derivative		179.86 181.9 108.91 145.04 74.24 ...
+[2]	16.52162	1470.47485	16.47343	16.58568	1.11377	0.02288	2569674.25	61.84386	0.89785	1.11377	1935	1.0	PeakMax	Peak Detector First Derivative		161.11 203.06 175.18 91.04 218.09 ...
+[3]	17.05105	1504.15332	16.97888	17.12343	1.23064	0.02402	5529080.5	133.06732	0.81259	1.23064	2001	1.0	PeakMax	Peak Detector First Derivative		191.07 57.09 206.1 192.26 74.11 ...
+[4]	17.05105	1504.15332	16.99505	17.12343	1.22931	0.02395	5513669.5	132.69643	0.81346	1.22931	2001	1.0	PeakMax	Peak Detector First Derivative		191.07 57.09 206.1 192.26 74.11 ...
+[5]	18.80052	1622.32886	18.7526	18.90495	1.15101	0.02375	1243855.875	29.93564	0.8688	1.15101	2219	1.0	PeakMax	Peak Detector First Derivative		60.06 55.1 57.12 102.1 59.18 ...
+[6]	18.80052	1622.32886	18.76068	18.90495	1.15109	0.02387	1250559.0	30.09697	0.86875	1.15109	2219	1.0	PeakMax	Peak Detector First Derivative		60.06 55.1 57.12 102.1 59.18 ...
+[7]	29.06458	2486.21704	29.0086	29.11302	1.10768	0.02592	5579629.5	134.28387	0.90279	1.10768	3498	1.0	PeakMax	Peak Detector First Derivative		55.09 69.09 57.1 83.09 56.12 ...
+[8]	30.26042	0.0	30.09193	30.50937	1.12089	0.08968	2105722.0	50.67801	0.89215	1.12089	3647	1.0	PeakMax	Peak Detector First Derivative		69.1 57.17 83.09 55.08 111.11 ...
+[9]	31.54453	0.0	31.46432	31.67292	1.17032	0.06973	2412866.5	58.07	0.85447	1.17032	3807	1.0	PeakMax	Peak Detector First Derivative		69.05 57.1 83.08 71.08 111.13 ...
+[10]	31.73723	0.0	31.68098	31.9138	0.90879	0.02657	39408724.0	948.44226	1.10037	0.90879	3831	1.0	PeakMax	Peak Detector First Derivative		59.03 55.08 72.0 57.12 69.07 ...
+[11]	31.96198	0.0	31.92188	32.01015	0.57906	0.04847	613839.8125	14.77317	1.72694	0.57906	3859	1.0	PeakMax	Peak Detector First Derivative		59.08 57.09 55.1 206.95 69.1 ...
+[12]	34.15287	0.0	33.96822	34.39375	0.85426	0.08435	11795646.0	283.88358	1.1706	0.85426	4132	1.0	PeakMax	Peak Detector First Derivative		69.05 57.08 83.07 55.06 71.09 ...
+[13]	34.64243	0.0	34.5862	34.72265	1.49169	0.04998	629144.25	15.14149	0.67038	1.49169	4193	1.0	PeakMax	Peak Detector First Derivative		206.94 69.05 57.09 83.06 55.04 ...
+[14]	34.81902	0.0	34.73073	34.99557	1.51422	0.07285	1437874.75	34.60506	0.66041	1.51422	4215	1.0	PeakMax	Peak Detector First Derivative		69.05 57.08 207.11 55.07 71.16 ...
+[15]	35.3888	0.0	35.27657	35.40468	1.06731	0.05773	837356.125	20.15249	0.93694	1.06731	4286	1.0	PeakMax	Peak Detector First Derivative		206.96 57.11 69.15 71.08 55.11 ...
+[16]	36.89765	0.0	36.71302	37.06615	0.68532	0.10847	5503479.5	132.45119	1.45916	0.68532	4474	1.0	PeakMax	Peak Detector First Derivative		69.05 57.09 83.09 55.09 71.08 ...
+[17]	37.53958	0.0	37.33098	37.8448	1.74673	0.14402	7299522.5	175.67622	0.5725	1.74673	4554	1.0	PeakMax	Peak Detector First Derivative		69.0 57.1 83.1 71.1 55.07 ...
+[18]	38.64713	0.0	38.5349	38.66328	1.23342	0.06177	646384.9375	15.55642	0.81075	1.23342	4692	1.0	PeakMax	Peak Detector First Derivative		206.96 83.1 57.08 69.28 55.07 ...
+[19]	38.64713	0.0	38.54297	38.66328	1.23356	0.06262	657743.4375	15.82979	0.81066	1.23356	4692	1.0	PeakMax	Peak Detector First Derivative		206.96 83.1 57.08 69.28 55.07 ...
+
+
+PEAK INTEGRATION RESULTS
+------------------------------
+[#]	Trace (0 = TIC or SUM XIC/XWC))	Integrated Area
+[1]	TIC	982628.6875
+[2]	TIC	2569674.25
+[3]	TIC	5529080.5
+[4]	TIC	5513669.5
+[5]	TIC	1243855.875
+[6]	TIC	1250559.0
+[7]	TIC	5579629.5
+[8]	TIC	2105722.0
+[9]	TIC	2412866.5
+[10]	TIC	39408724.0
+[11]	TIC	613839.8125
+[12]	TIC	11795646.0
+[13]	TIC	629144.25
+[14]	TIC	1437874.75
+[15]	TIC	837356.125
+[16]	TIC	5503479.5
+[17]	TIC	7299522.5
+[18]	TIC	646384.9375
+[19]	TIC	657743.4375
+
+
+SCAN IDENTIFICATION RESULTS
+------------------------------
+Scan identification results are not available.
+
+
+PEAK IDENTIFICATION RESULTS
+------------------------------
+[#]	Name	CAS	MatchFactor	ReverseMatchFactor	Formula	Mol Weight	Probability	Advise	Identifier	Miscellaneous	Comments
+---
+[1]	Benzene, 1,3,5-trichloro-	108-70-3	77.8	85.3		0.0	29.12		NIST	InLib Factor: 133	
+[1]	Benzene, 1,2,3-trichloro-	87-61-6	79.0	90.1		0.0	34.47		NIST	InLib Factor: 133	
+[1]	Benzene, 1,3,5-trichloro-	108-70-3	78.5	87.3		0.0	29.12		NIST	InLib Factor: 133	
+[1]	Benzene, 1,2,3-trichloro-	87-61-6	78.2	84.9		0.0	34.47		NIST	InLib Factor: 133	
+[1]	Benzene, 1,3,5-trichloro-	108-70-3	77.8	85.5		0.0	29.12		NIST	InLib Factor: 133	
+[1]	Benzene, 1,2,4-trichloro-	120-82-1	79.0	86.6		0.0	34.47		NIST	InLib Factor: 133	
+[1]	Benzene, 1,2,4-trichloro-	120-82-1	77.7	85.9		0.0	34.47		NIST	InLib Factor: 133	
+[1]	Benzene, 1,3,5-trichloro-	108-70-3	78.6	86.3		0.0	29.12		NIST	InLib Factor: 133	
+---
+[2]	9H-Cycloisolongifolene, 8-oxo-	0-00-0	72.2	75.4		0.0	8.16		NIST	InLib Factor: -733	
+[2]	2,2,7,7-Tetramethyltricyclo[6.2.1.0(1,6)]undec-4-en-3-one	0-00-0	74.7	76.2		0.0	22.23		NIST	InLib Factor: -733	
+[2]	2(1H)Naphthalenone, 3,5,6,7,8,8a-hexahydro-4,8a-dimethyl-6-(1-methylethenyl)-	0-00-0	70.3	74.6		0.0	3.84		NIST	InLib Factor: -733	
+[2]	1s,4R,7R,11R-1,3,4,7-Tetramethyltricyclo[5.3.1.0(4,11)]undec-2-en-8-one	137235-42-8	71.5	79.1		0.0	6.25		NIST	InLib Factor: -733	
+[2]	5(1H)-Azulenone, 2,4,6,7,8,8a-hexahydro-3,8-dimethyl-4-(1-methylethylidene)-, (8S-cis)-	6754-66-1	72.7	76.4		0.0	10.12		NIST	InLib Factor: -733	
+[2]	2,4a-Methanonaphthalen-7(4aH)-one, 1,2,3,4,5,6-hexahydro-1,1,5,5-tetramethyl-, (2s-cis)-	26839-52-1	70.7	74.1		0.0	4.53		NIST	InLib Factor: -733	
+[2]	1,2,3,4,5,6-Hexahydro-1,1,5,5-tetramethyl-2,4a-methanonaphthalen-7(4aH)-one	23747-14-0	70.4	71.8		0.0	4.0		NIST	InLib Factor: -733	
+[2]	Cyclolongifolene oxide, dehydro-	0-00-0	70.1	73.6		0.0	3.55		NIST	InLib Factor: -733	
+[2]	2H-Cyclopropa[g]benzofuran, 4,5,5a,6,6a,6b-hexahydro-4,4,6b-trimethyl-2-(1-methylethenyl)-	102681-49-2	71.3	72.2		0.0	5.76		NIST	InLib Factor: -733	
+---
+[3]	Phenol, 2,6-bis(1,1-dimethylethyl)-	128-39-2	85.5	86.0		0.0	17.12		NIST	InLib Factor: 103	
+[3]	Phenol, 2,5-bis(1,1-dimethylethyl)-	5875-45-6	84.6	85.1		0.0	7.94		NIST	InLib Factor: 103	
+[3]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	89.2	89.5		0.0	58.19		NIST	InLib Factor: 103	
+[3]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	86.1	87.7		0.0	13.11		NIST	InLib Factor: 103	
+[3]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	85.8	87.9		0.0	13.11		NIST	InLib Factor: 103	
+[3]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	89.5	91.8		0.0	58.19		NIST	InLib Factor: 103	
+[3]	Phenol, 2,6-bis(1,1-dimethylethyl)-	128-39-2	86.8	87.5		0.0	17.12		NIST	InLib Factor: 103	
+[3]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	88.0	88.6		0.0	58.19		NIST	InLib Factor: 103	
+[3]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	84.9	85.5		0.0	13.11		NIST	InLib Factor: 103	
+---
+[4]	Phenol, 2,6-bis(1,1-dimethylethyl)-	128-39-2	85.5	86.0		0.0	17.12		NIST	InLib Factor: 103	
+[4]	Phenol, 2,5-bis(1,1-dimethylethyl)-	5875-45-6	84.6	85.1		0.0	7.94		NIST	InLib Factor: 103	
+[4]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	89.2	89.5		0.0	58.19		NIST	InLib Factor: 103	
+[4]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	86.1	87.7		0.0	13.11		NIST	InLib Factor: 103	
+[4]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	85.8	87.9		0.0	13.11		NIST	InLib Factor: 103	
+[4]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	89.5	91.8		0.0	58.19		NIST	InLib Factor: 103	
+[4]	Phenol, 2,6-bis(1,1-dimethylethyl)-	128-39-2	86.8	87.5		0.0	17.12		NIST	InLib Factor: 103	
+[4]	Phenol, 2,4-bis(1,1-dimethylethyl)-	96-76-4	88.0	88.6		0.0	58.19		NIST	InLib Factor: 103	
+[4]	Phenol, 3,5-bis(1,1-dimethylethyl)-	1138-52-9	84.9	85.5		0.0	13.11		NIST	InLib Factor: 103	
+---
+[5]	Dodecanoic acid, 1-methylethyl ester	10233-13-3	77.7	82.1		0.0	46.88		NIST	InLib Factor: -458	
+[5]	Dodecanoic acid, propyl ester	3681-78-5	72.2	79.1		0.0	5.93		NIST	InLib Factor: -458	
+[5]	Dodecanoic acid, propyl ester	3681-78-5	71.3	78.4		0.0	5.93		NIST	InLib Factor: -458	
+[5]	Dodecanoic acid, 1-methylpropyl ester	6937-42-4	72.6	77.7		0.0	7.02		NIST	InLib Factor: -458	
+[5]	i-Propyl dodecanoate	0-00-0	76.2	82.2		0.0	28.41		NIST	InLib Factor: -458	
+[5]	Dodecanoic acid	143-07-7	69.5	75.8		0.0	1.66		NIST	InLib Factor: -458	
+[5]	3-Cyclohexen-4-ol-1-one, 3-tridecanoyl-	0-00-0	69.7	71.0		0.0	1.8		NIST	InLib Factor: -458	
+[5]	Dodecanoic acid, propyl ester	3681-78-5	72.1	77.3		0.0	5.93		NIST	InLib Factor: -458	
+[5]	n-Butyl laurate	106-18-3	69.2	76.4		0.0	1.47		NIST	InLib Factor: -458	
+---
+[6]	Dodecanoic acid, 1-methylethyl ester	10233-13-3	77.7	82.1		0.0	46.88		NIST	InLib Factor: -458	
+[6]	Dodecanoic acid, propyl ester	3681-78-5	72.2	79.1		0.0	5.93		NIST	InLib Factor: -458	
+[6]	Dodecanoic acid, propyl ester	3681-78-5	71.3	78.4		0.0	5.93		NIST	InLib Factor: -458	
+[6]	Dodecanoic acid, 1-methylpropyl ester	6937-42-4	72.6	77.7		0.0	7.02		NIST	InLib Factor: -458	
+[6]	i-Propyl dodecanoate	0-00-0	76.2	82.2		0.0	28.41		NIST	InLib Factor: -458	
+[6]	Dodecanoic acid	143-07-7	69.5	75.8		0.0	1.66		NIST	InLib Factor: -458	
+[6]	3-Cyclohexen-4-ol-1-one, 3-tridecanoyl-	0-00-0	69.7	71.0		0.0	1.8		NIST	InLib Factor: -458	
+[6]	Dodecanoic acid, propyl ester	3681-78-5	72.1	77.3		0.0	5.93		NIST	InLib Factor: -458	
+[6]	n-Butyl laurate	106-18-3	69.2	76.4		0.0	1.47		NIST	InLib Factor: -458	
+---
+[7]	Oleic Acid	112-80-1	68.4	76.0		0.0	0.94		NIST	InLib Factor: -240	
+[7]	trans-13-Octadecenoic acid	693-71-0	68.9	72.7		0.0	1.16		NIST	InLib Factor: -240	
+[7]	cis-11-Eicosenoic acid	5561-99-9	68.3	69.2		0.0	0.91		NIST	InLib Factor: -240	
+[7]	cis-Vaccenic acid	506-17-2	68.5	72.0		0.0	0.98		NIST	InLib Factor: -240	
+[7]	9-Octadecenamide	3322-62-1	72.9	75.0		0.0	6.06		NIST	InLib Factor: -240	
+[7]	Hexadecenenitrile	88592-11-4	74.0	85.9		0.0	8.84		NIST	InLib Factor: -240	
+[7]	cis-13-Eicosenoic acid	17735-94-3	68.4	70.2		0.0	0.94		NIST	InLib Factor: -240	
+[7]	cis-10-Nonadecenoic acid	73033-09-7	68.9	71.3		0.0	1.16		NIST	InLib Factor: -240	
+[7]	Oleanitrile	0-00-0	80.8	86.6		0.0	58.29		NIST	InLib Factor: -240	
+[7]	2-Methyl-Z,Z-3,13-octadecadienol	0-00-0	71.7	76.2		0.0	4.04		NIST	InLib Factor: -240	
+---
+[8]	Poly Octadecyl Acrylate	0-00-0	76.2	76.2		0.0	7.13		NIST	InLib Factor: -625	
+[8]	Polypropylene, atactic	0-00-0	75.3	76.2		0.0	4.95		NIST	InLib Factor: -625	
+[8]	Lubricant (grease)	0-00-0	75.6	75.9		0.0	5.6		NIST	InLib Factor: -625	
+[8]	Polypropylene	0-00-0	76.5	77.7		0.0	8.04		NIST	InLib Factor: -625	
+[8]	Polypropylene	0-00-0	75.2	77.3		0.0	4.76		NIST	InLib Factor: -625	
+[8]	Lubricant (stick)	0-00-0	76.3	76.6		0.0	7.42		NIST	InLib Factor: -625	
+[8]	Dodecane, 1-cyclopentyl-4-(3-cyclopentylpropyl)-	7225-68-5	73.3	73.5		0.0	2.36		NIST	InLib Factor: -625	
+[8]	Poly 4-methyl-1-pentene	0-00-0	73.5	74.0		0.0	2.56		NIST	InLib Factor: -625	
+[8]	Motor oil	0-00-0	74.1	74.2		0.0	3.26		NIST	InLib Factor: -625	
+[8]	Octatriacontyl pentafluoropropionate	0-00-0	73.2	74.7		0.0	2.27		NIST	InLib Factor: -625	
+---
+[9]	Lubricant (grease)	0-00-0	75.5	75.8		0.0	3.73		NIST	InLib Factor: -474	
+[9]	Cyclopentane, (4-octyldodecyl)-	5638-09-5	75.6	76.5		0.0	3.88		NIST	InLib Factor: -474	
+[9]	Polypropylene	0-00-0	75.3	77.3		0.0	3.44		NIST	InLib Factor: -474	
+[9]	Poly 4-methyl-1-pentene	0-00-0	75.1	75.7		0.0	3.18		NIST	InLib Factor: -474	
+[9]	Poly Octadecyl Acrylate	0-00-0	74.8	74.9		0.0	2.82		NIST	InLib Factor: -474	
+[9]	Dodecane, 1-cyclopentyl-4-(3-cyclopentylpropyl)-	7225-68-5	75.0	75.2		0.0	3.05		NIST	InLib Factor: -474	
+[9]	Polypropylene, atactic	0-00-0	78.1	79.0		0.0	12.73		NIST	InLib Factor: -474	
+[9]	Polypropylene	0-00-0	75.1	76.7		0.0	3.18		NIST	InLib Factor: -474	
+[9]	Cyclotetradecane, 1,7,11-trimethyl-4-(1-methylethyl)-	1786-12-5	74.0	83.9		0.0	2.1		NIST	InLib Factor: -474	
+[9]	Lubricant (stick)	0-00-0	75.2	75.6		0.0	3.3		NIST	InLib Factor: -474	
+---
+[10]	13-Docosenamide, (Z)-	112-84-5	77.7	77.7		0.0	13.45		NIST	InLib Factor: -197	
+[10]	cis-11-Eicosenamide	10436-08-5	72.3	72.3		0.0	2.03		NIST	InLib Factor: -197	
+[10]	Deoxyspergualin	0-00-0	70.8	72.2		0.0	1.23		NIST	InLib Factor: -197	
+[10]	9-Octadecenamide	3322-62-1	73.4	74.2		0.0	2.96		NIST	InLib Factor: -197	
+[10]	9-Octadecenamide, (Z)-	301-02-0	73.6	76.6		0.0	68.69		NIST	InLib Factor: -197	
+[10]	13-Docosenamide, (Z)-	112-84-5	76.7	77.1		0.0	13.45		NIST	InLib Factor: -197	
+[10]	Nonadecanamide	58185-32-3	73.4	76.4		0.0	2.96		NIST	InLib Factor: -197	
+[10]	13-Docosenamide, (Z)-	112-84-5	70.4	82.7		0.0	13.45		NIST	InLib Factor: -197	
+[10]	9-Octadecenamide, (Z)-	301-02-0	83.1	87.2		0.0	68.69		NIST	InLib Factor: -197	
+[10]	9-Octadecenamide, (Z)-	301-02-0	78.1	78.5		0.0	68.69		NIST	InLib Factor: -197	
+---
+[11]	2-Hexadecanol	14852-31-4	68.1	71.1		0.0	3.29		NIST	InLib Factor: -1006	
+[11]	Adhesive, from clear tape	0-00-0	67.9	67.9		0.0	3.03		NIST	InLib Factor: -1006	
+[11]	Lubricant (grease)	0-00-0	67.8	69.0		0.0	2.91		NIST	InLib Factor: -1006	
+[11]	Red artist oil paint	0-00-0	67.8	67.8		0.0	2.91		NIST	InLib Factor: -1006	
+[11]	White acrylic paint	0-00-0	68.3	68.5		0.0	3.56		NIST	InLib Factor: -1006	
+[11]	Red children's paint	0-00-0	70.0	70.5		0.0	6.65		NIST	InLib Factor: -1006	
+[11]	Urethane finish	0-00-0	67.5	67.5		0.0	2.58		NIST	InLib Factor: -1006	
+[11]	Lipstick, pink	0-00-0	67.7	70.1		0.0	2.8		NIST	InLib Factor: -1006	
+[11]	Lipstick, all natural	0-00-0	67.4	70.5		0.0	2.48		NIST	InLib Factor: -1006	
+[11]	Lubricant (stick)	0-00-0	68.8	70.1		0.0	4.42		NIST	InLib Factor: -1006	
+---
+[12]	Polypropylene, atactic	0-00-0	76.0	76.3		0.0	5.61		NIST	InLib Factor: -474	
+[12]	Lubricant (stick)	0-00-0	74.7	74.9		0.0	3.33		NIST	InLib Factor: -474	
+[12]	Polypropylene	0-00-0	75.9	76.7		0.0	5.4		NIST	InLib Factor: -474	
+[12]	Polyethylene, LLDPE	0-00-0	73.8	76.1		0.0	2.3		NIST	InLib Factor: -474	
+[12]	Dodecane, 1-cyclopentyl-4-(3-cyclopentylpropyl)-	7225-68-5	74.3	74.4		0.0	2.83		NIST	InLib Factor: -474	
+[12]	EPDM Rubber	0-00-0	74.0	75.4		0.0	2.5		NIST	InLib Factor: -474	
+[12]	Lubricant (grease)	0-00-0	74.6	74.7		0.0	3.2		NIST	InLib Factor: -474	
+[12]	Poly Octadecyl Acrylate	0-00-0	75.3	75.3		0.0	4.24		NIST	InLib Factor: -474	
+[12]	Polypropylene	0-00-0	78.1	78.6		0.0	13.2		NIST	InLib Factor: -474	
+[12]	Octatriacontyl pentafluoropropionate	0-00-0	75.3	76.0		0.0	4.24		NIST	InLib Factor: -474	
+---
+[13]	Poly 1-butene	0-00-0	65.8	67.2		0.0	5.24		NIST	InLib Factor: -918	
+[13]	Lubricant (grease)	0-00-0	67.6	68.6		0.0	10.17		NIST	InLib Factor: -918	
+[13]	Motor oil	0-00-0	64.6	64.9		0.0	3.46		NIST	InLib Factor: -918	
+[13]	(t-Butyl-dimethylsilyl)[2-methyl-2-(4-methyl-pent-3-enyl)-cyclopropyl]-methanol	0-00-0	63.5	68.9		0.0	2.25		NIST	InLib Factor: -918	
+[13]	2-Hexadecanol	14852-31-4	63.5	66.4		0.0	2.25		NIST	InLib Factor: -918	
+[13]	Poly Octadecyl Acrylate	0-00-0	64.5	64.6		0.0	3.32		NIST	InLib Factor: -918	
+[13]	Mascara	0-00-0	63.6	65.3		0.0	2.35		NIST	InLib Factor: -918	
+[13]	Polypropylene	0-00-0	64.7	66.6		0.0	3.6		NIST	InLib Factor: -918	
+[13]	Lubricant (stick)	0-00-0	69.8	71.0		0.0	25.74		NIST	InLib Factor: -918	
+[13]	Polypropylene, atactic	0-00-0	63.8	66.0		0.0	2.54		NIST	InLib Factor: -918	
+---
+[14]	Poly 1-butene	0-00-0	68.6	69.9		0.0	2.59		NIST	InLib Factor: -804	
+[14]	2-Hexadecanol	14852-31-4	68.5	70.9		0.0	2.49		NIST	InLib Factor: -804	
+[14]	Tung Oil Finish	0-00-0	68.4	68.4		0.0	2.39		NIST	InLib Factor: -804	
+[14]	Poly 4-methyl-1-pentene	0-00-0	70.2	71.5		0.0	4.91		NIST	InLib Factor: -804	
+[14]	Polypropylene	0-00-0	69.5	71.2		0.0	3.66		NIST	InLib Factor: -804	
+[14]	Lubricant (stick)	0-00-0	74.3	75.2		0.0	21.6		NIST	InLib Factor: -804	
+[14]	Lubricant (grease)	0-00-0	72.5	73.3		0.0	11.14		NIST	InLib Factor: -804	
+[14]	Polypropylene, atactic	0-00-0	70.9	72.7		0.0	6.41		NIST	InLib Factor: -804	
+[14]	Motor oil	0-00-0	69.3	69.6		0.0	3.38		NIST	InLib Factor: -804	
+[14]	Poly Octadecyl Acrylate	0-00-0	69.9	70.0		0.0	4.34		NIST	InLib Factor: -804	
+---
+[15]	Lubricant (grease)	0-00-0	67.6	68.8		0.0	10.15		NIST	InLib Factor: -1006	
+[15]	Oil (Petroleum, crude)	0-00-0	64.8	64.8		0.0	3.55		NIST	InLib Factor: -1006	
+[15]	Red children's paint	0-00-0	65.1	65.7		0.0	4.02		NIST	InLib Factor: -1006	
+[15]	Mascara	0-00-0	64.3	65.8		0.0	2.86		NIST	InLib Factor: -1006	
+[15]	Poly 4-methyl-1-pentene	0-00-0	67.2	68.5		0.0	8.58		NIST	InLib Factor: -1006	
+[15]	Lubricant (stick)	0-00-0	69.2	70.4		0.0	18.05		NIST	InLib Factor: -1006	
+[15]	Tung Oil Finish	0-00-0	68.0	68.0		0.0	12.02		NIST	InLib Factor: -1006	
+[15]	Motor oil	0-00-0	64.1	64.5		0.0	2.64		NIST	InLib Factor: -1006	
+[15]	Polypropylene, atactic	0-00-0	65.2	67.0		0.0	4.19		NIST	InLib Factor: -1006	
+[15]	Poly 1-butene	0-00-0	65.7	67.0		0.0	5.19		NIST	InLib Factor: -1006	
+---
+[16]	Polypropylene	0-00-0	74.8	75.8		0.0	6.91		NIST	InLib Factor: -625	
+[16]	Polypropylene	0-00-0	73.7	75.9		0.0	4.69		NIST	InLib Factor: -625	
+[16]	Poly 4-methyl-1-pentene	0-00-0	73.6	73.9		0.0	4.51		NIST	InLib Factor: -625	
+[16]	Polypropylene, atactic	0-00-0	75.3	76.3		0.0	8.58		NIST	InLib Factor: -625	
+[16]	Poly 1-butene	0-00-0	71.4	72.7		0.0	1.98		NIST	InLib Factor: -625	
+[16]	Lubricant (stick)	0-00-0	77.0	77.4		0.0	15.72		NIST	InLib Factor: -625	
+[16]	Motor oil	0-00-0	72.8	72.9		0.0	3.36		NIST	InLib Factor: -625	
+[16]	Lubricant (grease)	0-00-0	74.7	75.1		0.0	6.64		NIST	InLib Factor: -625	
+[16]	Poly Octadecyl Acrylate	0-00-0	72.7	72.7		0.0	3.23		NIST	InLib Factor: -625	
+[16]	Octatriacontyl pentafluoropropionate	0-00-0	72.3	73.6		0.0	2.73		NIST	InLib Factor: -625	
+---
+[17]	EPDM Rubber	0-00-0	72.6	74.8		0.0	2.21		NIST	InLib Factor: -591	
+[17]	Lubricant (stick)	0-00-0	75.0	75.4		0.0	5.11		NIST	InLib Factor: -591	
+[17]	Polypropylene	0-00-0	76.0	77.8		0.0	7.43		NIST	InLib Factor: -591	
+[17]	Polypropylene, atactic	0-00-0	77.7	78.6		0.0	13.62		NIST	InLib Factor: -591	
+[17]	Polypropylene	0-00-0	74.0	75.3		0.0	3.57		NIST	InLib Factor: -591	
+[17]	Octatriacontyl pentafluoropropionate	0-00-0	73.9	75.1		0.0	3.43		NIST	InLib Factor: -591	
+[17]	Motor oil	0-00-0	72.4	72.6		0.0	2.04		NIST	InLib Factor: -591	
+[17]	Poly 1-butene	0-00-0	74.1	75.2		0.0	3.71		NIST	InLib Factor: -591	
+[17]	Poly 4-methyl-1-pentene	0-00-0	76.4	77.0		0.0	8.8		NIST	InLib Factor: -591	
+[17]	Lubricant (grease)	0-00-0	75.2	75.5		0.0	5.54		NIST	InLib Factor: -591	
+---
+[18]	Lubricant (grease)	0-00-0	67.3	68.2		0.0	10.08		NIST	InLib Factor: -1032	
+[18]	Poly 1-butene	0-00-0	64.8	66.1		0.0	3.79		NIST	InLib Factor: -1032	
+[18]	(t-Butyl-dimethylsilyl)[2-methyl-2-(4-methyl-pent-3-enyl)-cyclopropyl]-methanol	0-00-0	64.2	69.6		0.0	2.97		NIST	InLib Factor: -1032	
+[18]	Mascara	0-00-0	64.1	65.3		0.0	2.86		NIST	InLib Factor: -1032	
+[18]	2-Hexadecanol	14852-31-4	64.4	66.9		0.0	3.22		NIST	InLib Factor: -1032	
+[18]	Lubricant (stick)	0-00-0	68.9	69.8		0.0	17.51		NIST	InLib Factor: -1032	
+[18]	Polypropylene, atactic	0-00-0	65.3	67.3		0.0	4.7		NIST	InLib Factor: -1032	
+[18]	Poly Octadecyl Acrylate	0-00-0	65.4	65.5		0.0	4.89		NIST	InLib Factor: -1032	
+[18]	Motor oil	0-00-0	64.7	65.1		0.0	3.64		NIST	InLib Factor: -1032	
+[18]	Polypropylene	0-00-0	64.3	66.2		0.0	3.09		NIST	InLib Factor: -1032	
+---
+[19]	Lubricant (grease)	0-00-0	67.3	68.2		0.0	10.08		NIST	InLib Factor: -1032	
+[19]	Poly 1-butene	0-00-0	64.8	66.1		0.0	3.79		NIST	InLib Factor: -1032	
+[19]	(t-Butyl-dimethylsilyl)[2-methyl-2-(4-methyl-pent-3-enyl)-cyclopropyl]-methanol	0-00-0	64.2	69.6		0.0	2.97		NIST	InLib Factor: -1032	
+[19]	Mascara	0-00-0	64.1	65.3		0.0	2.86		NIST	InLib Factor: -1032	
+[19]	2-Hexadecanol	14852-31-4	64.4	66.9		0.0	3.22		NIST	InLib Factor: -1032	
+[19]	Lubricant (stick)	0-00-0	68.9	69.8		0.0	17.51		NIST	InLib Factor: -1032	
+[19]	Polypropylene, atactic	0-00-0	65.3	67.3		0.0	4.7		NIST	InLib Factor: -1032	
+[19]	Poly Octadecyl Acrylate	0-00-0	65.4	65.5		0.0	4.89		NIST	InLib Factor: -1032	
+[19]	Motor oil	0-00-0	64.7	65.1		0.0	3.64		NIST	InLib Factor: -1032	
+[19]	Polypropylene	0-00-0	64.3	66.2		0.0	3.09		NIST	InLib Factor: -1032	
+
+
+BACKGROUND INTEGRATION RESULTS
+------------------------------
+m/z (0 = TIC or SUM XIC))	Integrated Area
+TIC	0.0
+
+
+CHROMATOGRAM INTEGRATION RESULTS
+------------------------------
+m/z (0 = TIC or SUM XIC))	Integrated Area
+TIC	20185966893.73496
+
+
+CHROMATOGRAM IDENTIFICATION RESULTS
+------------------------------
+Chromatogram identification results are not available.
+
+
+PEAK QUANTITATION RESULTS
+------------------------------
+[#]	Name	ChemicalClass	Concentration	ConcentrationUnit	Area	Description	Ion
+
+
+PEAK QUANTITATION SUMMARY
+------------------------------
+Time [min]	Name	Area	Classifier	Quantifier
+11.53802	982628.6875
+16.52162	2569674.25
+17.05105	5529080.5
+17.05105	5513669.5
+18.80052	1243855.875
+18.80052	1250559.0
+29.06458	5579629.5
+30.26042	2105722.0
+31.54453	2412866.5
+31.73723	39408724.0
+31.96198	613839.8125
+34.15287	11795646.0
+34.64243	629144.25
+34.81902	1437874.75
+35.3888	837356.125
+36.89765	5503479.5
+37.53958	7299522.5
+38.64713	646384.9375
+38.64713	657743.4375
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

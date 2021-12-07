@@ -1,8 +1,31 @@
-\chemfig{
-	[,0.8]O=[:60]
-	(-[:120]O-[@{op,.5}:180])
-	-*6([::0]-=-
-	(-(-[:300]O--[:-60]-[@{cl,0.5}])=[:60]O)
-	=-=-)
+\schemestart
+\chemname[1.5\baselineskip]{
+	\chemfig{
+		[,0.8]O=[:60]
+		(-[:120]O-[@{op,.5}:180])
+		-*6([::0]-=-
+		(-(-[:300]O--[:-60]-[@{cl,0.5}])=[:60]O)
+		=-=-)
+	}
+	\polymerdelim[delimiters ={[]}, height = 1em, depth = 6.5em, indice = n]{op}{cl}
+	}{\Acf{pet}}
+\arrow{->[ $\Delta$T ]}[,1.5]
+\subscheme{
+	\chemname[1.5\baselineskip]{
+		\chemfig{*6([::0,0.8]-=-(-(-[:-30]OH)=[:90]O)=-=-)}
+	}{benzoic acid}
+	\arrow{0}[,0]
+	\+
+	\arrow{0}[,0]
+	\chemname[1.5\baselineskip]{
+		\chemfig{
+			[,0.8]O=[:60]
+			(-[:120]O-[@{op,.5}:180]=[::60])
+			-*6([::0]-=-
+			(-(-[:300]O--[:-60]-[@{cl,0.5}])=[:60]O)
+			=-=-)
+		}
+	}{4-(vinyloxycarbonyl) benzoic acid oligomers}
+	\polymerdelim[delimiters ={[]}, height = 1em, depth = 6.5em, indice = m]{op}{cl}
 }
-\polymerdelim[delimiters ={[]}, height = 1em, depth = 6.5em, indice = n]{op}{cl}
+\schemestop

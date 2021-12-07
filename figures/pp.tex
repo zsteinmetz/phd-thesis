@@ -1,2 +1,19 @@
-\chemfig{-[@{op,.5}::30](-[::60,0.8])-[::-60]-[@{cl,0.5}::60]}
-\polymerdelim[delimiters ={[]}, height = 3.5em, depth = 1.5em, indice = n]{op}{cl}
+\schemestart
+\chemname[1.5\baselineskip]{
+	\chemfig{-[@{op,.5}::30](-[::60,0.8])-[::-60]-[@{cl,0.5}::60]}
+	\polymerdelim[delimiters ={[]}, height = 3.5em, depth = 1.5em, indice = n]{op}{cl}
+	}{\Acf{pp}}
+\arrow{->[ $\Delta$T ]}[,1.5]
+\subscheme{
+	\chemname[1.5\baselineskip]{
+		\chemfig{-[::30]-[::-60]-[::60]-[::-60]}
+	}{$n$-pentane}
+	\arrow{0}[,.0]
+	\+
+	\arrow{0}[,.0]
+	\chemname[1.5\baselineskip]{
+		\chemfig{=[::30](-[::60,0.8])-[@{op,.5}::-60]-[::60](-[::60,0.8])-[@{cl,0.5}::-60]-[::60]-[::-60]}
+		\polymerdelim[delimiters ={[]}, height = 3.5em, depth = 1.5em, indice = x]{op}{cl}
+	}{methylalkenes}
+}
+\schemestop

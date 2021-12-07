@@ -188,7 +188,7 @@ ggplot(data = fisa$sum, aes(Transect, Content)) +
   geom_point(aes(color = Row, shape = Row), fill = "white",
              position = position_dodge(1), size = pt) +
   facet_grid(Polymer ~ Site, scales = "free", labeller = polymer_labeller) +
-  scale_y_continuous(name = expression("Polymer content"~"[µg g"^-1*"]"),
+  scale_y_continuous(name = expression("Polymer content"~"[mg kg"^-1*"]"),
                      breaks = c(1, 2.5, 5, 10, 25, 50),
                      trans = scales::pseudo_log_trans(base = 10)) +
   scale_x_discrete(labels = c("FC", "FE", "FM", "P")) +
@@ -198,6 +198,8 @@ ggplot(data = fisa$sum, aes(Transect, Content)) +
                      values = c(viridis(3)[c(2,1)], "gray20")) +
   scale_fill_manual(breaks = c("Planting", "Track", "None"),
                     values = c(viridis(3)[c(2,1)], "gray20")) +
-  theme_publish(base_size = 12) +
+  theme_publish(base_family = font) +
   theme(strip.text.y = element_text(angle = 0))
+ggsave('../../../figures/py-screening.pdf', scale = 1.5, width = pagewidth,
+       height = 5, unit = 'in', device = cairo_pdf)
 

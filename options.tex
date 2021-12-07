@@ -72,7 +72,10 @@
 \setlist[enumerate]{label={(\arabic*)}}
 
 % Chemfig options
-\setchemfig{atom sep=2.5em}
+\setchemfig{
+	atom sep=2.5em,
+	cram width=2.5pt, cram dash width=0.75pt, cram dash sep=2.0pt
+}
 \renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
 
 % DOI and CAS links
@@ -105,7 +108,7 @@
 {
 	\acroheading
 	\acropreamble
-	\begin{description}[font=\normalfont,labelwidth=7em]
+	\begin{description}[font=\normalfont,leftmargin=8em,style=nextline]
 	\acronymsmapF
 	{
 		\item [ \acrowrite {short} \acroifT {alt} { / } \acrowrite {alt} ]

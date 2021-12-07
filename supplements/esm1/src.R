@@ -65,7 +65,7 @@ tga$mz154 <-
   facet_wrap(~ Label, scales = "free") +
   xlab("Temperature [°C]") + ylab(bquote(154~italic("m/z")~"["%.% 10^-9*"]")) +
   scale_color_viridis(option = "inferno", begin = .1, end = .9, direction = -1,
-                      name = bquote(bold("PET content [mg g"^-1*"]"))) +
+                      name = bquote(bold("PET content [g kg"^-1*"]"))) +
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0)) +
   guides(color = guide_colorbar(title.vjust = 1),
          shape = guide_legend(title.vjust = 1))
@@ -93,7 +93,7 @@ cal$plot105 <-
   geom_line(data = cal$pred105, aes(y = fit*10^9), color = inferno(1, begin = .1, end = .9)) +
   geom_point(size = pt, color = inferno(1, begin = .1, end = .9)) +
   facet_wrap(~ Label, scales = "free") +
-  xlab(bquote("PET content"~"[mg g"^-1*"]")) +
+  xlab(bquote("PET content"~"[g kg"^-1*"]")) +
   ylab(bquote(105~italic("m/z")~"["%.% 10^-9*"]")) +
   scale_y_continuous(label=scientific_10) +
   theme_publish(base_family = font) + theme_red()
@@ -104,7 +104,7 @@ cal$plot154 <-
   geom_line(data = cal$pred154, aes(y = fit*10^9), color = inferno(1, begin = .1, end = .9)) +
   geom_point(size = pt, color = inferno(1, begin = .1, end = .9)) +
   facet_wrap(~ Label, scales = "free") +
-  xlab(bquote("PET content"~"[mg g"^-1*"]")) +
+  xlab(bquote("PET content"~"[g kg"^-1*"]")) +
   ylab(bquote(154~italic("m/z")~"["%.% 10^-9*"]")) +
   scale_y_continuous(label=scientific_10) +
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0))
@@ -128,7 +128,7 @@ ggplot(cap$data, aes(Temp, mz105*10^9, group = interaction(PET, Case, Type))) +
   facet_wrap(~ Label, scales = "free") +
   xlab("Temperature [°C]") +   ylab(bquote(105~italic("m/z")~"["%.% 10^-9*"]")) +
   scale_color_viridis(option = "inferno", begin = .1, end = .9, direction = -1,
-                      name = bquote(bold("PET content [mg g"^-1*"]"))) +
+                      name = bquote(bold("PET content [g kg"^-1*"]"))) +
   scale_linetype_manual(values = lty) +
   theme_publish(base_family = font) +
   guides(color = guide_colorbar(title.vjust = 1),
@@ -190,7 +190,7 @@ cys$compmz33 <-
   geom_line(aes(color = Cys, group = Cys)) +
   xlab("Temperature [°C]") + ylab(bquote(33~italic("m/z")~"["%.% 10^-9*"]")) +
   scale_color_viridis(option = "cividis", direction = -1, discrete = T,
-                      name = bquote(bold("Cysteine content [mg g"^-1*"]"))) +
+                      name = "Cysteine content [%]") +
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0))
 cys$comptga / cys$compmz33 +
   plot_annotation(theme = theme(plot.margin = margin()))
@@ -218,7 +218,7 @@ cys$calcurve <-
               aes(y = fit*10^6, ymin = lwr*10^6, ymax = upr*10^6)) +
   geom_line(data = cys$pred, aes(y = fit*10^6), color = viridis(1, begin = .1, end = .9)) +
   geom_point(color = cividis(1)) +
-  xlab(bquote("Cysteine content"~"[mg g"^-1*"]")) +
+  xlab("Cysteine content [%]") +
   ylab(bquote(33~italic("m/z")~"["%.% 10^-6*"]")) +
   theme_publish(base_family = font) +
   ggtitle("a")
@@ -235,7 +235,7 @@ cys$mz33 <-
   geom_line(aes(color = Cys, group = Sample)) +
   xlab("Temperature [°C]") + ylab(bquote(33~italic("m/z")~"["%.% 10^-9*"]")) +
   scale_color_viridis(option = "cividis", direction = -1,
-                      name = bquote(bold("Cysteine content [mg g"^-1*"]"))) +
+                      name = "Cysteine content [%]") +
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0)) +
   guides(color = guide_colorbar(title.vjust = 1),
          shape = guide_legend(title.vjust = 1))
@@ -268,7 +268,7 @@ contr$masses <-
   scale_color_viridis(option = "cividis", direction = -1,
                       discrete = T, name = bquote(bolditalic("m/z")),
                       labels = c("18", "28", "44")) +
-  xlab(bquote("PET content"~"[mg g"^-1*"]")) +
+  xlab(bquote("PET content"~"[g kg"^-1*"]")) +
   ylab(bquote(italic("m/z")~"["%.% 10^-9*"]")) +
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0)) +
   facet_wrap(~ Label)
