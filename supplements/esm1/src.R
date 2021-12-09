@@ -145,10 +145,10 @@ ggplot(cap$pressure, aes(x = Date, y = Pressure * 10^6)) +
   geom_line(color = cividis(1)) +
   geom_point(color = cividis(1)) +
   geom_hline(yintercept = 8, linetype = "dashed") +
-  geom_text(x = -Inf, y = 7.5, label = "capillary~blocked < 8 %.% 10^-9~bar",
+  geom_text(x = -Inf, y = 7, label = "'capillary blocked' < 8 %.% 10^-9~'bar'",
             hjust = -0.5, parse = T, size = 3, family = font) + 
   geom_hline(yintercept = 20, linetype = "dashed") +
-  geom_text(x = -Inf, y = 20.5, label = "capillary~broken > 20 %.% 10^-9~bar",
+  geom_text(x = -Inf, y = 21, label = "'capillary broken' > 20 %.% 10^-9~'bar'",
             hjust = -0.5, parse = T, size = 3, family = font) + 
   ylab(expression("Pressure [10"^-9~"bar]")) +
   scale_y_continuous(limits = c(7, 21)) +
