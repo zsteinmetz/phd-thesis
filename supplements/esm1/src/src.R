@@ -1,12 +1,10 @@
 #### Load packages and functions ####
-
-setwd("~/Documents/PhD/Thesis/supplements/")
-source("R/init.R")
+source("func/init.R")
 
 #### Examplary TGA/DTG curve ####
 
 example <- list()
-example$data <- fread("esm1/data/tga-dtg-sample.csv")
+example$data <- fread("../data/tga-dtg-sample.csv")
 example$data[, Sample := factor(Sample, c("LUFA soil", "PET in soil", "PET dust"))]
 
 lty <- c("solid", "dashed", "solid")
@@ -35,13 +33,13 @@ example$mass <-
                                  "Pure PET")) +
   theme_publish(base_family = font) + theme(legend.direction = "vertical")
 example$tga / example$dtg / example$mass + plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/tga-dtg-sample.pdf', scale = 1.5, width = marginwidth,
+ggsave('../../../figures/tga-dtg-sample.pdf', scale = 1.5, width = marginwidth,
        height = 3.5, unit = 'in', device = cairo_pdf)
 
 #### TGA/MS curves ####
 
 tga <- list()
-tga$data <- fread("esm1/data/tga-ms.csv")
+tga$data <- fread("../data/tga-ms.csv")
   
 tga$data[, Label := paste0(toupper(substring(IS, 1, 1)), substring(IS, 2), " internal standard")]
 
@@ -70,13 +68,13 @@ tga$mz154 <-
   guides(color = guide_colorbar(title.vjust = 1),
          shape = guide_legend(title.vjust = 1))
 tga$tga / tga$mz105 / tga$mz154 + plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/tga-ms.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/tga-ms.pdf', scale = 1.5, width = pagewidth,
        height = 4, unit = 'in', device = cairo_pdf)
 
 #### Calibration ####
 
 cal <- list()
-cal$data <- fread("esm1/data/tga-calibration.csv")
+cal$data <- fread("../data/tga-calibration.csv")
 
 cal$data[, Label := paste0(toupper(substring(IS, 1, 1)), substring(IS, 2), " internal standard")]
 
@@ -109,13 +107,13 @@ cal$plot154 <-
   scale_y_continuous(label=scientific_10) +
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0))
 cal$plot105 / cal$plot154 + plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/tga-calibration.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/tga-calibration.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
 
 #### Capillary checks ####
 
 cap <- list()
-cap$data <- fread("esm1/data/tga-capillary-checks.csv")
+cap$data <- fread("../data/tga-capillary-checks.csv")
 
 cap$data[, Label := paste0(toupper(substring(IS, 1, 1)), substring(IS, 2), " internal standard")]
 cap$data[PET > 30, Case := "40–50"]
@@ -133,12 +131,12 @@ ggplot(cap$data, aes(Temp, mz105*10^9, group = interaction(PET, Case, Type))) +
   theme_publish(base_family = font) +
   guides(color = guide_colorbar(title.vjust = 1),
          shape = guide_legend(title.vjust = 1))
-ggsave('../figures/tga-capillary-checks.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/tga-capillary-checks.pdf', scale = 1.5, width = pagewidth,
        height = 2.2, unit = 'in', device = cairo_pdf)
 
 #### Capillary pressure ####
 
-cap$pressure <- fread("esm1/data/tga-capillary-pressure.csv")
+cap$pressure <- fread("../data/tga-capillary-pressure.csv")
 cap$pressure[, Date := as.Date(Date)]
 
 ggplot(cap$pressure, aes(x = Date, y = Pressure * 10^6)) +
@@ -153,13 +151,13 @@ ggplot(cap$pressure, aes(x = Date, y = Pressure * 10^6)) +
   ylab(expression("Pressure [10"^-9~"bar]")) +
   scale_y_continuous(limits = c(7, 21)) +
   theme_publish(base_family = font)
-ggsave('../figures/tga-capillary-pressure.pdf', scale = 1.5, width = textwidth,
-       height = 2, unit = 'in', device = cairo_pdf)
+ggsave('../../../figures/tga-capillary-pressure.pdf', scale = 1.5,
+       width = textwidth, height = 2, unit = 'in', device = cairo_pdf)
 
 #### Polymer DSC ####
 
 dsc <- list()
-dsc$data <- fread("esm1/data/dsc.csv")
+dsc$data <- fread("../data/dsc.csv")
 
 ggplot(dsc$data, aes(Temp, AvgHF)) +
   geom_line(aes(color = Sample)) +
@@ -170,13 +168,13 @@ ggplot(dsc$data, aes(Temp, AvgHF)) +
                                  "Dust (PETKA CZ)",
                                  "Reference (PlasticsEurope)")) +
   theme_publish(base_family = font)
-ggsave('../figures/dsc.pdf', scale = 1.5, width = textwidth,
+ggsave('../../../figures/dsc.pdf', scale = 1.5, width = textwidth,
        height = 2, unit = 'in', device = cairo_pdf)
 
 #### Cysteine comparison ####
 
 cys <- list()
-cys$comp <- fread("esm1/data/cysteine-comparison.csv")
+cys$comp <- fread("../data/cysteine-comparison.csv")
 cys$comp[, Cys := as.factor(Cys)]
 
 cys$comptga <-
@@ -194,13 +192,13 @@ cys$compmz33 <-
   theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0))
 cys$comptga / cys$compmz33 +
   plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/cysteine-comparison.pdf', scale = 1.5, width = textwidth,
-       height = 3, unit = 'in', device = cairo_pdf)
+ggsave('../../../figures/cysteine-comparison.pdf', scale = 1.5,
+       width = textwidth, height = 3, unit = 'in', device = cairo_pdf)
 
 #### Cysteine tests ####
 
-cys$lin <- fread("esm1/data/cysteine-linearity.csv")
-cys$deg <- fread("esm1/data/cysteine-degradation.csv")
+cys$lin <- fread("../data/cysteine-linearity.csv")
+cys$deg <- fread("../data/cysteine-degradation.csv")
 
 cys$cal <- calibration(mz33 ~ Cys, data = cys$lin)
 cys$conc <- cys$cal$model$model[,2]
@@ -241,12 +239,12 @@ cys$mz33 <-
          shape = guide_legend(title.vjust = 1))
 cys$calcurve / cys$tga / cys$mz33 +
   plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/cysteine-tests.pdf', scale = 1.5, width = textwidth,
+ggsave('../../../figures/cysteine-tests.pdf', scale = 1.5, width = textwidth,
        height = 4, unit = 'in', device = cairo_pdf)
 
 #### Control measurements ####
 contr <- list()
-contr$data <- fread("esm1/data/control-measurements.csv")
+contr$data <- fread("../data/control-measurements.csv")
 contr$melt <- melt(contr$data, id = c("PET", "IS"),
                    measure = c("mz18", "mz28", "mz44", "SigRatio"),
                    variable.name = "Mass", value.name = "Signal")
@@ -274,5 +272,5 @@ contr$masses <-
   facet_wrap(~ Label)
 contr$sigratio / contr$masses +
   plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/control-measurements.pdf', scale = 1.5, width = pagewidth,
-       height = 3.5, unit = 'in', device = cairo_pdf)
+ggsave('../../../figures/control-measurements.pdf', scale = 1.5,
+       width = pagewidth, height = 3.5, unit = 'in', device = cairo_pdf)

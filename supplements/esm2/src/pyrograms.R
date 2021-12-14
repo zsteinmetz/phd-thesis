@@ -1,20 +1,18 @@
 #### Load packages and functions ####
-
-setwd("~/Documents/PhD/Thesis/supplements/")
-source("R/init.R")
+source("func/init.R")
 
 pyrograms <- rbind(
-  cbind(`Sample Type` = "Blank", fread("esm2/data/chromatograms/Pyro_Plast-015.csv")),
-  cbind(`Sample Type` = "Polymer mixture", fread("esm2/data/chromatograms/Pyro_Plast-026.csv")),
-  cbind(`Sample Type` = "Pure PE", fread("esm2/data/chromatograms/Pyro_Plast-027.csv")),
-  cbind(`Sample Type` = "Pure PP", fread("esm2/data/chromatograms/Pyro_Plast-028.csv")),
-  cbind(`Sample Type` = "Pure PS", fread("esm2/data/chromatograms/Pyro_Plast-029.csv"))
+  cbind(`Sample Type` = "Blank", fread("../data/chromatograms/Pyro_Plast-015.csv")),
+  cbind(`Sample Type` = "Polymer mixture", fread("../data/chromatograms/Pyro_Plast-026.csv")),
+  cbind(`Sample Type` = "Pure PE", fread("../data/chromatograms/Pyro_Plast-027.csv")),
+  cbind(`Sample Type` = "Pure PP", fread("../data/chromatograms/Pyro_Plast-028.csv")),
+  cbind(`Sample Type` = "Pure PS", fread("../data/chromatograms/Pyro_Plast-029.csv"))
 )
 
-chrom <- data.table(read_openchrom("esm2/data/reports/sample/"))
+chrom <- data.table(read_openchrom("../data/reports/sample/"))
 chrom <- chrom[!is.na(Name), .(Name, RI, `Integrated Area`)]
 
-abbr <- fread("../tables/py-products.tex", sep = "&")
+abbr <- fread("../../../tables/py-products.tex", sep = "&")
 abbr <- abbr[, .(V2, V3)]
 names(abbr) <- c("Label", "Name")
 abbr[Name == "$\\alpha$-Methylstyrene", Name := "α-Methylstyrene"]
@@ -63,7 +61,7 @@ ggplot(pyrograms[`Sample Type` == "Polymer mixture"], aes(RI, rTIC)) +
   theme(axis.title.y = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank())
-ggsave('../figures/py-sample.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/py-sample.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
 
 ggplot(pyrograms[!is.na(Label)], aes(RI, Rel*100)) +
@@ -84,6 +82,6 @@ ggplot(pyrograms[!is.na(Label)], aes(RI, Rel*100)) +
   theme(axis.title.y = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks.y = element_blank())
-ggsave('../figures/py-selectivity1.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/py-selectivity1.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
 

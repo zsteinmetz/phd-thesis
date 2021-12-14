@@ -1,23 +1,21 @@
 #### Load packages and functions ####
-
-setwd("~/Documents/PhD/Thesis/supplements/")
-source("R/init.R")
+source("func/init.R")
 
 ## Read data
-seqtable <- fread("esm2/data/seqtable.csv")
+seqtable <- fread("../data/seqtable.csv")
 
 allcompounds <- rbind(
-  cbind(read_targets("esm2/data/targets/PE.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PP.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PS.txt", header = F))
+  cbind(read_targets("../data/targets/PE.txt", header = F)),
+  cbind(read_targets("../data/targets/PP.txt", header = F)),
+  cbind(read_targets("../data/targets/PS.txt", header = F))
 )
 names(allcompounds)[names(allcompounds) == "Contributor"] <- "Polymer"
 
 comp <- list()
 
 comp$reports <- rbind(
-  data.table(read_openchrom("esm2/data/reports/calibration/")),
-  data.table(read_openchrom("esm2/data/reports/selectivity/"))
+  data.table(read_openchrom("../data/reports/calibration/")),
+  data.table(read_openchrom("../data/reports/selectivity/"))
 )
 
 ## Data handling
@@ -130,9 +128,10 @@ comp$gg <- list()
   ylim(0, NA) +
   theme_publish(base_family = font) + theme(axis.title.y = element_blank()))
 
-combined <- comp$gg$pe + comp$gg$pp + comp$gg$ps & theme(legend.position = "bottom")
+combined <- comp$gg$pe + comp$gg$pp + comp$gg$ps &
+  theme(legend.position = "bottom")
 combined + plot_layout(guides = "collect", widths = c(3, 1, 2)) +
   plot_annotation(theme = theme(plot.margin = margin()))
-ggsave('../figures/py-selectivity2.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/py-selectivity2.pdf', scale = 1.5, width = pagewidth,
        height = 2.2, unit = 'in', device = cairo_pdf)
 

@@ -1,21 +1,19 @@
 #### Load packages and functions ####
-
-setwd("~/Documents/PhD/Thesis/supplements/")
-source("R/init.R")
+source("func/init.R")
 
 ## Read data
-seqtable <- fread("esm2/data/seqtable.csv")
+seqtable <- fread("../data/seqtable.csv")
 
 allcompounds <- rbind(
-  cbind(read_targets("esm2/data/targets/PE.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PP.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PS.txt", header = F))
+  cbind(read_targets("../data/targets/PE.txt", header = F)),
+  cbind(read_targets("../data/targets/PP.txt", header = F)),
+  cbind(read_targets("../data/targets/PS.txt", header = F))
 )
 names(allcompounds)[names(allcompounds) == "Contributor"] <- "Polymer"
 
 rec <- list()
-rec$reports <- data.table(read_openchrom("esm2/data/reports/recovery/"))
-rec$samples <- fread("esm2/data/samples.csv")
+rec$reports <- data.table(read_openchrom("../data/reports/recovery/"))
+rec$samples <- fread("../data/samples.csv")
 
 rec$data <- merge(seqtable, rec$reports, by = "File Name")
 
@@ -120,5 +118,5 @@ ggplot(rec$sum[`Target content` != 0 & RecMean > .05],
                                  "Fenton digestion")) +
   scale_shape_manual(values = c(19, 1, 17, 15)) +
   theme_publish(base_family = font) + theme(legend.box = "vertical")
-ggsave('../figures/py-recovery.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/py-recovery.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)

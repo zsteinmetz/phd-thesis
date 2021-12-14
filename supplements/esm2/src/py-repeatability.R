@@ -1,21 +1,19 @@
 #### Load packages and functions ####
-
-setwd("~/Documents/PhD/Thesis/supplements/")
-source("R/init.R")
+source("func/init.R")
 
 ## Read data
-seqtable <- fread("esm2/data/seqtable.csv")
+seqtable <- fread("../data/seqtable.csv")
 
 allcompounds <- rbind(
-  cbind(read_targets("esm2/data/targets/PE.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PP.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PS.txt", header = F))
+  cbind(read_targets("../data/targets/PE.txt", header = F)),
+  cbind(read_targets("../data/targets/PP.txt", header = F)),
+  cbind(read_targets("../data/targets/PS.txt", header = F))
 )
 names(allcompounds)[names(allcompounds) == "Contributor"] <- "Polymer"
 
 repl <- list()
 
-repl$reports <- data.table(read_openchrom("esm2/data/reports/replication/"))
+repl$reports <- data.table(read_openchrom("../data/reports/replication/"))
 
 ## Data handling
 repl$data <- merge(seqtable, repl$reports, by = "File Name")
@@ -51,7 +49,7 @@ ggplot(data = repl$plot, aes(as.numeric(`Sample ID`)-33, `Integrated Area`*10^-6
   scale_color_viridis(discrete = T, name = "Pyrolysates", labels = pyr) +
   scale_fill_viridis(discrete = T, name = "Pyrolysates", labels = pyr) +
   theme_publish(base_family = font) + theme(legend.text.align = 0)
-ggsave('../figures/py-repeatability.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/py-repeatability.pdf', scale = 1.5, width = pagewidth,
        height = 2.2, unit = 'in', device = cairo_pdf)
 
 ## Check for linear trends

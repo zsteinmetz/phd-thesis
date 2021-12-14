@@ -5,13 +5,15 @@ Zacharias Steinmetz (a), Paul Löffler (a), Silvia Eichhöfer (a), Jan David (a)
 Katherine Muñoz (b), Gabriele E. Schaumann (a)
 
 (a) iES Landau, Institute for Environmental Sciences, Group of Environmental and
-	Soil Chemistry, University of Koblenz–Landau, Fortstraße 7, 76829 Landau,
-	Germany
+    Soil Chemistry, University of Koblenz–Landau, Fortstraße 7, 76829 Landau,
+    Germany
 (b) iES Landau, Institute for Environmental Sciences, Group of Organic and
-	Ecological Chemistry, University of Koblenz–Landau, Fortstraße 7, 76829
-	Landau, Germany
+    Ecological Chemistry, University of Koblenz–Landau, Fortstraße 7, 76829
+    Landau, Germany
 
 Corresponding author: Gabriele E. Schaumann (E-mail: schaumann@uni-landau.de)
+
+See also: https://doi.org/10.6084/m9.figshare.14742849
 
 
 Note
@@ -29,13 +31,13 @@ Files
 =====
 
 data                    data files
-data/dsc				summary data from DSC measurements
-data/imaging			FTIR spectra and photographs from suspect items and
-						agricultural plastic covers
+data/dsc                summary data from DSC measurements
+data/imaging            FTIR spectra and photographs from suspect items and
+                        agricultural plastic covers
 data/py-gc-ms           chromatogram raw data, method files, reports and targets
- 						of all soil samples
-data/soil-properties	pH, EC, texture and soil C & N data on site
-data/tga-ms				summary data from TGA/MS measurements
+                        of all soil samples
+data/soil-properties    pH, EC, texture and soil C & N data on site
+data/tga-ms             summary data from TGA/MS measurements
 
 see data/DESCRIPTION for detailed information on files types and contents
 
@@ -45,8 +47,8 @@ src/field-samples.R     analyzing Py-GC/MS data from field samples
 src/matrix-match.R      evaluation of the matrix matched calibration
 src/soil-properties.R   summarizing soil properties on site
 src/validation.R        Py-GC/MS method validation, including the evaluation of
-						calibration curves, repeatability tests, recoveries,
-						interferences
+                        calibration curves, repeatability tests, recoveries,
+                        interferences
 
 
 Getting started

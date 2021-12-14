@@ -13,6 +13,8 @@ Gabriele E. Schaumann (a)
 
 Corresponding author: Gabriele E. Schaumann (E-mail: schaumann@uni-landau.de)
 
+See also: https://doi.org/10.6084/m9.figshare.11861664
+
 
 Note
 ====
@@ -36,7 +38,7 @@ data/reports            chromatogram reports listing all identified and
 data/targets            list of PE, PP, and PS target compounds with retention
                         times and CAS numbers
 data/samples.csv        sample list of the recovery experiment
-data/seqtable.csv		    sequence table containing all Py-GC/MS measurements
+data/seqtable.csv       sequence table containing all Py-GC/MS measurements
 
 see data/DESCRIPTION for detailed information on files types and contents
 

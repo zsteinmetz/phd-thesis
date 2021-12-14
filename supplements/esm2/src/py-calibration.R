@@ -1,22 +1,20 @@
 #### Load packages and functions ####
-
-setwd("~/Documents/PhD/Thesis/supplements/")
-source("R/init.R")
+source("func/init.R")
 
 ## Read data
-seqtable <- fread("esm2/data/seqtable.csv")
+seqtable <- fread("../data/seqtable.csv")
 
 allcompounds <- rbind(
-  cbind(read_targets("esm2/data/targets/PE.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PP.txt", header = F)),
-  cbind(read_targets("esm2/data/targets/PS.txt", header = F))
+  cbind(read_targets("../data/targets/PE.txt", header = F)),
+  cbind(read_targets("../data/targets/PP.txt", header = F)),
+  cbind(read_targets("../data/targets/PS.txt", header = F))
 )
 names(allcompounds)[names(allcompounds) == "Contributor"] <- "Polymer"
 
 plast <- list()
 
 ## Data handling
-plast$reports <- data.table(read_openchrom("esm2/data/reports/calibration/"))
+plast$reports <- data.table(read_openchrom("../data/reports/calibration/"))
 
 plast$data <- merge(seqtable, plast$reports, by = "File Name")
 plast$data[, Conc := as.numeric(gsub(" ug/mL.*", "", `Sample Name`))]
@@ -47,5 +45,5 @@ ggplot(data = plast$plot, aes(Conc, `Integrated Area`*10^-6)) +
   scale_color_viridis(discrete = T, name = "Pyrolysates", labels = pyr) +
   scale_fill_viridis(discrete = T, name = "Pyrolysates", labels = pyr) +
   theme_publish(base_family = font) + theme(legend.text.align = 0)
-ggsave('../figures/py-calibration.pdf', scale = 1.5, width = pagewidth,
+ggsave('../../../figures/py-calibration.pdf', scale = 1.5, width = pagewidth,
        height = 2.5, unit = 'in', device = cairo_pdf)
