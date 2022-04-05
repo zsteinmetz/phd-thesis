@@ -8,35 +8,35 @@
 
 \usepackage{scalerel}
 
-\include{cv/tikz/orcid}
+\input{cv/tikz/orcid}
 \newcommand\orcid{\mbox{\scalerel*{
 			\begin{tikzpicture}[transform shape]
 				\pic{orcid};
 			\end{tikzpicture}
 		}{\textnormal |}}}
 
-\include{cv/tikz/publons}
+\input{cv/tikz/publons}
 \newcommand\publons{\mbox{\scalerel*{
 			\begin{tikzpicture}[transform shape]
 				\pic{publons};
 			\end{tikzpicture}\phantom{.}
 		}{\textnormal p}}}
 
-\include{cv/tikz/researchgate}
+\input{cv/tikz/researchgate}
 \newcommand\researchgate{\mbox{\scalerel*{
 			\begin{tikzpicture}[transform shape]
 				\pic{researchgate};
 			\end{tikzpicture}
 		}{\textnormal R\textsuperscript{G}}}}
 
-\include{cv/tikz/googlescholar}
+\input{cv/tikz/googlescholar}
 \newcommand\googlescholar{\mbox{
 		\begin{tikzpicture}[transform shape,baseline=.16\baselineskip]
 			\pic{googlescholar};
 		\end{tikzpicture}
 }}
 
-\include{cv/tikz/envelope}
+\input{cv/tikz/envelope}
 \newcommand\envelope{\mbox{\scalerel*{
 			\begin{tikzpicture}[transform shape, rotate=180]
 				\pic{envelope};

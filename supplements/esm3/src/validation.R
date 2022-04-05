@@ -117,7 +117,7 @@ ggplot(data = nacl$plot, aes(Conc, `Integrated Area` * 10^-6)) +
                       option = "inferno", begin = .1, end = .9) +
   scale_fill_viridis(discrete = T, name = "Pyrolysates",
                      option = "inferno", begin = .1, end = .9) +
-  theme_publish(base_family = "Source Sans Pro", base_size = 14)
+  theme_publish(base_family = font, base_size = 12)
 
 # Standard bracketing
 ggplot(nacl$targets[Conc == 100 & Name %in% markers],
@@ -126,7 +126,7 @@ ggplot(nacl$targets[Conc == 100 & Name %in% markers],
   facet_wrap(. ~ Name, scales = "free_y") + theme_publish()
 
 nacl$quant <- merge(nacl$targets, nacl$cal, by = c("Polymer", "Name", "CW"))
- 
+
 nacl$quant[`Sample Type` == "Standard" & Conc == 100,
            `Bracketing Factor` := `Integrated Area` / (Conc * Slope + Int)]
 
@@ -197,7 +197,7 @@ nacl$sum[, Rec := signifig(RecMean * 100, as.numeric(RecSD * 100)),
 nacl$sum[Name %in% markers]
 
 instr <-
-  nacl$cal[, .(Polymer, Name, Radj, LOD)] %>% 
+  nacl$cal[, .(Polymer, Name, Radj, LOD)] %>%
   merge(nacl$targets[Comment == "Repeatability",
                      .(RSD = sd(`Integrated Area`) / mean(`Integrated Area`)),
                      by = .(Name)],
@@ -205,15 +205,15 @@ instr <-
 
 instr[, .(Polymer, Pyrolysate = factor(Name, labels = pyr[Name]),
           Radj = round(Radj, 4),
-          LOD = round(LOD, 1) * 2, RSD = round(100 * RSD, 1))] 
+          LOD = round(LOD, 1) * 2, RSD = round(100 * RSD, 1))]
 
 meth <-
   nacl$backgr[, .(mLOD = round(mLOD, 1)),
-            by = .(Polymer, Name, Soil)] %>% 
+            by = .(Polymer, Name, Soil)] %>%
   merge(nacl$inf[Soil != "Blank",
                  .(Selectivity = signifig(mean(Content), sd(Content))),
                  by = .(Polymer, Name, Soil)],
-        by = c("Polymer", "Name", "Soil"), all.x = T) %>% 
+        by = c("Polymer", "Name", "Soil"), all.x = T) %>%
   merge(
     dcast(nacl$sum, Polymer + Name + Soil ~ `Target content`,
           value.var = "Rec"),

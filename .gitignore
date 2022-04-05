@@ -282,6 +282,9 @@ TSWLatexianTemp*
 # xwatermark package
 *.xwm
 
+# LibreOffice locks
+.~lock.*#
+
 ## Own:
 templates/
 archive/

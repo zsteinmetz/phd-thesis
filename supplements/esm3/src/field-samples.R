@@ -61,7 +61,7 @@ fisa$targets <- fisa$all[Extra == "quantifiable" &
                              618, 771,
                              # Incomplete pyrolysis (IS low in intensity)
                              568, 569, 594, 599, 616, 636, 637, 638, 647,
-                             793, 795, 842, 
+                             793, 795, 842,
                              # Vial open
                              798))]
 
@@ -72,7 +72,7 @@ fisa$targets[grepl("*-d5$", Name) &
              .(RSD = sd(`Integrated Area`) / mean(`Integrated Area`)),
              by = .(Acquisition, Name)]
 # IDs 682, 747, 819, 861, 870, 871, 874, 891 are (far) below LOD anyway
-# off IS thus negligible 
+# off IS thus negligible
 
 ggplot(fisa$targets[Name == "Styrene-d5"],
        aes(`Sample ID`, `Integrated Area`)) +
@@ -119,7 +119,7 @@ ggplot(data = fisa$plot, aes(Conc, `Integrated Area` * 10^-6)) +
                       option = "inferno", begin = .1, end = .9) +
   scale_fill_viridis(discrete = T, name = "Pyrolysates",
                      option = "inferno", begin = .1, end = .9) +
-  theme_publish(base_family = "Source Sans Pro", base_size = 14)
+  theme_publish(base_family = font, base_size = 12)
 
 # Standard bracketing
 ggplot(fisa$targets[Conc == 100 & Name %in% markers],
@@ -167,9 +167,9 @@ fisa$final[Location != "Blank",
 
 # Check for missing/duplicate samples
 fisa$final[Site != "B",
-           .(.N, 
+           .(.N,
              Measured = paste(`Sample Name`, collapse = ", ")),
-           by = .(Name, Site, Transect, Row)] %>% 
+           by = .(Name, Site, Transect, Row)] %>%
   .[N != 5]
 
 fisa$sum <- fisa$final[Location != "Blank"]
@@ -202,4 +202,3 @@ ggplot(data = fisa$sum, aes(Transect, Content)) +
   theme(strip.text.y = element_text(angle = 0))
 ggsave('../../../figures/py-screening.pdf', scale = 1.5, width = pagewidth,
        height = 5, unit = 'in', device = cairo_pdf)
-

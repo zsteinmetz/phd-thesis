@@ -49,9 +49,9 @@ pyrograms[, Label := factor(Label,
                                       "2,4Me9:1(1)", "Sty", "αMeSty", NA))]
 
 ggplot(pyrograms[`Sample Type` == "Polymer mixture"], aes(RI, rTIC)) +
-  geom_text_repel(data = labels, aes(label = Label), size = 3.5, alpha = .66,
-                  family = font,
-                  nudge_y = 950000, 
+  geom_text_repel(data = labels, aes(label = Label, y = rTIC + 50000),
+                  size = 3.5, alpha = .66, family = font,
+                  nudge_y = 950000,
                   point.padding = 0.25,
                   segment.size = 0.25) +
   geom_line(size = 0.4, color = viridis(1)) +
@@ -64,14 +64,14 @@ ggplot(pyrograms[`Sample Type` == "Polymer mixture"], aes(RI, rTIC)) +
 ggsave('../../../figures/py-sample.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
 
-ggplot(pyrograms[!is.na(Label)], aes(RI, Rel*100)) +
-  geom_line(aes(color = `Sample Type`, linetype = `Sample Type`)) +
+ggplot(pyrograms[!is.na(Label)], aes(RI, Rel * 100)) +
   geom_text_repel(data = labels[Label %in% unique(pyrograms$Label)],
                   aes(label = Label), y = 100, size = 3.5, alpha = .66,
-                  family = font,
-                  nudge_y = 30, nudge_x = -1,
+                  family = font, box.padding = 0.5,
+                  nudge_y = 20, nudge_x = 0.5, ylim = 120,
                   point.padding = 0.25,
                   segment.size = 0.25) +
+  geom_line(aes(color = `Sample Type`, linetype = `Sample Type`)) +
   facet_wrap(~ Label, scales = "free", labeller =
                as_labeller(function(string){c("PE", "PE", "PE", "PP", "PS", "PS")})) +
   xlab("Retention index (RI)") +

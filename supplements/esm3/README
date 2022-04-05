@@ -24,7 +24,7 @@ the following article:
 
 Steinmetz, Z., Löffler, P., Eichhöfer, S., David, J., Muñoz, K., and Schaumann,
 G. E.: Are agricultural plastic covers a source of plastic debris in soil? A
-first screening study, SOIL, 2021.
+first screening study, 8, 31–47, https://doi.org/10.5194/soil-8-31-2022, 2022.
 
 
 Files
@@ -44,7 +44,11 @@ see data/DESCRIPTION for detailed information on files types and contents
 src                     R source files
 src/func                loading R packages, global variables, and functions
 src/field-samples.R     analyzing Py-GC/MS data from field samples
+src/ftir-spectra.R      matching FTIR spectra with Open Specy
 src/matrix-match.R      evaluation of the matrix matched calibration
+src/ms-spectra.R        plotting TD-GC/MS mass spectra together with NIST08
+                        library matches
+src/pyrograms.R         plotting pyrograms
 src/soil-properties.R   summarizing soil properties on site
 src/validation.R        Py-GC/MS method validation, including the evaluation of
                         calibration curves, repeatability tests, recoveries,

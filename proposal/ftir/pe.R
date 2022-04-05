@@ -20,13 +20,11 @@ write.csv(pe[Measurement == "Virgin PE",
              .(Wavelength = Wavenumber, Absorbance = Absorbance)],
           file = "Virgin PE.csv", row.names = F)
 
-# res <- data.table(Waveno = pe[Measurement == "Aged PE", Waveno], 
+# res <- data.table(Waveno = pe[Measurement == "Aged PE", Waveno],
 #                   Signal = pe[Measurement == "Aged PE", Signal] -
 #                     pe[Measurement == "Pure PE", Signal])
-# 
+#
 # ggplot(res, aes(Waveno, Signal)) +
 #   geom_line() +
 #   labs(x = expression("Wavenumber [cm"^-1*"]"), y = "Absorbance") +
 #   theme_publish()
-
-                  

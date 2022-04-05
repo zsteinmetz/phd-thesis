@@ -35,6 +35,24 @@ ID                      unique identifier
 *.ocm                   OpenChrom (version 1.4) processing method
 
 
+nist
+====
+
+Mass spectra matched with NIST08 library
+
+File types
+----------
+
+*.MSP                   mass spectra from the NIST08 library
+*_nist.csv              converted NIST08 spectra
+*_td.csv                mass spectra acquired from TD-GC/MS measurements
+
+The CSV files feature 2 columns with information on
+
+Ion          [m/z]
+Intensity    [%]
+
+
 reports
 =======
 
@@ -102,7 +120,7 @@ Dilution                dilution factor (due to the addition of internal
 
 
 interferences.csv
-===========
+=================
 
 Sample list of interference tests
 
@@ -127,7 +145,7 @@ Dilution                dilution factor (due to the addition of internal
 
 
 recovery.csv
-===========
+============
 
 Sample list of recovery tests
 
@@ -165,7 +183,7 @@ Sample Type             sample type
 File Name               file name
 Sample ID               unique sequence identifier
 Sample Name             sample name as given in field-samples.csv,
-						interferences.csv, or recovery.csv
+                        interferences.csv, or recovery.csv
 Dil Factor              additional dilution factor
 Inj Vol                 injection volume [µL]
 Position                tray position

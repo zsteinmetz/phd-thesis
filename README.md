@@ -100,3 +100,19 @@ plastics and nanoplastics.
     Curriculum vitae
   </dd>
 </dl>
+
+## Build
+
+Building PDF files from LaTeX sources requires a LaTeX distribution
+installed on your computer, such as TeX Live or MiKTeX. See
+[The LaTeX Project](https://www.latex-project.org/get/) for a brief overview of
+LaTeX distributions and installation instructions.
+
+This dissertation was built on Manjaro Linux with TeX Live 2021 using `latexmk`.
+The following code chunk produces the PDF:
+
+```shell
+latexmk -f -pdf thesis.tex
+```
+
+After building, you may want to clean your environment with `latexmk -c`.
