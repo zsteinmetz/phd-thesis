@@ -1,6 +1,6 @@
 # Agricultural Plastic Covers—Source of Plastic Debris in Soil?
 
-Submitted dissertation thesis for the partial fulfillment of the requirements
+Accepted dissertation thesis for the partial fulfillment of the requirements
 for a Doctor of Natural Sciences
 
 *By Zacharias Steinmetz*
@@ -30,17 +30,17 @@ polymers in specific solvents prior to analysis. By dissolving polyethylene
 (PE), polypropylene (PP), and polystyrene (PS) in a mixture of
 1,2,4-trichlorobenzene and *p*-xylene after density separation,
 up to 50 g soil became amenable to routine plastic analysis. Method
-LODs were 0.3–2.2 mg kg<sup>−1</sup>, and the recovery of 20 mg kg<sup>−1</sup>
+LODs were 0.7–3.3 mg kg<sup>−1</sup>, and the recovery of 20 mg kg<sup>−1</sup>
 PE, PP, and PS from a reference loamy sand was 86–105%. In the reference
 silty clay, however, poor PS recoveries, potentially induced by the additional
-separation step, suggested a semi-quantitative evaluation of PS. Yet, the
+separation step, suggested a qualitative evaluation of PS. Yet, the
 new solvent-based Py-GC/MS method enabled a first exploratory screening of
 plastic-covered soil. It revealed PE, PP, and PS contents above LOD in
-six fields (6% of all samples). In three fields, PE levels of
+six of eight fields (6% of all samples). In three fields, PE levels of
 3–35 mg kg<sup>−1</sup> were associated with the use of 40 μm thin perforated
 foils. By contrast, 50 μm PE films were not shown to induce plastic
 levels above LOD. PP and PS contents of 5–19 mg kg<sup>−1</sup>
-were restricted to single observations on four sites and potentially
+were restricted to single observations in four fields and potentially
 originated from littering. The results suggest that the short-term use
 of thicker and more durable plastic covers should be preferred to limit
 plastic emissions and accumulation in soil. By providing mass-based
@@ -98,6 +98,10 @@ plastics and nanoplastics.
     <code>cv/</code>
   <dd>
     Curriculum vitae
+  </dd>
+    <code>defense/</code>
+  <dd>
+    Slides of the thesis defense
   </dd>
 </dl>
 
