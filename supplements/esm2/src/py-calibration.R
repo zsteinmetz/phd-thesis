@@ -47,3 +47,23 @@ ggplot(data = plast$plot, aes(Conc, `Integrated Area`*10^-6)) +
   theme_publish(base_family = font) + theme(legend.text.align = 0)
 ggsave('../../../figures/py-calibration.pdf', scale = 1.5, width = pagewidth,
        height = 2.5, unit = 'in', device = cairo_pdf)
+
+ggplot(data = plast$plot[Name %in% c("Styrene", "2,4-Dimethyl-1-heptene",
+                                     "1,17-Octadecadiene")],
+       aes(Conc, `Integrated Area`*10^-6)) +
+  geom_ribbon(data = plast$pred[Name %in% c("Styrene", "2,4-Dimethyl-1-heptene",
+                                            "1,17-Octadecadiene")], alpha = .25,
+              aes(y = fit*10^-6, ymin = lwr*10^-6, ymax = upr*10^-6, fill = Name)) +
+  geom_line(data = plast$pred[Name %in% c("Styrene", "2,4-Dimethyl-1-heptene",
+                                          "1,17-Octadecadiene")],
+            aes(y = fit*10^-6, color = Name)) +
+  geom_point(size = pt, aes(color = Name, shape = Name)) +
+  facet_wrap(~ Polymer, scales = "free", labeller = polymer_labeller) +
+  xlab(expression("Polymer concentration"~"["*"\U003BCg"~mL^-1*"]")) +
+  ylab(expression("Peak area"~"["%.%~10^6*"]")) +
+  scale_shape_manual(name = "Pyrolysates", values = c(17, 15, 19)) +
+  scale_color_viridis(discrete = T, name = "Pyrolysates") +
+  scale_fill_viridis(discrete = T, name = "Pyrolysates") +
+  theme_publish(base_family = font) + theme(legend.position = "none")
+ggsave('../../../defense/py-calibration.png', scale = 1, width = 8,
+       height = 3, unit = 'in', bg = "white")

@@ -202,3 +202,22 @@ ggplot(data = fisa$sum, aes(Transect, Content)) +
   theme(strip.text.y = element_text(angle = 0))
 ggsave('../../../figures/py-screening.pdf', scale = 1.5, width = pagewidth,
        height = 5, unit = 'in', device = cairo_pdf)
+
+ggplot(data = fisa$sum, aes(Transect, Content)) +
+  geom_col(data = fisa$mean, aes(fill = Polymer, color = Polymer, group = Row),
+           position = position_dodge(1)) +
+  geom_point(aes(color = Polymer, shape = Row, group = Row), fill = "white",
+             position = position_dodge(1), size = pt) +
+  facet_grid(Polymer ~ Site, scales = "free", labeller = polymer_labeller) +
+  scale_y_continuous(name = expression("Polymer content"~"[mg kg"^-1*"]"),
+                     breaks = c(1, 2.5, 5, 10, 25, 50),
+                     trans = scales::pseudo_log_trans(base = 10)) +
+  scale_x_discrete(labels = c("FC", "FE", "FM", "P")) +
+  scale_shape_manual(breaks = c("Planting", "Track", "None"),
+                     values = c(22, 23, 21)) +
+  scale_color_viridis(discrete = T) +
+  scale_fill_viridis(discrete = T) + 
+  theme_publish(base_family = font) +
+  theme(strip.text.y = element_text(angle = 0), legend.position = "none")
+ggsave('../../../defense/py-screening.png', scale = 1, width = 9.2,
+       height = 4, unit = 'in', bg = "white")

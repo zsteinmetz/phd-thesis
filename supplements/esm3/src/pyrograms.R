@@ -74,7 +74,24 @@ ggplot(pyrograms[Facet != ""], aes(RT, TIC)) +
         axis.ticks.y = element_blank())
 ggsave('../../../figures/py-covers.pdf', scale = 1.5, width = pagewidth,
        height = 7, unit = 'in', device = cairo_pdf)
-# ggsave("../Manuscript/figures/covers-pyrograms.pdf",
-#        scale = scal, width = 170, height = 180, unit = "mm", device = cairo_pdf)
 
+ggplot(pyrograms[Facet == "(a)" & Compounds == "Volatile additives"],
+       aes(RT, TIC)) +
+  geom_text_repel(data = labels[Facet == "(a)" & Compounds == "Volatile additives"],
+                  aes(label = Component),
+                  size = 3.5, alpha = .66, parse = T,
+                  nudge_y = 1e7,
+                  nudge_x = .5,
+                  point.padding = 0.25,
+                  min.segment.length = 0,
+                  segment.size = 0.25) +
+  geom_line(size = 0.4, color = "gray20") +
+  xlab("Retention time") +
+  scale_y_continuous(limits = c(0, 8e7)) +
+  theme_publish(base_family = font) +
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
+ggsave('../../../defense/py-covers.png', scale = 1, width = 6,
+       height = 3, unit = 'in', bg = "white")
 

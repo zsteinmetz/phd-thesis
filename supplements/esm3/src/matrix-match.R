@@ -101,6 +101,8 @@ ggplot(data = mama$markers, aes(Conc, `Integrated Area` * 10^-6)) +
   theme_publish(base_family = font)
 ggsave('../../../figures/matrix-match.pdf', scale = 1.5, width = pagewidth,
        height = 2.5, unit = 'in', device = cairo_pdf)
+ggsave('../../../defense/matrix-match.png', scale = 1, width = 8,
+       height = 3, unit = 'in', bg = "white")
 
 mama$pe <- mama$markers[Polymer == "Polyethylene"]
 matrix_effect(calibration(`Integrated Area` ~ Conc,

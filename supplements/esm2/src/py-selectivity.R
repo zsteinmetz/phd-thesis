@@ -134,4 +134,5 @@ combined + plot_layout(guides = "collect", widths = c(3, 1, 2)) +
   plot_annotation(theme = theme(plot.margin = margin()))
 ggsave('../../../figures/py-selectivity2.pdf', scale = 1.5, width = pagewidth,
        height = 2.2, unit = 'in', device = cairo_pdf)
-
+ggsave('../../../defense/py-selectivity2.png', scale = 1, width = 8,
+       height = 3, unit = 'in', bg = "white")

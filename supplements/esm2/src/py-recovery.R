@@ -120,3 +120,23 @@ ggplot(rec$sum[`Target content` != 0 & RecMean > .05],
   theme_publish(base_family = font) + theme(legend.box = "vertical")
 ggsave('../../../figures/py-recovery.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
+
+ggplot(rec$sum[`Target content` == 0 & Soil %in% c("LUFA 2.2", "RefeSol 06-A") &
+                 `Extraction procedure` == "TCB"] %>% rbind(
+                   data.table(Polymer = "Polypropylene", Soil = "RefeSol 06-A",
+                              ContentMean = 0, ContentSD = 0), fill = T
+                 ),
+       aes(Soil, ContentMean)) +
+  geom_hline(data = data.table(Polymer = names(poly), LOD = c(2.5, 43.2, 0.5) * 2),
+             aes(yintercept = LOD), size = sz, linetype = "dashed") +
+  geom_errorbar(aes(ymin = (ContentMean - ContentSD), ymax = (ContentMean + ContentSD),
+                    color = Polymer),
+                width = .1, position = pd) +
+  geom_point(size = pt, aes(shape = Soil, color = Polymer), position = pd) +
+  facet_grid(. ~ Polymer, labeller = polymer_labeller) +
+  scale_y_continuous(name = bquote("Interference"~"[mg kg"^-1*"]"), limits = c(NA, 100)) +
+  scale_color_viridis(discrete = T) +
+  scale_shape_manual(values = c(19, 17, 15)) +
+  theme_publish(base_family = font) + theme(legend.position = "none")
+ggsave('../../../defense/py-interference.png', scale = 1, width = 5.5,
+       height = 3, unit = 'in', bg = "white")

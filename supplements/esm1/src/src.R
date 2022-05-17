@@ -70,6 +70,28 @@ tga$mz154 <-
 tga$tga / tga$mz105 / tga$mz154 + plot_annotation(theme = theme(plot.margin = margin()))
 ggsave('../../../figures/tga-ms.pdf', scale = 1.5, width = pagewidth,
        height = 4, unit = 'in', device = cairo_pdf)
+ggsave('../../../defense/tga-ms.png', scale = 1, width = 8,
+       height = 5, unit = 'in', bg = "white")
+
+(
+  ggplot(tga$data[grepl("With ", Label)], aes(Temp, mz105*10^9)) +
+  geom_line(aes(color = PET, group = Sample)) +
+  xlab("Temperature [°C]") + ylab(bquote(105~italic("m/z")~"["%.% 10^-9*"]")) +
+  scale_color_viridis(option = "inferno", begin = .1, end = .9, direction = -1) +
+  theme_publish(base_family = font) + theme_red() +
+  theme(strip.text.x = element_text(size=0))
+  ) / (
+  ggplot(tga$data[grepl("With ", Label)], aes(Temp, mz154*10^9)) +
+  geom_line(aes(color = PET, group = Sample)) +
+  xlab("Temperature [°C]") + ylab(bquote(154~italic("m/z")~"["%.% 10^-9*"]")) +
+  scale_color_viridis(option = "inferno", begin = .1, end = .9, direction = -1,
+                      name = bquote(bold("Soil PET content [g kg"^-1*"]"))) +
+  theme_publish(base_family = font) + theme(strip.text.x = element_text(size=0)) +
+  guides(color = guide_colorbar(title.vjust = 1),
+         shape = guide_legend(title.vjust = 1))
+)
+ggsave('../../../defense/tga-ms-is.png', scale = 1, width = 5,
+       height = 3.8, unit = 'in', bg = "white")
 
 #### Calibration ####
 
@@ -109,6 +131,33 @@ cal$plot154 <-
 cal$plot105 / cal$plot154 + plot_annotation(theme = theme(plot.margin = margin()))
 ggsave('../../../figures/tga-calibration.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
+
+(
+  ggplot(data = cal$data[grepl("With ", Label)], aes(PET, mz105norm*10^2)) +
+  geom_ribbon(data = cal$pred10[grepl("With ", Label)],
+              alpha = .25, fill = inferno(1, begin = .1, end = .9),
+              aes(y = fit*10^2, ymin = lwr*10^2, ymax = upr*10^2)) +
+  geom_line(data = cal$pred105[grepl("With ", Label)],
+            aes(y = fit*10^2), color = inferno(1, begin = .1, end = .9)) +
+  geom_point(size = pt, color = inferno(1, begin = .1, end = .9)) +
+  ylab(bquote(105~italic("m/z")~"["%.% 10^-2*"]")) +
+  theme_publish(base_family = font) + theme_red()
+  ) / (
+  ggplot(data = cal$data[grepl("With ", Label)], aes(PET, mz154norm*10^2)) +
+  geom_ribbon(data = cal$pred154[grepl("With ", Label)], alpha = .25,
+              fill = inferno(1, begin = .1, end = .9),
+              aes(y = fit*10^2, ymin = lwr*10^2, ymax = upr*10^2)) +
+  geom_line(data = cal$pred154[grepl("With ", Label)],
+            aes(y = fit*10^2), color = inferno(1, begin = .1, end = .9)) +
+  geom_point(size = pt, color = inferno(1, begin = .1, end = .9)) +
+  facet_wrap(~ Label, scales = "free") +
+  xlab(bquote("Soil PET content"~"[g kg"^-1*"]")) +
+  ylab(bquote(154~italic("m/z")~"["%.% 10^-2*"]")) +
+  theme_publish(base_family = font) +
+    theme(strip.text.x = element_text(size = 0))
+  )
+ggsave('../../../defense/tga-calibration.png', scale = 1, width = 5,
+       height = 3.8, unit = 'in', bg = "white")
 
 #### Capillary checks ####
 

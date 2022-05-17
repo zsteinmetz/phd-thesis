@@ -64,6 +64,19 @@ ggplot(pyrograms[`Sample Type` == "Polymer mixture"], aes(RI, rTIC)) +
 ggsave('../../../figures/py-sample.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
 
+ggplot(pyrograms[`Sample Type` == "Polymer mixture"], aes(RI, rTIC)) +
+  geom_line(size = 0.4, color = viridis(1)) +
+  xlab("Retention index (RI)") +
+  theme_publish(base_family = font) +
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
+ggsave('../../../defense/py-sample.png', scale = 1, width = 4.2,
+       height = 2, unit = 'in', bg = "transparent")
+
 ggplot(pyrograms[!is.na(Label)], aes(RI, Rel * 100)) +
   geom_text_repel(data = labels[Label %in% unique(pyrograms$Label)],
                   aes(label = Label), y = 100, size = 3.5, alpha = .66,
@@ -85,3 +98,18 @@ ggplot(pyrograms[!is.na(Label)], aes(RI, Rel * 100)) +
 ggsave('../../../figures/py-selectivity1.pdf', scale = 1.5, width = pagewidth,
        height = 3, unit = 'in', device = cairo_pdf)
 
+ggplot(pyrograms[Label %in% c("Sty", "2,4Me9:1(1)", "17:2(1,16)")],
+       aes(RI, Rel * 100)) +
+  geom_line(aes(color = `Sample Type`, linetype = `Sample Type`)) +
+  facet_wrap(~ Label, scales = "free", labeller =
+               as_labeller(function(string){c("PE", "PP", "PS")})) +
+  xlab("Retention index (RI)") +
+  scale_color_manual(values = c("black", "black", viridis(3))) +
+  scale_linetype_manual(values = c("dotted", "dashed", rep("solid", 3))) +
+  scale_y_continuous(limits = c(0,150)) +
+  theme_publish(base_family = font) +
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank())
+ggsave('../../../defense/py-selectivity1.png', scale = 1, width = 8,
+       height = 3, unit = 'in', bg = "white")
